@@ -71,8 +71,8 @@ class PokerAgent:
         
         # Define the system prompt directly
         self.system_prompt = (
-            "You are an expert poker player making strategic decisions. "
-            "Analyze the situation and choose the best action: FOLD (0), CHECK (1), CALL (2), or RAISE (3). "
+            "You are an expert poker player making rapid strategic decisions. "
+            "Analyze the situation and immediately select the SINGLE best action: FOLD (0), CHECK (1), CALL (2), or RAISE (3). "
             "If raising, specify the raise amount. "
             "Respond **only** with a valid JSON object, no additional text or markdown. "
             "Consider:\n"
@@ -82,11 +82,12 @@ class PokerAgent:
             "- Stack sizes and tournament stage\n"
             "- Previous betting patterns\n"
             "- Tournament vs Cash game strategy\n\n"
+            "You MUST commit to a single decisive action without ambiguity\n\n"
             "Response format (JSON):\n"
             "{\n"
             '    "action": 0-3,\n'
             '    "amount": raise_amount,  // optional, only if action is 3\n'
-            '    "reasoning": "detailed explanation of the decision",\n'
+            '    "reasoning": "concise explanation in 25 words or less",\n'
             '    "confidence": 0-100\n'
             "}"
         )
