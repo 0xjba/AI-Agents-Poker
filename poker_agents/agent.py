@@ -95,12 +95,20 @@ class PokerAgent:
             "- Previous betting patterns\n"
             "- Tournament vs Cash game strategy\n\n"
             "You MUST commit to a single decisive action without ambiguity\n\n"
+<<<<<<< HEAD
             "Provide concise reasoning (max 150 chars) explaining your decision.\n\n"
+=======
+>>>>>>> d4bf8043d6bad7df3e7164cf9ed4f173215d8faa
             "Response format (JSON):\n"
             "{\n"
             '    "action": 0-3,\n'
             '    "amount": raise_amount,  // optional, only if action is 3\n'
+<<<<<<< HEAD
             '    "reasoning": "Brief explanation (150 chars max)"\n'
+=======
+            '    "reasoning": "concise explanation in 25 words or less",\n'
+            '    "confidence": 0-100\n'
+>>>>>>> d4bf8043d6bad7df3e7164cf9ed4f173215d8faa
             "}"
         )
 
@@ -1466,6 +1474,7 @@ class PokerAgent:
         """Stop the agent and clean up all resources"""
         logger.info(f"Stopping poker agent for {self.account.address}...")
         self.is_running = False
+<<<<<<< HEAD
         
         # Give time for monitoring loops to recognize stopped state
         await asyncio.sleep(0.5)
@@ -1504,3 +1513,6 @@ class PokerAgent:
                 logger.error(f"Error closing OpenRouter client: {e}")
         
         logger.info(f"Agent for {self.account.address} stopped successfully")
+=======
+        logger.info("Stopping poker agent...")
+>>>>>>> d4bf8043d6bad7df3e7164cf9ed4f173215d8faa
