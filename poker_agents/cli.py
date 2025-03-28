@@ -11,11 +11,16 @@ from datetime import datetime
 
 from .timer_agent import TimerAgent
 from typing import Dict, Optional, List
+import signal
+import argparse
 
 from .agent import PokerAgent
 from .constants import CONFIG_DIR, PROFILES_FILE, CONFIG_FILE, CURRENT_SESSION, SessionConfig
 from .openrouter_client import OpenRouterClient
 from .config_manager import ConfigManager
+# Import the new terminal UI
+from .terminal_ui import terminal_ui, enable_ui_logging, register_game_event
+from .terminal_ui import update_game_state, monitor_transaction, update_transaction, LogLevel
 
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
@@ -80,6 +85,7 @@ class PokerAgentCLI:
             self.timer_agent: Optional[TimerAgent] = None
             self.running = True
             self.config_manager = ConfigManager(CONFIG_FILE)
+            self.use_ui = True  # Default to using the UI
             self._load_config()
         except Exception as e:
             logger.error(f"Failed to initialize CLI: {e}")
@@ -96,14 +102,20 @@ class PokerAgentCLI:
     async def start_from_config(self, config: dict):
         """Start agents and timer from configuration file in non-interactive mode"""
         try:
-            print("\nStarting in non-interactive mode using only config.json...")
-            
-            # Print the entire config for debugging
-            print(f"Full config: {config}")
+            # Initialize terminal UI if enabled
+            if self.use_ui:
+                terminal_ui.start()
+                terminal_ui.add_log("Starting in non-interactive mode using config.json...", level=LogLevel.INFO)
+                enable_ui_logging()  # Enable capturing logs to UI
+            else:
+                print("\nStarting in non-interactive mode using config.json...")
             
             # 1. Load and validate contract addresses
             if not (contracts := await self._load_contract_addresses(config)):
-                print("❌ Failed to load contract addresses. Check configuration.")
+                if self.use_ui:
+                    terminal_ui.add_log("Failed to load contract addresses. Check configuration.", level=LogLevel.ERROR)
+                else:
+                    print("❌ Failed to load contract addresses. Check configuration.")
                 return False
 
             success = True  # Track overall startup success
@@ -113,37 +125,89 @@ class PokerAgentCLI:
             if timer_config := config.get('timer_agent'):
                 if await self._start_timer_agent(timer_config):
                     running_components.append("Timer Agent")
+                    if self.use_ui:
+                        terminal_ui.set_timer_agent(self.timer_agent)  # Register timer agent with UI
                 else:
-                    print("⚠️ Failed to start timer agent, but continuing with poker agents...")
+                    if self.use_ui:
+                        terminal_ui.add_log("Failed to start timer agent, but continuing with poker agents...", level=LogLevel.WARNING)
+                    else:
+                        print("⚠️ Failed to start timer agent, but continuing with poker agents...")
 
             # 3. Start configured poker agents
             if agents_config := config.get('agents'):
-                print(f"Found agents in config: {agents_config.keys()}")
+                if self.use_ui:
+                    terminal_ui.add_log(f"Found agents in config: {agents_config.keys()}", level=LogLevel.INFO)
+                else:
+                    print(f"Found agents in config: {agents_config.keys()}")
                 started_agents = await self._start_configured_agents(agents_config)
                 if started_agents:
                     running_components.extend(started_agents)
+                    # Register agents with UI
+                    if self.use_ui:
+                        terminal_ui.set_agents(self.active_agents)
                 else:
-                    print("⚠️ No agents were started successfully.")
+                    if self.use_ui:
+                        terminal_ui.add_log("No agents were started successfully.", level=LogLevel.WARNING)
+                    else:
+                        print("⚠️ No agents were started successfully.")
             else:
-                print("⚠️ No agents configuration found in config.json")
+                if self.use_ui:
+                    terminal_ui.add_log("No agents configuration found in config.json", level=LogLevel.WARNING)
+                else:
+                    print("⚠️ No agents configuration found in config.json")
 
             # 4. Status summary
             if not running_components:
-                print("\n❌ No components were started successfully.")
+                if self.use_ui:
+                    terminal_ui.add_log("No components were started successfully.", level=LogLevel.ERROR)
+                else:
+                    print("❌ No components were started successfully.")
                 return False
 
-            print("\n✅ Startup Complete!")
-            print("Running components:")
-            for component in running_components:
-                print(f"  • {component}")
-
-            print("\nSystem running. Press Ctrl+C to stop.")
+            if self.use_ui:
+                terminal_ui.add_log("Startup Complete!", level=LogLevel.SUCCESS)
+                for component in running_components:
+                    terminal_ui.add_log(f"Running: {component}", level=LogLevel.INFO)
+                register_game_event("STARTUP", "Poker agents system started successfully")
+            else:
+                print("\n✅ Startup Complete!")
+                print("Running components:")
+                for component in running_components:
+                    print(f"  • {component}")
             
-            # 5. Keep system running with status updates
+            # 5. Keep system running with status updates and periodic refresh
             while self.running:
                 if self.active_agents or self.timer_agent:
-                    await asyncio.sleep(30)
-                    await self._print_system_status()
+                    try:
+                        # Update game state in UI if possible
+                        if self.timer_agent and self.use_ui:
+                            try:
+                                game_state = await self.timer_agent.get_game_state()
+                                if game_state:
+                                    # Get round name
+                                    round_names = ["PREFLOP", "FLOP", "TURN", "RIVER"]
+                                    current_round = round_names[game_state[2]] if 0 <= game_state[2] < len(round_names) else "UNKNOWN"
+                                    
+                                    # Get pot size and current player
+                                    pot_size = game_state[3]
+                                    current_player = game_state[8]
+                                    hand_start_time = game_state[9]
+                                    
+                                    # Get current blinds
+                                    tournament_state = await self.timer_agent.get_tournament_state()
+                                    if tournament_state and len(tournament_state) >= 2:
+                                        current_blinds = (tournament_state[0], tournament_state[1])
+                                    else:
+                                        current_blinds = (0, 0)
+                                        
+                                    # Update UI
+                                    update_game_state(current_round, pot_size, current_player, current_blinds, hand_start_time)
+                            except Exception as e:
+                                logger.error(f"Error updating game state in UI: {e}")
+                    except Exception as e:
+                        logger.error(f"Error in status update: {e}")
+                        
+                    await asyncio.sleep(2)  # Shorter polling for more responsive UI
                 else:
                     await asyncio.sleep(1)
 
@@ -153,6 +217,10 @@ class PokerAgentCLI:
             logger.error(f"Error in non-interactive startup: {e}")
             await self.cleanup()
             return False
+        finally:
+            # Make sure to stop the UI when done
+            if self.use_ui and terminal_ui.is_running:
+                terminal_ui.stop()
 
     async def _load_contract_addresses(self, config: dict) -> Optional[dict]:
         """Load and validate contract addresses from config"""
@@ -196,6 +264,11 @@ class PokerAgentCLI:
         CURRENT_SESSION.router_address = resolved_contracts['router']
         CURRENT_SESSION.state_storage_address = resolved_contracts['state_storage']
         CURRENT_SESSION.game_logic_address = resolved_contracts['game_logic']
+        
+        # Set betting contract address if provided
+        if 'betting_contract' in resolved_contracts:
+            CURRENT_SESSION.betting_contract_address = resolved_contracts['betting_contract']
+            print(f"Betting contract address: {CURRENT_SESSION.betting_contract_address}")
 
         print("\n✅ Contract addresses loaded:")
         for name, addr in resolved_contracts.items():
@@ -217,7 +290,9 @@ class PokerAgentCLI:
                 rpc_url=timer_config['rpc_url'],
                 private_key=timer_config['private_key'],
                 router_address=CURRENT_SESSION.router_address,
-                game_logic_address=CURRENT_SESSION.game_logic_address
+                game_logic_address=CURRENT_SESSION.game_logic_address,
+                state_storage_address=CURRENT_SESSION.state_storage_address,
+                betting_contract_address=CURRENT_SESSION.betting_contract_address
             )
 
             if success:
@@ -311,7 +386,9 @@ class PokerAgentCLI:
                 rpc_url=rpc_url,
                 private_key=private_key,
                 router_address=CURRENT_SESSION.router_address,
-                game_logic_address=CURRENT_SESSION.game_logic_address
+                game_logic_address=CURRENT_SESSION.game_logic_address,
+                state_storage_address=CURRENT_SESSION.state_storage_address,
+                betting_contract_address=CURRENT_SESSION.betting_contract_address
             )
 
             if success:
@@ -364,6 +441,11 @@ class PokerAgentCLI:
     async def main_menu(self):
         """Main menu loop with error handling"""
         try:
+            # Start terminal UI if enabled
+            if self.use_ui:
+                terminal_ui.start()
+                enable_ui_logging()  # Enable capturing logs to UI
+            
             # First, set up contract addresses for the session
             await self.setup_contract_addresses()
 
@@ -451,6 +533,11 @@ class PokerAgentCLI:
         CURRENT_SESSION.game_logic_address = await questionary.text(
             "Enter GameLogic contract address:",
             default=CURRENT_SESSION.game_logic_address or ""
+        ).ask_async()
+        
+        CURRENT_SESSION.betting_contract_address = await questionary.text(
+            "Enter Betting Contract address (optional):",
+            default=CURRENT_SESSION.betting_contract_address or ""
         ).ask_async()
 
     async def profile_management_menu(self):
@@ -797,8 +884,46 @@ class PokerAgentCLI:
             ).ask_async()
         return True
 
-async def main(interactive: bool = False):
+async def main(interactive: bool = False, use_ui: bool = True, return_cli: bool = False):
+    """Main entry point for the application.
+    
+    Args:
+        interactive: Whether to run in interactive mode
+        use_ui: Whether to use the terminal UI
+        return_cli: If True, returns the CLI instance and cleanup task for external management
+        
+    Returns:
+        If return_cli is True, returns (cli_instance, cleanup_task)
+    """
     cli = PokerAgentCLI()
+    cli.use_ui = use_ui  # Store UI preference in CLI instance
+    cleanup_task = None
+    
+    # Create a specific cleanup task that can be awaited
+    async def cleanup_handler():
+        try:
+            logger.info("Running cleanup handler...")
+            # Create a copy of active agents to avoid modification during iteration
+            if cli.active_agents:
+                logger.info(f"Stopping {len(cli.active_agents)} active agents")
+                await cli.stop_all_agents()
+            
+            if cli.timer_agent and cli.timer_agent.is_running:
+                logger.info("Stopping timer agent")
+                await cli.timer_agent.stop()
+                
+            if use_ui and 'terminal_ui' in globals() and terminal_ui.is_running:
+                logger.info("Stopping terminal UI")
+                terminal_ui.stop()
+                
+            logger.info("Cleanup complete")
+        except Exception as e:
+            logger.error(f"Error during cleanup: {e}")
+            
+    # Set up cancellation handler
+    if return_cli:
+        cleanup_task = asyncio.create_task(asyncio.sleep(0))  # Dummy task by default
+    
     try:
         if interactive:
             await cli.main_menu()
@@ -806,17 +931,30 @@ async def main(interactive: bool = False):
             config = cli.config_manager.load_config()
             if not config.get('contracts'):
                 print("No configuration found. Run with --interactive to set up.")
+                if return_cli:
+                    return cli, cleanup_task
                 return
             await cli.start_from_config(config)
+            
+        # After normal completion, run cleanup
+        if not return_cli:
+            await cleanup_handler()
+        else:
+            # Return a real cleanup task
+            cleanup_task = asyncio.create_task(cleanup_handler())
+            
     except KeyboardInterrupt:
-        if cli.active_agents:
-            print("\nStopping all agents...")
-            await cli.stop_all_agents()
-        print("\nExiting...")
+        logger.info("KeyboardInterrupt detected in main")
+        if not return_cli:
+            await cleanup_handler()
     except Exception as e:
-        logger.error(f"Unexpected error: {e}")
-        if cli.active_agents:
-            await cli.stop_all_agents()
+        logger.error(f"Unexpected error: {e}", exc_info=True)
+        if not return_cli:
+            await cleanup_handler()
+    
+    # Return CLI instance if requested
+    if return_cli:
+        return cli, cleanup_task
 
 if __name__ == "__main__":
     asyncio.run(main())

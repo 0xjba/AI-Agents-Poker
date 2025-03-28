@@ -1,0 +1,157 @@
+2025-03-28 20:53:43,681 - INFO - Simplified logging system initialized
+2025-03-28 20:59:55,799 - INFO - EVENT: BETTING OPEN ISSUE FIXED
+2025-03-28 20:59:55,801 - INFO - DETAILS: {"player": "0x7B7057B07218fa9f357E39cb2fC2E723C2bfcf9F", "timeout_added": 40, "round": 0, "betting_open_fixed": true, "manual_event_id": "event-timer-manual-1743175795-0x7b7057b07218fa9f357e39cb2fc2e723c2bfcf9f"}
+2025-03-28 21:00:03,794 - ERROR - Error logging player action: 'TranscriptManager' object has no attribute 'file_path'
+2025-03-28 21:00:15,474 - ERROR - Error logging player action: 'TranscriptManager' object has no attribute 'file_path'
+2025-03-28 21:00:27,777 - ERROR - Error logging player action: 'TranscriptManager' object has no attribute 'file_path'
+2025-03-28 21:00:34,372 - ERROR - Error logging contract event: 'TranscriptManager' object has no attribute 'file_path'
+2025-03-28 21:00:34,984 - ERROR - Error logging contract event: 'TranscriptManager' object has no attribute 'file_path'
+2025-03-28 21:00:35,281 - INFO - JSON_DATA: {"type": "GAME_STATE", "timestamp": 1743175835.2815151, "round_type": "PreFlop", "round_number": 0, "current_turn": "0x0Fae37437c1347c23dc279b424663579d2df67df", "shortened_turn": "0x0Fae37...df67df", "pot_size": 75, "current_bet": 50, "community_cards": "", "human_time": "2025-03-28 21:00:35"}
+2025-03-28 21:00:35,282 - INFO - Game state: Round=PreFlop(0), Turn=0x0Fae37...df67df, Pot=75, Bet=50, Cards=
+2025-03-28 21:00:35,282 - INFO - EVENT: ALL TIMERS CLEARED AFTER ACTION
+2025-03-28 21:00:35,282 - INFO - DETAILS: {"action_by": "0x7B7057B07218fa9f357E39cb2fC2E723C2bfcf9F", "action_type": "UNKNOWN", "timer_count_before": 1, "is_all_in": false}
+2025-03-28 21:00:35,714 - ERROR - Error logging contract event: 'TranscriptManager' object has no attribute 'file_path'
+2025-03-28 21:00:35,998 - INFO - JSON_DATA: {"type": "GAME_STATE", "timestamp": 1743175835.9986901, "round_type": "PreFlop", "round_number": 0, "current_turn": "0x0Fae37437c1347c23dc279b424663579d2df67df", "shortened_turn": "0x0Fae37...df67df", "pot_size": 75, "current_bet": 50, "community_cards": "", "human_time": "2025-03-28 21:00:35"}
+2025-03-28 21:00:35,999 - INFO - Game state: Round=PreFlop(0), Turn=0x0Fae37...df67df, Pot=75, Bet=50, Cards=
+2025-03-28 21:00:36,418 - ERROR - Error logging contract event: 'TranscriptManager' object has no attribute 'file_path'
+2025-03-28 21:00:36,700 - INFO - JSON_DATA: {"type": "GAME_STATE", "timestamp": 1743175836.699975, "round_type": "PreFlop", "round_number": 0, "current_turn": "0x0Fae37437c1347c23dc279b424663579d2df67df", "shortened_turn": "0x0Fae37...df67df", "pot_size": 75, "current_bet": 50, "community_cards": "", "human_time": "2025-03-28 21:00:36"}
+2025-03-28 21:00:36,700 - INFO - Game state: Round=PreFlop(0), Turn=0x0Fae37...df67df, Pot=75, Bet=50, Cards=
+2025-03-28 21:00:37,545 - INFO - EVENT: BETTING OPEN ISSUE FIXED
+2025-03-28 21:00:37,545 - INFO - DETAILS: {"player": "0x0Fae37437c1347c23dc279b424663579d2df67df", "timeout_added": 40, "round": 0, "betting_open_fixed": true, "manual_event_id": "event-timer-manual-1743175837-0x0fae37437c1347c23dc279b424663579d2df67df"}
+2025-03-28 21:00:54,242 - ERROR - Error logging player action: 'TranscriptManager' object has no attribute 'file_path'
+2025-03-28 21:01:09,354 - ERROR - Error logging player action: 'TranscriptManager' object has no attribute 'file_path'
+2025-03-28 21:01:22,228 - ERROR - Error logging player action: 'TranscriptManager' object has no attribute 'file_path'
+2025-03-28 21:01:25,157 - ERROR - Error logging contract event: 'TranscriptManager' object has no attribute 'file_path'
+2025-03-28 21:01:25,784 - ERROR - Error logging contract event: 'TranscriptManager' object has no attribute 'file_path'
+2025-03-28 21:01:26,077 - INFO - JSON_DATA: {"type": "GAME_STATE", "timestamp": 1743175886.0776992, "round_type": "PreFlop", "round_number": 0, "current_turn": "0x0Fae37437c1347c23dc279b424663579d2df67df", "shortened_turn": "0x0Fae37...df67df", "pot_size": 275, "current_bet": 200, "community_cards": "", "human_time": "2025-03-28 21:01:26"}
+2025-03-28 21:01:26,078 - INFO - Game state: Round=PreFlop(0), Turn=0x0Fae37...df67df, Pot=275, Bet=200, Cards=
+2025-03-28 21:01:26,506 - ERROR - Error logging contract event: 'TranscriptManager' object has no attribute 'file_path'
+2025-03-28 21:01:26,782 - INFO - JSON_DATA: {"type": "GAME_STATE", "timestamp": 1743175886.7827158, "round_type": "PreFlop", "round_number": 0, "current_turn": "0x0Fae37437c1347c23dc279b424663579d2df67df", "shortened_turn": "0x0Fae37...df67df", "pot_size": 275, "current_bet": 200, "community_cards": "", "human_time": "2025-03-28 21:01:26"}
+2025-03-28 21:01:26,783 - INFO - Game state: Round=PreFlop(0), Turn=0x0Fae37...df67df, Pot=275, Bet=200, Cards=
+2025-03-28 21:01:27,199 - ERROR - Error logging contract event: 'TranscriptManager' object has no attribute 'file_path'
+2025-03-28 21:01:27,498 - INFO - JSON_DATA: {"type": "GAME_STATE", "timestamp": 1743175887.498535, "round_type": "PreFlop", "round_number": 0, "current_turn": "0x0Fae37437c1347c23dc279b424663579d2df67df", "shortened_turn": "0x0Fae37...df67df", "pot_size": 275, "current_bet": 200, "community_cards": "", "human_time": "2025-03-28 21:01:27"}
+2025-03-28 21:01:27,498 - INFO - Game state: Round=PreFlop(0), Turn=0x0Fae37...df67df, Pot=275, Bet=200, Cards=
+2025-03-28 21:01:49,866 - ERROR - Error logging player action: 'TranscriptManager' object has no attribute 'file_path'
+2025-03-28 21:02:02,175 - ERROR - Error logging player action: 'TranscriptManager' object has no attribute 'file_path'
+2025-03-28 21:02:12,511 - ERROR - Error logging contract event: 'TranscriptManager' object has no attribute 'file_path'
+2025-03-28 21:02:13,125 - ERROR - Error logging contract event: 'TranscriptManager' object has no attribute 'file_path'
+2025-03-28 21:02:13,409 - INFO - JSON_DATA: {"type": "GAME_STATE", "timestamp": 1743175933.409903, "round_type": "PreFlop", "round_number": 0, "current_turn": "0x7B7057B07218fa9f357E39cb2fC2E723C2bfcf9F", "shortened_turn": "0x7B7057...bfcf9F", "pot_size": 275, "current_bet": 200, "community_cards": "", "human_time": "2025-03-28 21:02:13"}
+2025-03-28 21:02:13,410 - INFO - Game state: Round=PreFlop(0), Turn=0x7B7057...bfcf9F, Pot=275, Bet=200, Cards=
+2025-03-28 21:02:13,410 - INFO - EVENT: ALL TIMERS CLEARED AFTER ACTION
+2025-03-28 21:02:13,410 - INFO - DETAILS: {"action_by": "0x0Fae37437c1347c23dc279b424663579d2df67df", "action_type": "UNKNOWN", "timer_count_before": 1, "is_all_in": false}
+2025-03-28 21:02:13,851 - ERROR - Error logging contract event: 'TranscriptManager' object has no attribute 'file_path'
+2025-03-28 21:02:14,121 - INFO - JSON_DATA: {"type": "GAME_STATE", "timestamp": 1743175934.121536, "round_type": "PreFlop", "round_number": 0, "current_turn": "0x7B7057B07218fa9f357E39cb2fC2E723C2bfcf9F", "shortened_turn": "0x7B7057...bfcf9F", "pot_size": 275, "current_bet": 200, "community_cards": "", "human_time": "2025-03-28 21:02:14"}
+2025-03-28 21:02:14,122 - INFO - Game state: Round=PreFlop(0), Turn=0x7B7057...bfcf9F, Pot=275, Bet=200, Cards=
+2025-03-28 21:02:15,013 - INFO - EVENT: BETTING OPEN ISSUE FIXED
+2025-03-28 21:02:15,013 - INFO - DETAILS: {"player": "0x7B7057B07218fa9f357E39cb2fC2E723C2bfcf9F", "timeout_added": 40, "round": 0, "betting_open_fixed": true, "manual_event_id": "event-timer-manual-1743175935-0x7b7057b07218fa9f357e39cb2fc2e723c2bfcf9f"}
+2025-03-28 21:02:21,961 - ERROR - Error logging player action: 'TranscriptManager' object has no attribute 'file_path'
+2025-03-28 21:02:35,299 - ERROR - Error logging player action: 'TranscriptManager' object has no attribute 'file_path'
+2025-03-28 21:02:48,444 - ERROR - Error logging player action: 'TranscriptManager' object has no attribute 'file_path'
+2025-03-28 21:02:54,855 - ERROR - Error logging contract event: 'TranscriptManager' object has no attribute 'file_path'
+2025-03-28 21:02:55,567 - ERROR - Error logging contract event: 'TranscriptManager' object has no attribute 'file_path'
+2025-03-28 21:02:55,833 - INFO - JSON_DATA: {"type": "GAME_STATE", "timestamp": 1743175975.8336818, "round_type": "PreFlop", "round_number": 0, "current_turn": "0xd2e443F6CF19d5d359e82bbEea76e1133028fda5", "shortened_turn": "0xd2e443...28fda5", "pot_size": 325, "current_bet": 250, "community_cards": "", "human_time": "2025-03-28 21:02:55"}
+2025-03-28 21:02:55,834 - INFO - Game state: Round=PreFlop(0), Turn=0xd2e443...28fda5, Pot=325, Bet=250, Cards=
+2025-03-28 21:02:55,834 - INFO - EVENT: ALL TIMERS CLEARED AFTER ACTION
+2025-03-28 21:02:55,834 - INFO - DETAILS: {"action_by": "0x7B7057B07218fa9f357E39cb2fC2E723C2bfcf9F", "action_type": "UNKNOWN", "timer_count_before": 1, "is_all_in": false}
+2025-03-28 21:02:56,245 - ERROR - Error logging contract event: 'TranscriptManager' object has no attribute 'file_path'
+2025-03-28 21:02:56,518 - INFO - JSON_DATA: {"type": "GAME_STATE", "timestamp": 1743175976.51857, "round_type": "PreFlop", "round_number": 0, "current_turn": "0xd2e443F6CF19d5d359e82bbEea76e1133028fda5", "shortened_turn": "0xd2e443...28fda5", "pot_size": 325, "current_bet": 250, "community_cards": "", "human_time": "2025-03-28 21:02:56"}
+2025-03-28 21:02:56,519 - INFO - Game state: Round=PreFlop(0), Turn=0xd2e443...28fda5, Pot=325, Bet=250, Cards=
+2025-03-28 21:02:56,946 - ERROR - Error logging contract event: 'TranscriptManager' object has no attribute 'file_path'
+2025-03-28 21:02:57,250 - INFO - JSON_DATA: {"type": "GAME_STATE", "timestamp": 1743175977.250775, "round_type": "PreFlop", "round_number": 0, "current_turn": "0xd2e443F6CF19d5d359e82bbEea76e1133028fda5", "shortened_turn": "0xd2e443...28fda5", "pot_size": 325, "current_bet": 250, "community_cards": "", "human_time": "2025-03-28 21:02:57"}
+2025-03-28 21:02:57,251 - INFO - Game state: Round=PreFlop(0), Turn=0xd2e443...28fda5, Pot=325, Bet=250, Cards=
+2025-03-28 21:02:58,119 - INFO - EVENT: BETTING OPEN ISSUE FIXED
+2025-03-28 21:02:58,119 - INFO - DETAILS: {"player": "0xd2e443F6CF19d5d359e82bbEea76e1133028fda5", "timeout_added": 40, "round": 0, "betting_open_fixed": true, "manual_event_id": "event-timer-manual-1743175978-0xd2e443f6cf19d5d359e82bbeea76e1133028fda5"}
+2025-03-28 21:03:09,887 - ERROR - Error logging player action: 'TranscriptManager' object has no attribute 'file_path'
+2025-03-28 21:03:25,127 - ERROR - Error logging player action: 'TranscriptManager' object has no attribute 'file_path'
+2025-03-28 21:03:35,956 - ERROR - Error logging contract event: 'TranscriptManager' object has no attribute 'file_path'
+2025-03-28 21:03:36,598 - ERROR - Error logging contract event: 'TranscriptManager' object has no attribute 'file_path'
+2025-03-28 21:03:36,875 - INFO - JSON_DATA: {"type": "GAME_STATE", "timestamp": 1743176016.8755782, "round_type": "PreFlop", "round_number": 0, "current_turn": "0x52731AEDA26AB8D159226C51180a7542a4287500", "shortened_turn": "0x52731A...287500", "pot_size": 575, "current_bet": 250, "community_cards": "", "human_time": "2025-03-28 21:03:36"}
+2025-03-28 21:03:36,875 - INFO - Game state: Round=PreFlop(0), Turn=0x52731A...287500, Pot=575, Bet=250, Cards=
+2025-03-28 21:03:36,876 - INFO - EVENT: ALL TIMERS CLEARED AFTER ACTION
+2025-03-28 21:03:36,876 - INFO - DETAILS: {"action_by": "0xd2e443F6CF19d5d359e82bbEea76e1133028fda5", "action_type": "UNKNOWN", "timer_count_before": 1, "is_all_in": false}
+2025-03-28 21:03:37,300 - ERROR - Error logging contract event: 'TranscriptManager' object has no attribute 'file_path'
+2025-03-28 21:03:37,573 - INFO - JSON_DATA: {"type": "GAME_STATE", "timestamp": 1743176017.572979, "round_type": "PreFlop", "round_number": 0, "current_turn": "0x52731AEDA26AB8D159226C51180a7542a4287500", "shortened_turn": "0x52731A...287500", "pot_size": 575, "current_bet": 250, "community_cards": "", "human_time": "2025-03-28 21:03:37"}
+2025-03-28 21:03:37,573 - INFO - Game state: Round=PreFlop(0), Turn=0x52731A...287500, Pot=575, Bet=250, Cards=
+2025-03-28 21:03:38,388 - INFO - EVENT: BETTING OPEN ISSUE FIXED
+2025-03-28 21:03:38,388 - INFO - DETAILS: {"player": "0x52731AEDA26AB8D159226C51180a7542a4287500", "timeout_added": 40, "round": 0, "betting_open_fixed": true, "manual_event_id": "event-timer-manual-1743176018-0x52731aeda26ab8d159226c51180a7542a4287500"}
+2025-03-28 21:03:45,279 - ERROR - Error logging player action: 'TranscriptManager' object has no attribute 'file_path'
+2025-03-28 21:04:04,950 - ERROR - Error logging player action: 'TranscriptManager' object has no attribute 'file_path'
+2025-03-28 21:04:10,977 - ERROR - Error logging contract event: 'TranscriptManager' object has no attribute 'file_path'
+2025-03-28 21:04:11,592 - ERROR - Error logging contract event: 'TranscriptManager' object has no attribute 'file_path'
+2025-03-28 21:04:11,891 - INFO - JSON_DATA: {"type": "GAME_STATE", "timestamp": 1743176051.891574, "round_type": "Flop", "round_number": 1, "current_turn": "0x9Fde625ED8A6eC0f3cA393A62be34231a5c167F4", "shortened_turn": "0x9Fde62...c167F4", "pot_size": 575, "current_bet": 0, "community_cards": "3\u2660 5\u2660 10\u2665", "human_time": "2025-03-28 21:04:11"}
+2025-03-28 21:04:11,892 - INFO - Game state: Round=Flop(1), Turn=0x9Fde62...c167F4, Pot=575, Bet=0, Cards=3♠ 5♠ 10♥
+2025-03-28 21:04:11,892 - INFO - EVENT: ALL TIMERS CLEARED AFTER ACTION
+2025-03-28 21:04:11,892 - INFO - DETAILS: {"action_by": "0x52731AEDA26AB8D159226C51180a7542a4287500", "action_type": "UNKNOWN", "timer_count_before": 1, "is_all_in": false}
+2025-03-28 21:04:12,356 - ERROR - Error logging contract event: 'TranscriptManager' object has no attribute 'file_path'
+2025-03-28 21:04:12,647 - INFO - JSON_DATA: {"type": "GAME_STATE", "timestamp": 1743176052.647409, "round_type": "Flop", "round_number": 1, "current_turn": "0x9Fde625ED8A6eC0f3cA393A62be34231a5c167F4", "shortened_turn": "0x9Fde62...c167F4", "pot_size": 575, "current_bet": 0, "community_cards": "3\u2660 5\u2660 10\u2665", "human_time": "2025-03-28 21:04:12"}
+2025-03-28 21:04:12,647 - INFO - Game state: Round=Flop(1), Turn=0x9Fde62...c167F4, Pot=575, Bet=0, Cards=3♠ 5♠ 10♥
+2025-03-28 21:04:13,498 - INFO - EVENT: BETTING OPEN ISSUE FIXED
+2025-03-28 21:04:13,499 - INFO - DETAILS: {"player": "0x9Fde625ED8A6eC0f3cA393A62be34231a5c167F4", "timeout_added": 40, "round": 1, "betting_open_fixed": true, "manual_event_id": "event-timer-manual-1743176053-0x9fde625ed8a6ec0f3ca393a62be34231a5c167f4"}
+2025-03-28 21:04:27,294 - ERROR - Error logging player action: 'TranscriptManager' object has no attribute 'file_path'
+2025-03-28 21:04:37,960 - ERROR - Error logging contract event: 'TranscriptManager' object has no attribute 'file_path'
+2025-03-28 21:04:38,236 - INFO - JSON_DATA: {"type": "GAME_STATE", "timestamp": 1743176078.2366168, "round_type": "Turn", "round_number": 2, "current_turn": "0xd2e443F6CF19d5d359e82bbEea76e1133028fda5", "shortened_turn": "0xd2e443...28fda5", "pot_size": 575, "current_bet": 0, "community_cards": "3\u2660 5\u2660 10\u2665 6\u2660", "human_time": "2025-03-28 21:04:38"}
+2025-03-28 21:04:38,237 - INFO - Game state: Round=Turn(2), Turn=0xd2e443...28fda5, Pot=575, Bet=0, Cards=3♠ 5♠ 10♥ 6♠
+2025-03-28 21:04:48,095 - ERROR - Error logging player action: 'TranscriptManager' object has no attribute 'file_path'
+2025-03-28 21:04:52,230 - ERROR - Error logging contract event: 'TranscriptManager' object has no attribute 'file_path'
+2025-03-28 21:04:52,834 - ERROR - Error logging contract event: 'TranscriptManager' object has no attribute 'file_path'
+2025-03-28 21:04:53,190 - INFO - JSON_DATA: {"type": "GAME_STATE", "timestamp": 1743176093.190773, "round_type": "Turn", "round_number": 2, "current_turn": "0x9Fde625ED8A6eC0f3cA393A62be34231a5c167F4", "shortened_turn": "0x9Fde62...c167F4", "pot_size": 575, "current_bet": 0, "community_cards": "3\u2660 5\u2660 10\u2665 6\u2660", "human_time": "2025-03-28 21:04:53"}
+2025-03-28 21:04:53,190 - INFO - Game state: Round=Turn(2), Turn=0x9Fde62...c167F4, Pot=575, Bet=0, Cards=3♠ 5♠ 10♥ 6♠
+2025-03-28 21:04:53,191 - INFO - EVENT: ALL TIMERS CLEARED AFTER ACTION
+2025-03-28 21:04:53,191 - INFO - DETAILS: {"action_by": "0xd2e443F6CF19d5d359e82bbEea76e1133028fda5", "action_type": "UNKNOWN", "timer_count_before": 1, "is_all_in": false}
+2025-03-28 21:05:16,661 - ERROR - Error logging player action: 'TranscriptManager' object has no attribute 'file_path'
+2025-03-28 21:05:28,106 - ERROR - Error logging contract event: 'TranscriptManager' object has no attribute 'file_path'
+2025-03-28 21:05:28,738 - ERROR - Error logging contract event: 'TranscriptManager' object has no attribute 'file_path'
+2025-03-28 21:05:29,023 - INFO - JSON_DATA: {"type": "GAME_STATE", "timestamp": 1743176129.023863, "round_type": "Turn", "round_number": 2, "current_turn": "0xd2e443F6CF19d5d359e82bbEea76e1133028fda5", "shortened_turn": "0xd2e443...28fda5", "pot_size": 1175, "current_bet": 600, "community_cards": "3\u2660 5\u2660 10\u2665 6\u2660", "human_time": "2025-03-28 21:05:29"}
+2025-03-28 21:05:29,024 - INFO - Game state: Round=Turn(2), Turn=0xd2e443...28fda5, Pot=1175, Bet=600, Cards=3♠ 5♠ 10♥ 6♠
+2025-03-28 21:05:29,024 - INFO - EVENT: ALL TIMERS CLEARED AFTER ACTION
+2025-03-28 21:05:29,024 - INFO - DETAILS: {"action_by": "0x9Fde625ED8A6eC0f3cA393A62be34231a5c167F4", "action_type": "UNKNOWN", "timer_count_before": 1, "is_all_in": false}
+2025-03-28 21:05:29,847 - INFO - EVENT: BETTING OPEN ISSUE FIXED
+2025-03-28 21:05:29,847 - INFO - DETAILS: {"player": "0xd2e443F6CF19d5d359e82bbEea76e1133028fda5", "timeout_added": 40, "round": 2, "betting_open_fixed": true, "manual_event_id": "event-timer-manual-1743176129-0xd2e443f6cf19d5d359e82bbeea76e1133028fda5"}
+2025-03-28 21:05:37,318 - ERROR - Error logging player action: 'TranscriptManager' object has no attribute 'file_path'
+2025-03-28 21:05:42,644 - ERROR - Error logging contract event: 'TranscriptManager' object has no attribute 'file_path'
+2025-03-28 21:05:42,927 - INFO - JSON_DATA: {"type": "GAME_STATE", "timestamp": 1743176142.927538, "round_type": "PreFlop", "round_number": 0, "current_turn": "0x0Fae37437c1347c23dc279b424663579d2df67df", "shortened_turn": "0x0Fae37...df67df", "pot_size": 75, "current_bet": 50, "community_cards": "", "human_time": "2025-03-28 21:05:42"}
+2025-03-28 21:05:42,928 - INFO - Game state: Round=PreFlop(0), Turn=0x0Fae37...df67df, Pot=75, Bet=50, Cards=
+2025-03-28 21:05:43,781 - INFO - EVENT: BETTING OPEN ISSUE FIXED
+2025-03-28 21:05:43,781 - INFO - DETAILS: {"player": "0x0Fae37437c1347c23dc279b424663579d2df67df", "timeout_added": 40, "round": 0, "betting_open_fixed": true, "manual_event_id": "event-timer-manual-1743176143-0x0fae37437c1347c23dc279b424663579d2df67df"}
+2025-03-28 21:06:01,193 - ERROR - Error logging player action: 'TranscriptManager' object has no attribute 'file_path'
+2025-03-28 21:06:12,885 - ERROR - Error logging player action: 'TranscriptManager' object has no attribute 'file_path'
+2025-03-28 21:06:24,857 - ERROR - Error logging player action: 'TranscriptManager' object has no attribute 'file_path'
+2025-03-28 21:06:35,682 - ERROR - Error logging player action: 'TranscriptManager' object has no attribute 'file_path'
+2025-03-28 21:06:47,557 - ERROR - Error logging player action: 'TranscriptManager' object has no attribute 'file_path'
+2025-03-28 21:06:54,992 - ERROR - Error logging contract event: 'TranscriptManager' object has no attribute 'file_path'
+2025-03-28 21:06:55,262 - INFO - JSON_DATA: {"type": "GAME_STATE", "timestamp": 1743176215.262026, "round_type": "Flop", "round_number": 1, "current_turn": "0x0Fae37437c1347c23dc279b424663579d2df67df", "shortened_turn": "0x0Fae37...df67df", "pot_size": 225, "current_bet": 0, "community_cards": "7\u2665 3\u2663 5\u2665", "human_time": "2025-03-28 21:06:55"}
+2025-03-28 21:06:55,262 - INFO - Game state: Round=Flop(1), Turn=0x0Fae37...df67df, Pot=225, Bet=0, Cards=7♥ 3♣ 5♥
+2025-03-28 21:06:55,679 - ERROR - Error logging contract event: 'TranscriptManager' object has no attribute 'file_path'
+2025-03-28 21:06:55,963 - INFO - JSON_DATA: {"type": "GAME_STATE", "timestamp": 1743176215.9632268, "round_type": "Flop", "round_number": 1, "current_turn": "0x0Fae37437c1347c23dc279b424663579d2df67df", "shortened_turn": "0x0Fae37...df67df", "pot_size": 225, "current_bet": 0, "community_cards": "7\u2665 3\u2663 5\u2665", "human_time": "2025-03-28 21:06:55"}
+2025-03-28 21:06:55,965 - INFO - Game state: Round=Flop(1), Turn=0x0Fae37...df67df, Pot=225, Bet=0, Cards=7♥ 3♣ 5♥
+2025-03-28 21:06:56,396 - ERROR - Error logging contract event: 'TranscriptManager' object has no attribute 'file_path'
+2025-03-28 21:06:56,678 - INFO - JSON_DATA: {"type": "GAME_STATE", "timestamp": 1743176216.677943, "round_type": "Flop", "round_number": 1, "current_turn": "0x0Fae37437c1347c23dc279b424663579d2df67df", "shortened_turn": "0x0Fae37...df67df", "pot_size": 225, "current_bet": 0, "community_cards": "7\u2665 3\u2663 5\u2665", "human_time": "2025-03-28 21:06:56"}
+2025-03-28 21:06:56,678 - INFO - Game state: Round=Flop(1), Turn=0x0Fae37...df67df, Pot=225, Bet=0, Cards=7♥ 3♣ 5♥
+2025-03-28 21:06:57,095 - ERROR - Error logging contract event: 'TranscriptManager' object has no attribute 'file_path'
+2025-03-28 21:06:57,378 - INFO - JSON_DATA: {"type": "GAME_STATE", "timestamp": 1743176217.3781278, "round_type": "Flop", "round_number": 1, "current_turn": "0x0Fae37437c1347c23dc279b424663579d2df67df", "shortened_turn": "0x0Fae37...df67df", "pot_size": 225, "current_bet": 0, "community_cards": "7\u2665 3\u2663 5\u2665", "human_time": "2025-03-28 21:06:57"}
+2025-03-28 21:06:57,378 - INFO - Game state: Round=Flop(1), Turn=0x0Fae37...df67df, Pot=225, Bet=0, Cards=7♥ 3♣ 5♥
+2025-03-28 21:06:57,788 - ERROR - Error logging contract event: 'TranscriptManager' object has no attribute 'file_path'
+2025-03-28 21:06:58,055 - INFO - JSON_DATA: {"type": "GAME_STATE", "timestamp": 1743176218.055107, "round_type": "Flop", "round_number": 1, "current_turn": "0x0Fae37437c1347c23dc279b424663579d2df67df", "shortened_turn": "0x0Fae37...df67df", "pot_size": 225, "current_bet": 0, "community_cards": "7\u2665 3\u2663 5\u2665", "human_time": "2025-03-28 21:06:58"}
+2025-03-28 21:06:58,055 - INFO - Game state: Round=Flop(1), Turn=0x0Fae37...df67df, Pot=225, Bet=0, Cards=7♥ 3♣ 5♥
+2025-03-28 21:07:11,138 - ERROR - Error logging player action: 'TranscriptManager' object has no attribute 'file_path'
+2025-03-28 21:07:21,850 - ERROR - Error logging contract event: 'TranscriptManager' object has no attribute 'file_path'
+2025-03-28 21:07:22,484 - ERROR - Error logging contract event: 'TranscriptManager' object has no attribute 'file_path'
+2025-03-28 21:07:22,760 - INFO - JSON_DATA: {"type": "GAME_STATE", "timestamp": 1743176242.760931, "round_type": "Flop", "round_number": 1, "current_turn": "0xd2e443F6CF19d5d359e82bbEea76e1133028fda5", "shortened_turn": "0xd2e443...28fda5", "pot_size": 375, "current_bet": 150, "community_cards": "7\u2665 3\u2663 5\u2665", "human_time": "2025-03-28 21:07:22"}
+2025-03-28 21:07:22,761 - INFO - Game state: Round=Flop(1), Turn=0xd2e443...28fda5, Pot=375, Bet=150, Cards=7♥ 3♣ 5♥
+2025-03-28 21:07:22,761 - INFO - EVENT: ALL TIMERS CLEARED AFTER ACTION
+2025-03-28 21:07:22,761 - INFO - DETAILS: {"action_by": "0x0Fae37437c1347c23dc279b424663579d2df67df", "action_type": "UNKNOWN", "timer_count_before": 1, "is_all_in": false}
+2025-03-28 21:07:29,807 - ERROR - Error logging player action: 'TranscriptManager' object has no attribute 'file_path'
+2025-03-28 21:07:43,026 - ERROR - Error logging player action: 'TranscriptManager' object has no attribute 'file_path'
+2025-03-28 21:07:57,826 - ERROR - Error logging player action: 'TranscriptManager' object has no attribute 'file_path'
+2025-03-28 21:08:04,080 - ERROR - Error logging contract event: 'TranscriptManager' object has no attribute 'file_path'
+2025-03-28 21:08:04,693 - ERROR - Error logging contract event: 'TranscriptManager' object has no attribute 'file_path'
+2025-03-28 21:08:04,980 - INFO - JSON_DATA: {"type": "GAME_STATE", "timestamp": 1743176284.9805, "round_type": "Turn", "round_number": 2, "current_turn": "0xd2e443F6CF19d5d359e82bbEea76e1133028fda5", "shortened_turn": "0xd2e443...28fda5", "pot_size": 1050, "current_bet": 525, "community_cards": "7\u2665 3\u2663 5\u2665 5\u2663", "human_time": "2025-03-28 21:08:04"}
+2025-03-28 21:08:04,981 - INFO - Game state: Round=Turn(2), Turn=0xd2e443...28fda5, Pot=1050, Bet=525, Cards=7♥ 3♣ 5♥ 5♣
+2025-03-28 21:08:05,392 - ERROR - Error logging contract event: 'TranscriptManager' object has no attribute 'file_path'
+2025-03-28 21:08:05,673 - INFO - JSON_DATA: {"type": "GAME_STATE", "timestamp": 1743176285.673553, "round_type": "Turn", "round_number": 2, "current_turn": "0xd2e443F6CF19d5d359e82bbEea76e1133028fda5", "shortened_turn": "0xd2e443...28fda5", "pot_size": 1050, "current_bet": 525, "community_cards": "7\u2665 3\u2663 5\u2665 5\u2663", "human_time": "2025-03-28 21:08:05"}
+2025-03-28 21:08:05,674 - INFO - Game state: Round=Turn(2), Turn=0xd2e443...28fda5, Pot=1050, Bet=525, Cards=7♥ 3♣ 5♥ 5♣
+2025-03-28 21:08:06,095 - ERROR - Error logging contract event: 'TranscriptManager' object has no attribute 'file_path'
+2025-03-28 21:08:06,383 - INFO - JSON_DATA: {"type": "GAME_STATE", "timestamp": 1743176286.382977, "round_type": "Turn", "round_number": 2, "current_turn": "0xd2e443F6CF19d5d359e82bbEea76e1133028fda5", "shortened_turn": "0xd2e443...28fda5", "pot_size": 1050, "current_bet": 525, "community_cards": "7\u2665 3\u2663 5\u2665 5\u2663", "human_time": "2025-03-28 21:08:06"}
+2025-03-28 21:08:06,383 - INFO - Game state: Round=Turn(2), Turn=0xd2e443...28fda5, Pot=1050, Bet=525, Cards=7♥ 3♣ 5♥ 5♣
+2025-03-28 21:08:07,230 - INFO - EVENT: BETTING OPEN ISSUE FIXED
+2025-03-28 21:08:07,230 - INFO - DETAILS: {"player": "0xd2e443F6CF19d5d359e82bbEea76e1133028fda5", "timeout_added": 40, "round": 2, "betting_open_fixed": true, "manual_event_id": "event-timer-manual-1743176287-0xd2e443f6cf19d5d359e82bbeea76e1133028fda5"}

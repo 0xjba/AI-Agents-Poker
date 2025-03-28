@@ -44,8 +44,11 @@ class OpenRouterClient:
             return []
 
     def get_completion(self, messages: List[Dict]) -> str:
-        """Get completion from OpenRouter"""
+        """Get completion from OpenRouter with better error handling"""
         try:
+            # Display informative message about API call
+            logger.info(f"Calling OpenRouter API with model: {self.model}")
+            
             response = requests.post(
                 url=f"{self.base_url}/chat/completions",
                 headers=self.headers,
@@ -54,9 +57,39 @@ class OpenRouterClient:
                     "messages": messages
                 })
             )
+            
+            # Check for HTTP errors
             response.raise_for_status()
-            result = response.json()
+            
+            # Try to parse JSON response with better error handling
+            try:
+                result = response.json()
+            except json.JSONDecodeError:
+                logger.error("API returned invalid JSON response")
+                logger.debug(f"Response content: {response.text[:200]}...")
+                raise ValueError("API returned invalid JSON response")
+                
+            # Check if the response contains the choices field
+            if 'choices' not in result:
+                error_msg = "API response missing 'choices' field"
+                logger.error(error_msg)
+                logger.debug(f"Response content: {str(result)[:200]}...")
+                
+                # Check for error message in the response
+                if 'error' in result:
+                    error_detail = result.get('error', {}).get('message', 'Unknown error')
+                    logger.error(f"API error: {error_detail}")
+                    raise ValueError(f"API error: {error_detail}")
+                    
+                raise ValueError(error_msg)
+                
+            # Success path
             return result['choices'][0]['message']['content']
+            
+        except requests.exceptions.RequestException as e:
+            logger.error(f"Request error: {e}")
+            raise ValueError(f"API request failed: {str(e)}")
+            
         except Exception as e:
             logger.error(f"Failed to get completion: {e}")
             raise

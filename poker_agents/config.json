@@ -2,7 +2,8 @@
   "contracts": {
       "router": "POKER_ROUTER_ADDRESS",
       "state_storage": "POKER_STATE_STORAGE_ADDRESS",
-      "game_logic": "POKER_GAME_LOGIC_ADDRESS"
+      "game_logic": "POKER_GAME_LOGIC_ADDRESS",
+      "betting_contract": "POKER_BETTING_CONTRACT_ADDRESS"
   },
   "timer_agent": {
       "rpc_url": "POKER_TIMER_RPC",

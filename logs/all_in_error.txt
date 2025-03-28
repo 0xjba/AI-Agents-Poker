@@ -1,0 +1,473 @@
+2025-03-28 21:27:39,501 - INFO - Valid decision on attempt 1: Action=0
+2025-03-28 21:27:39,501 - INFO - Decided on action: 0 with amount 0, waiting 1.50s more to reach 5.0s total delay...
+2025-03-28 21:27:39,640 - INFO - Checking for payout events from blocks 3055883 to 3055936
+2025-03-28 21:27:40,775 - WARNING - Invalid log format: AttributeDict({'address': '0x8Cc20e4a7BE65295B5F4b201Fa374D513a4710Ba', 'topics': [HexBytes('0xfe33a4a08fa4e77d61713b688ac7067804814fa003ac86ec94eb8920d1a3e82e'), HexBytes('0x0000000000000000000000007b7057b07218fa9f357e39cb2fc2e723c2bfcf9f')], 'data': HexBytes('0x000000000000000000000000000000000000000000000000000000000000001e00000000000000000000000000000000000000000000000000000000002ea139'), 'blockNumber': 3055929, 'transactionHash': HexBytes('0x27895af559bc6112edd47f9c125c39b26d1dd5f75adb314efc51db6754b48cc9'), 'transactionIndex': 0, 'blockHash': HexBytes('0x83e4f8556462188a9b0694e4988af083f1e88e6ea51a2eb78cc68e32cd1787e4'), 'logIndex': 1, 'removed': False})
+2025-03-28 21:27:41,059 - INFO - Removing stale timer for 0x0Fae37437c1347c23dc279b424663579d2df67df - not current turn
+2025-03-28 21:27:41,631 - INFO - Pruned 6 old events from memory. Remaining: 18
+2025-03-28 21:27:41,904 - INFO - Running ALL_IN status consistency check...
+2025-03-28 21:27:45,613 - INFO - No ALL_IN status inconsistencies found
+2025-03-28 21:27:45,751 - INFO - Checking blocks 3055895 to 3055942
+2025-03-28 21:27:46,524 - WARNING - INVALID TIMER DETECTED: Timer event for 0xd2e443... but current turn is 0x7b7057... - SKIPPING
+2025-03-28 21:27:46,792 - INFO - Set timer for player 0x7B7057... - expires at 21:28:16 in 30s
+2025-03-28 21:27:46,792 - INFO - Started timer for player 0x7B7057B07218fa9f357E39cb2fC2E723C2bfcf9F, expires at 2025-03-28 21:28:16.792408 (duration: 30s)
+2025-03-28 21:27:47,541 - ERROR - Error logging contract event: 'TranscriptManager' object has no attribute 'file_path'
+2025-03-28 21:27:47,541 - ERROR - Error logging contract event: 'TranscriptManager' object has no attribute 'file_path'
+2025-03-28 21:27:47,739 - INFO - Action type: 3055929 by player: 0x0Fae3743...
+2025-03-28 21:27:47,740 - INFO - Player 0x0Fae37437c1347c23dc279b424663579d2df67df has acted (UNKNOWN), timer removed
+2025-03-28 21:27:48,168 - ERROR - Error logging contract event: 'TranscriptManager' object has no attribute 'file_path'
+2025-03-28 21:27:48,168 - ERROR - Error logging contract event: 'TranscriptManager' object has no attribute 'file_path'
+2025-03-28 21:27:48,453 - INFO - JSON_DATA: {"type": "GAME_STATE", "timestamp": 1743177468.4533582, "round_type": "PreFlop", "round_number": 0, "current_turn": "0x7B7057B07218fa9f357E39cb2fC2E723C2bfcf9F", "shortened_turn": "0x7B7057...bfcf9F", "pot_size": 175, "current_bet": 50, "community_cards": "", "human_time": "2025-03-28 21:27:48"}
+2025-03-28 21:27:48,453 - INFO - JSON_DATA: {"type": "GAME_STATE", "timestamp": 1743177468.4533582, "round_type": "PreFlop", "round_number": 0, "current_turn": "0x7B7057B07218fa9f357E39cb2fC2E723C2bfcf9F", "shortened_turn": "0x7B7057...bfcf9F", "pot_size": 175, "current_bet": 50, "community_cards": "", "human_time": "2025-03-28 21:27:48"}
+2025-03-28 21:27:48,453 - INFO - Game state: Round=PreFlop(0), Turn=0x7B7057...bfcf9F, Pot=175, Bet=50, Cards=
+2025-03-28 21:27:48,453 - INFO - Game state: Round=PreFlop(0), Turn=0x7B7057...bfcf9F, Pot=175, Bet=50, Cards=
+2025-03-28 21:27:48,454 - WARNING - Found 1 other timers after player action - clearing all
+2025-03-28 21:27:48,454 - INFO - EVENT: ALL TIMERS CLEARED AFTER ACTION
+2025-03-28 21:27:48,454 - INFO - EVENT: ALL TIMERS CLEARED AFTER ACTION
+2025-03-28 21:27:48,454 - INFO - DETAILS: {"action_by": "0x0Fae37437c1347c23dc279b424663579d2df67df", "action_type": "UNKNOWN", "timer_count_before": 1, "is_all_in": false}
+2025-03-28 21:27:48,454 - INFO - DETAILS: {"action_by": "0x0Fae37437c1347c23dc279b424663579d2df67df", "action_type": "UNKNOWN", "timer_count_before": 1, "is_all_in": false}
+2025-03-28 21:27:48,454 - INFO - Action type: 3055929 by player: 0xd2e443F6...
+2025-03-28 21:27:48,454 - INFO - Player 0xd2e443F6CF19d5d359e82bbEea76e1133028fda5 has acted (UNKNOWN), timer removed
+2025-03-28 21:27:48,878 - ERROR - Error logging contract event: 'TranscriptManager' object has no attribute 'file_path'
+2025-03-28 21:27:48,878 - ERROR - Error logging contract event: 'TranscriptManager' object has no attribute 'file_path'
+2025-03-28 21:27:49,155 - INFO - JSON_DATA: {"type": "GAME_STATE", "timestamp": 1743177469.155503, "round_type": "PreFlop", "round_number": 0, "current_turn": "0x7B7057B07218fa9f357E39cb2fC2E723C2bfcf9F", "shortened_turn": "0x7B7057...bfcf9F", "pot_size": 175, "current_bet": 50, "community_cards": "", "human_time": "2025-03-28 21:27:49"}
+2025-03-28 21:27:49,155 - INFO - JSON_DATA: {"type": "GAME_STATE", "timestamp": 1743177469.155503, "round_type": "PreFlop", "round_number": 0, "current_turn": "0x7B7057B07218fa9f357E39cb2fC2E723C2bfcf9F", "shortened_turn": "0x7B7057...bfcf9F", "pot_size": 175, "current_bet": 50, "community_cards": "", "human_time": "2025-03-28 21:27:49"}
+2025-03-28 21:27:49,155 - INFO - Game state: Round=PreFlop(0), Turn=0x7B7057...bfcf9F, Pot=175, Bet=50, Cards=
+2025-03-28 21:27:49,155 - INFO - Game state: Round=PreFlop(0), Turn=0x7B7057...bfcf9F, Pot=175, Bet=50, Cards=
+2025-03-28 21:27:50,019 - WARNING - Added timer for 0x7B7057..., expires in 40s
+2025-03-28 21:27:50,019 - INFO - EVENT: BETTING OPEN ISSUE FIXED
+2025-03-28 21:27:50,019 - INFO - EVENT: BETTING OPEN ISSUE FIXED
+2025-03-28 21:27:50,019 - INFO - DETAILS: {"player": "0x7B7057B07218fa9f357E39cb2fC2E723C2bfcf9F", "timeout_added": 40, "round": 0, "betting_open_fixed": true, "manual_event_id": "event-timer-manual-1743177470-0x7b7057b07218fa9f357e39cb2fc2e723c2bfcf9f"}
+2025-03-28 21:27:50,019 - INFO - DETAILS: {"player": "0x7B7057B07218fa9f357E39cb2fC2E723C2bfcf9F", "timeout_added": 40, "round": 0, "betting_open_fixed": true, "manual_event_id": "event-timer-manual-1743177470-0x7b7057b07218fa9f357e39cb2fc2e723c2bfcf9f"}
+2025-03-28 21:27:52,190 - INFO - GAME STATE: Round=PREFLOP | Pot=175 | Player=0x7B7057...bfcf9F | Time=57s | Blinds=25/50
+2025-03-28 21:27:52,190 - INFO - GAME STATE: Round=PREFLOP | Pot=175 | Player=0x7B7057...bfcf9F | Time=57s | Blinds=25/50
+2025-03-28 21:27:54,839 - INFO - Action reasoning: Low stack, high call, weak hand
+2025-03-28 21:27:55,144 - INFO - Gas estimation successful: 431450 (adding 30% buffer: 560885)
+2025-03-28 21:27:55,859 - INFO - Pre-transaction validation - Current turn: 0x7B7057B07218fa9f357E39cb2fC2E723C2bfcf9F
+2025-03-28 21:27:55,860 - INFO - My address: 0x7B7057B07218fa9f357E39cb2fC2E723C2bfcf9F
+2025-03-28 21:27:55,860 - INFO - My player state: Status=1, Position=3
+2025-03-28 21:27:55,860 - INFO - Game state: Round=0, CurrentBet=50
+2025-03-28 21:27:56,030 - INFO - Sending transaction: Action=0, Data=0xc4c8ca2700000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000040000000000000000000000000000000000000000000000000000000000000001f4c6f7720737461636b2c20686967682063616c6c2c207765616b2068616e6400
+2025-03-28 21:27:56,030 - INFO - Transaction details: {'from': '0x7B7057B07218fa9f357E39cb2fC2E723C2bfcf9F', 'to': '0x1e779451E3e640FB87997e2C8e1725521Ec65407', 'gas': 560885, 'maxFeePerGas': 250000000, 'maxPriorityFeePerGas': 100000000, 'chainId': 443, 'data': '0xc4c8ca2700000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000040000000000000000000000000000000000000000000000000000000000000001f4c6f7720737461636b2c20686967682063616c6c2c207765616b2068616e6400', 'value': 0, 'nonce': 295}
+2025-03-28 21:27:56,184 - INFO - Transaction sent: 0x1097e1e096ee5dbbaa037fc495e81a06b55d17020323981023f85bb1070b396f
+2025-03-28 21:27:56,184 - INFO - TRANSACTION: 0x1097e1...0b396f | FOLD | Pending | Player: 0x7B7057...
+2025-03-28 21:27:56,184 - INFO - TRANSACTION: 0x1097e1...0b396f | FOLD | Pending | Player: 0x7B7057...
+2025-03-28 21:27:58,498 - INFO - EVENT: ACTION | Player 0x7B7057... performed FOLD
+2025-03-28 21:27:58,498 - INFO - EVENT: ACTION | Player 0x7B7057... performed FOLD
+2025-03-28 21:27:58,793 - ERROR - Error logging player action: 'TranscriptManager' object has no attribute 'file_path'
+2025-03-28 21:27:58,793 - ERROR - Error logging player action: 'TranscriptManager' object has no attribute 'file_path'
+2025-03-28 21:27:58,794 - INFO - Action completed: type=0, investment=0, total_investment=150, tx_hash=0x1097e1e096ee5dbbaa037fc495e81a06b55d17020323981023f85bb1070b396f
+2025-03-28 21:27:58,794 - INFO - Successfully executed action: 0 with amount 0
+2025-03-28 21:27:59,388 - INFO - Detected my turn via polling: 0x52731AEDA26AB8D159226C51180a7542a4287500
+2025-03-28 21:27:59,701 - INFO - Turn started at 21:27:59.701
+2025-03-28 21:28:00,291 - INFO - Calling OpenRouter API with model: anthropic/claude-3.5-sonnet
+2025-03-28 21:28:06,506 - INFO - Valid decision on attempt 1: Action=0
+2025-03-28 21:28:06,506 - INFO - Decision took 6.81s (> 5.0s target), executing immediately...
+2025-03-28 21:28:07,407 - INFO - Action reasoning: Weak offsuit connectors OOP with limited stack depth. Better spots ahead with current stack-to-pot ratio. Save chips for stronger holdings.
+2025-03-28 21:28:07,770 - INFO - Gas estimation successful: 436326 (adding 30% buffer: 567223)
+2025-03-28 21:28:08,502 - INFO - Pre-transaction validation - Current turn: 0x52731AEDA26AB8D159226C51180a7542a4287500
+2025-03-28 21:28:08,502 - INFO - My address: 0x52731AEDA26AB8D159226C51180a7542a4287500
+2025-03-28 21:28:08,502 - INFO - My player state: Status=1, Position=4
+2025-03-28 21:28:08,502 - INFO - Game state: Round=0, CurrentBet=50
+2025-03-28 21:28:08,642 - INFO - Sending transaction: Action=0, Data=0xc4c8ca2700000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000040000000000000000000000000000000000000000000000000000000000000008b5765616b206f66667375697420636f6e6e6563746f7273204f4f502077697468206c696d6974656420737461636b2064657074682e204265747465722073706f747320616865616420776974682063757272656e7420737461636b2d746f2d706f7420726174696f2e205361766520636869707320666f72207374726f6e67657220686f6c64696e67732e000000000000000000000000000000000000000000
+2025-03-28 21:28:08,642 - INFO - Transaction details: {'from': '0x52731AEDA26AB8D159226C51180a7542a4287500', 'to': '0x1e779451E3e640FB87997e2C8e1725521Ec65407', 'gas': 567223, 'maxFeePerGas': 250000000, 'maxPriorityFeePerGas': 100000000, 'chainId': 443, 'data': '0xc4c8ca2700000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000040000000000000000000000000000000000000000000000000000000000000008b5765616b206f66667375697420636f6e6e6563746f7273204f4f502077697468206c696d6974656420737461636b2064657074682e204265747465722073706f747320616865616420776974682063757272656e7420737461636b2d746f2d706f7420726174696f2e205361766520636869707320666f72207374726f6e67657220686f6c64696e67732e000000000000000000000000000000000000000000', 'value': 0, 'nonce': 121}
+2025-03-28 21:28:08,836 - INFO - Transaction sent: 0x68eacc461de9bcd44b89fbb737fc94261b7aff166e9e9353f0f18d72a3325f0e
+2025-03-28 21:28:08,836 - INFO - TRANSACTION: 0x68eacc...325f0e | FOLD | Pending | Player: 0x52731A...
+2025-03-28 21:28:08,836 - INFO - TRANSACTION: 0x68eacc...325f0e | FOLD | Pending | Player: 0x52731A...
+2025-03-28 21:28:11,155 - INFO - EVENT: ACTION | Player 0x52731A... performed FOLD
+2025-03-28 21:28:11,155 - INFO - EVENT: ACTION | Player 0x52731A... performed FOLD
+2025-03-28 21:28:11,457 - ERROR - Error logging player action: 'TranscriptManager' object has no attribute 'file_path'
+2025-03-28 21:28:11,457 - ERROR - Error logging player action: 'TranscriptManager' object has no attribute 'file_path'
+2025-03-28 21:28:11,458 - INFO - Action completed: type=0, investment=0, total_investment=50, tx_hash=0x68eacc461de9bcd44b89fbb737fc94261b7aff166e9e9353f0f18d72a3325f0e
+2025-03-28 21:28:11,458 - INFO - Successfully executed action: 0 with amount 0
+2025-03-28 21:28:11,846 - WARNING - Invalid log format: AttributeDict({'address': '0x8Cc20e4a7BE65295B5F4b201Fa374D513a4710Ba', 'topics': [HexBytes('0xfe33a4a08fa4e77d61713b688ac7067804814fa003ac86ec94eb8920d1a3e82e'), HexBytes('0x0000000000000000000000009fde625ed8a6ec0f3ca393a62be34231a5c167f4')], 'data': HexBytes('0x000000000000000000000000000000000000000000000000000000000000001e00000000000000000000000000000000000000000000000000000000002ea15e'), 'blockNumber': 3055966, 'transactionHash': HexBytes('0x68eacc461de9bcd44b89fbb737fc94261b7aff166e9e9353f0f18d72a3325f0e'), 'transactionIndex': 0, 'blockHash': HexBytes('0x92a318f963009b6b6f09d5cd568491df13f64598a9cb17fad6b685eb3f942a3a'), 'logIndex': 1, 'removed': False})
+2025-03-28 21:28:12,149 - INFO - Removing stale timer for 0x7B7057B07218fa9f357E39cb2fC2E723C2bfcf9F - not current turn
+2025-03-28 21:28:12,743 - INFO - Detected my turn via polling: 0x9Fde625ED8A6eC0f3cA393A62be34231a5c167F4
+2025-03-28 21:28:13,025 - INFO - Turn started at 21:28:13.025
+2025-03-28 21:28:13,641 - INFO - Calling OpenRouter API with model: anthropic/claude-3.5-sonnet
+2025-03-28 21:28:17,473 - INFO - Valid decision on attempt 1: Action=2
+2025-03-28 21:28:17,473 - INFO - Decided on action: 2 with amount 0, waiting 0.55s more to reach 5.0s total delay...
+2025-03-28 21:28:17,613 - INFO - Checking for payout events from blocks 3055937 to 3055974
+2025-03-28 21:28:18,138 - WARNING - Invalid log format: AttributeDict({'address': '0x8Cc20e4a7BE65295B5F4b201Fa374D513a4710Ba', 'topics': [HexBytes('0xfe33a4a08fa4e77d61713b688ac7067804814fa003ac86ec94eb8920d1a3e82e'), HexBytes('0x0000000000000000000000009fde625ed8a6ec0f3ca393a62be34231a5c167f4')], 'data': HexBytes('0x000000000000000000000000000000000000000000000000000000000000001e00000000000000000000000000000000000000000000000000000000002ea15e'), 'blockNumber': 3055966, 'transactionHash': HexBytes('0x68eacc461de9bcd44b89fbb737fc94261b7aff166e9e9353f0f18d72a3325f0e'), 'transactionIndex': 0, 'blockHash': HexBytes('0x92a318f963009b6b6f09d5cd568491df13f64598a9cb17fad6b685eb3f942a3a'), 'logIndex': 1, 'removed': False})
+2025-03-28 21:28:18,856 - INFO - Checking blocks 3055943 to 3055975
+2025-03-28 21:28:19,604 - WARNING - INVALID TIMER DETECTED: Timer event for 0x52731A... but current turn is 0x9fde62... - SKIPPING
+2025-03-28 21:28:19,875 - INFO - Set timer for player 0x9Fde62... - expires at 21:28:49 in 30s
+2025-03-28 21:28:19,875 - INFO - Started timer for player 0x9Fde625ED8A6eC0f3cA393A62be34231a5c167F4, expires at 2025-03-28 21:28:49.874906 (duration: 30s)
+2025-03-28 21:28:20,605 - ERROR - Error logging contract event: 'TranscriptManager' object has no attribute 'file_path'
+2025-03-28 21:28:20,605 - ERROR - Error logging contract event: 'TranscriptManager' object has no attribute 'file_path'
+2025-03-28 21:28:20,801 - INFO - Action type: 3055966 by player: 0x7B7057B0...
+2025-03-28 21:28:20,801 - INFO - Player 0x7B7057B07218fa9f357E39cb2fC2E723C2bfcf9F has acted (UNKNOWN), timer removed
+2025-03-28 21:28:21,236 - ERROR - Error logging contract event: 'TranscriptManager' object has no attribute 'file_path'
+2025-03-28 21:28:21,236 - ERROR - Error logging contract event: 'TranscriptManager' object has no attribute 'file_path'
+2025-03-28 21:28:21,526 - INFO - JSON_DATA: {"type": "GAME_STATE", "timestamp": 1743177501.5264058, "round_type": "PreFlop", "round_number": 0, "current_turn": "0x9Fde625ED8A6eC0f3cA393A62be34231a5c167F4", "shortened_turn": "0x9Fde62...c167F4", "pot_size": 175, "current_bet": 50, "community_cards": "", "human_time": "2025-03-28 21:28:21"}
+2025-03-28 21:28:21,526 - INFO - JSON_DATA: {"type": "GAME_STATE", "timestamp": 1743177501.5264058, "round_type": "PreFlop", "round_number": 0, "current_turn": "0x9Fde625ED8A6eC0f3cA393A62be34231a5c167F4", "shortened_turn": "0x9Fde62...c167F4", "pot_size": 175, "current_bet": 50, "community_cards": "", "human_time": "2025-03-28 21:28:21"}
+2025-03-28 21:28:21,526 - INFO - Game state: Round=PreFlop(0), Turn=0x9Fde62...c167F4, Pot=175, Bet=50, Cards=
+2025-03-28 21:28:21,526 - INFO - Game state: Round=PreFlop(0), Turn=0x9Fde62...c167F4, Pot=175, Bet=50, Cards=
+2025-03-28 21:28:21,526 - WARNING - Found 1 other timers after player action - clearing all
+2025-03-28 21:28:21,527 - INFO - EVENT: ALL TIMERS CLEARED AFTER ACTION
+2025-03-28 21:28:21,527 - INFO - EVENT: ALL TIMERS CLEARED AFTER ACTION
+2025-03-28 21:28:21,527 - INFO - DETAILS: {"action_by": "0x7B7057B07218fa9f357E39cb2fC2E723C2bfcf9F", "action_type": "UNKNOWN", "timer_count_before": 1, "is_all_in": false}
+2025-03-28 21:28:21,527 - INFO - DETAILS: {"action_by": "0x7B7057B07218fa9f357E39cb2fC2E723C2bfcf9F", "action_type": "UNKNOWN", "timer_count_before": 1, "is_all_in": false}
+2025-03-28 21:28:21,527 - INFO - Action type: 3055966 by player: 0x52731AED...
+2025-03-28 21:28:21,527 - INFO - Player 0x52731AEDA26AB8D159226C51180a7542a4287500 has acted (UNKNOWN), timer removed
+2025-03-28 21:28:21,948 - ERROR - Error logging contract event: 'TranscriptManager' object has no attribute 'file_path'
+2025-03-28 21:28:21,948 - ERROR - Error logging contract event: 'TranscriptManager' object has no attribute 'file_path'
+2025-03-28 21:28:22,225 - INFO - JSON_DATA: {"type": "GAME_STATE", "timestamp": 1743177502.225548, "round_type": "PreFlop", "round_number": 0, "current_turn": "0x9Fde625ED8A6eC0f3cA393A62be34231a5c167F4", "shortened_turn": "0x9Fde62...c167F4", "pot_size": 175, "current_bet": 50, "community_cards": "", "human_time": "2025-03-28 21:28:22"}
+2025-03-28 21:28:22,225 - INFO - JSON_DATA: {"type": "GAME_STATE", "timestamp": 1743177502.225548, "round_type": "PreFlop", "round_number": 0, "current_turn": "0x9Fde625ED8A6eC0f3cA393A62be34231a5c167F4", "shortened_turn": "0x9Fde62...c167F4", "pot_size": 175, "current_bet": 50, "community_cards": "", "human_time": "2025-03-28 21:28:22"}
+2025-03-28 21:28:22,226 - INFO - Game state: Round=PreFlop(0), Turn=0x9Fde62...c167F4, Pot=175, Bet=50, Cards=
+2025-03-28 21:28:22,226 - INFO - Game state: Round=PreFlop(0), Turn=0x9Fde62...c167F4, Pot=175, Bet=50, Cards=
+2025-03-28 21:28:23,063 - WARNING - Added timer for 0x9Fde62..., expires in 40s
+2025-03-28 21:28:23,064 - INFO - EVENT: BETTING OPEN ISSUE FIXED
+2025-03-28 21:28:23,064 - INFO - EVENT: BETTING OPEN ISSUE FIXED
+2025-03-28 21:28:23,064 - INFO - DETAILS: {"player": "0x9Fde625ED8A6eC0f3cA393A62be34231a5c167F4", "timeout_added": 40, "round": 0, "betting_open_fixed": true, "manual_event_id": "event-timer-manual-1743177503-0x9fde625ed8a6ec0f3ca393a62be34231a5c167f4"}
+2025-03-28 21:28:23,064 - INFO - DETAILS: {"player": "0x9Fde625ED8A6eC0f3cA393A62be34231a5c167F4", "timeout_added": 40, "round": 0, "betting_open_fixed": true, "manual_event_id": "event-timer-manual-1743177503-0x9fde625ed8a6ec0f3ca393a62be34231a5c167f4"}
+2025-03-28 21:28:25,352 - INFO - GAME STATE: Round=PREFLOP | Pot=175 | Player=0x9Fde62...c167F4 | Time=90s | Blinds=25/50
+2025-03-28 21:28:25,352 - INFO - GAME STATE: Round=PREFLOP | Pot=175 | Player=0x9Fde62...c167F4 | Time=90s | Blinds=25/50
+2025-03-28 21:28:28,716 - INFO - Action reasoning: Strong suited Broadway hand, already invested heavily, pot odds justify calling to see flop. No need to reraise with depleted stack.
+2025-03-28 21:28:29,018 - INFO - Gas estimation successful: 700706 (adding 30% buffer: 910917)
+2025-03-28 21:28:29,751 - INFO - Pre-transaction validation - Current turn: 0x9Fde625ED8A6eC0f3cA393A62be34231a5c167F4
+2025-03-28 21:28:29,751 - INFO - My address: 0x9Fde625ED8A6eC0f3cA393A62be34231a5c167F4
+2025-03-28 21:28:29,752 - INFO - My player state: Status=1, Position=0
+2025-03-28 21:28:29,752 - INFO - Game state: Round=0, CurrentBet=50
+2025-03-28 21:28:29,907 - INFO - Sending transaction: Action=2, Data=0xc4c8ca270000000000000000000000000000000000000000000000000000000000000002000000000000000000000000000000000000000000000000000000000000004000000000000000000000000000000000000000000000000000000000000000845374726f6e67207375697465642042726f61647761792068616e642c20616c726561647920696e7665737465642068656176696c792c20706f74206f646473206a7573746966792063616c6c696e6720746f2073656520666c6f702e204e6f206e65656420746f20726572616973652077697468206465706c6574656420737461636b2e00000000000000000000000000000000000000000000000000000000
+2025-03-28 21:28:29,907 - INFO - Transaction details: {'from': '0x9Fde625ED8A6eC0f3cA393A62be34231a5c167F4', 'to': '0x1e779451E3e640FB87997e2C8e1725521Ec65407', 'gas': 910917, 'maxFeePerGas': 250000000, 'maxPriorityFeePerGas': 100000000, 'chainId': 443, 'data': '0xc4c8ca270000000000000000000000000000000000000000000000000000000000000002000000000000000000000000000000000000000000000000000000000000004000000000000000000000000000000000000000000000000000000000000000845374726f6e67207375697465642042726f61647761792068616e642c20616c726561647920696e7665737465642068656176696c792c20706f74206f646473206a7573746966792063616c6c696e6720746f2073656520666c6f702e204e6f206e65656420746f20726572616973652077697468206465706c6574656420737461636b2e00000000000000000000000000000000000000000000000000000000', 'value': 0, 'nonce': 287}
+2025-03-28 21:28:30,057 - INFO - Transaction sent: 0x9120d1584c8d0277dda433425d3f87e77ed9e55953db0e876828c0fcdf0f186b
+2025-03-28 21:28:30,058 - INFO - TRANSACTION: 0x9120d1...0f186b | CALL | Pending | Player: 0x9Fde62...
+2025-03-28 21:28:30,058 - INFO - TRANSACTION: 0x9120d1...0f186b | CALL | Pending | Player: 0x9Fde62...
+2025-03-28 21:28:32,386 - INFO - EVENT: ACTION | Player 0x9Fde62... performed CALL
+2025-03-28 21:28:32,386 - INFO - EVENT: ACTION | Player 0x9Fde62... performed CALL
+2025-03-28 21:28:32,668 - ERROR - Error logging player action: 'TranscriptManager' object has no attribute 'file_path'
+2025-03-28 21:28:32,668 - ERROR - Error logging player action: 'TranscriptManager' object has no attribute 'file_path'
+2025-03-28 21:28:32,669 - INFO - Action completed: type=2, investment=0, total_investment=350, tx_hash=0x9120d1584c8d0277dda433425d3f87e77ed9e55953db0e876828c0fcdf0f186b
+2025-03-28 21:28:32,669 - INFO - Successfully executed action: 2 with amount 0
+2025-03-28 21:28:33,589 - INFO - Detected my turn via polling: 0x0Fae37437c1347c23dc279b424663579d2df67df
+2025-03-28 21:28:33,860 - INFO - Turn started at 21:28:33.860
+2025-03-28 21:28:34,435 - INFO - Calling OpenRouter API with model: anthropic/claude-3.5-sonnet
+2025-03-28 21:28:39,498 - INFO - Raise details: current_bet=0, min_raise=0, calculated_min=0, raise_amount=100, total_bet=100
+2025-03-28 21:28:39,499 - INFO - Valid decision on attempt 1: Action=3
+2025-03-28 21:28:39,500 - INFO - Decision took 5.64s (> 5.0s target), executing immediately...
+2025-03-28 21:28:40,460 - INFO - Action reasoning: Pair of 9s with back-door flush draw. First to act with initiative, bet to protect hand and build pot. Decent pot equity vs likely holdings.
+2025-03-28 21:28:40,764 - INFO - Encoded RAISE amount: 100 (current bet: 0)
+2025-03-28 21:28:41,073 - INFO - Gas estimation successful: 623719 (adding 30% buffer: 810834)
+2025-03-28 21:28:41,804 - INFO - Pre-transaction validation - Current turn: 0x0Fae37437c1347c23dc279b424663579d2df67df
+2025-03-28 21:28:41,804 - INFO - My address: 0x0Fae37437c1347c23dc279b424663579d2df67df
+2025-03-28 21:28:41,805 - INFO - My player state: Status=1, Position=1
+2025-03-28 21:28:41,805 - INFO - Game state: Round=1, CurrentBet=0
+2025-03-28 21:28:41,957 - INFO - Sending transaction: Action=3, Data=0xc4c8ca270000000000000000000000000000000000000000000000000000000000000003000000000000000000000000000000000000000000000000000000000000004000000000000000000000000000000000000000000000000000000000000000ac000000000000000000000000000000000000000000000000000000000000006450616972206f662039732077697468206261636b2d646f6f7220666c75736820647261772e20466972737420746f20616374207769746820696e69746961746976652c2062657420746f2070726f746563742068616e6420616e64206275696c6420706f742e20446563656e7420706f7420657175697479207673206c696b656c7920686f6c64696e67732e0000000000000000000000000000000000000000
+2025-03-28 21:28:41,958 - INFO - Transaction details: {'from': '0x0Fae37437c1347c23dc279b424663579d2df67df', 'to': '0x1e779451E3e640FB87997e2C8e1725521Ec65407', 'gas': 810834, 'maxFeePerGas': 250000000, 'maxPriorityFeePerGas': 100000000, 'chainId': 443, 'data': '0xc4c8ca270000000000000000000000000000000000000000000000000000000000000003000000000000000000000000000000000000000000000000000000000000004000000000000000000000000000000000000000000000000000000000000000ac000000000000000000000000000000000000000000000000000000000000006450616972206f662039732077697468206261636b2d646f6f7220666c75736820647261772e20466972737420746f20616374207769746820696e69746961746976652c2062657420746f2070726f746563742068616e6420616e64206275696c6420706f742e20446563656e7420706f7420657175697479207673206c696b656c7920686f6c64696e67732e0000000000000000000000000000000000000000', 'value': 0, 'nonce': 287}
+2025-03-28 21:28:42,111 - INFO - Transaction sent: 0xa060791eecc72dfbd1f5865ebd4ed063ca8d326993cb54a8f99f16a641eabfcf
+2025-03-28 21:28:42,111 - INFO - TRANSACTION: 0xa06079...eabfcf | RAISE 100 | Pending | Player: 0x0Fae37...
+2025-03-28 21:28:42,111 - INFO - TRANSACTION: 0xa06079...eabfcf | RAISE 100 | Pending | Player: 0x0Fae37...
+2025-03-28 21:28:44,405 - INFO - EVENT: ACTION | Player 0x0Fae37... performed RAISE
+2025-03-28 21:28:44,405 - INFO - EVENT: ACTION | Player 0x0Fae37... performed RAISE
+2025-03-28 21:28:44,684 - ERROR - Error logging player action: 'TranscriptManager' object has no attribute 'file_path'
+2025-03-28 21:28:44,684 - ERROR - Error logging player action: 'TranscriptManager' object has no attribute 'file_path'
+2025-03-28 21:28:44,684 - INFO - Action completed: type=3, investment=100, total_investment=175, tx_hash=0xa060791eecc72dfbd1f5865ebd4ed063ca8d326993cb54a8f99f16a641eabfcf
+2025-03-28 21:28:44,684 - INFO - Successfully executed action: 3 with amount 100
+2025-03-28 21:28:45,020 - WARNING - Invalid log format: AttributeDict({'address': '0x8Cc20e4a7BE65295B5F4b201Fa374D513a4710Ba', 'topics': [HexBytes('0xfe33a4a08fa4e77d61713b688ac7067804814fa003ac86ec94eb8920d1a3e82e'), HexBytes('0x000000000000000000000000d2e443f6cf19d5d359e82bbeea76e1133028fda5')], 'data': HexBytes('0x000000000000000000000000000000000000000000000000000000000000001e00000000000000000000000000000000000000000000000000000000002ea17f'), 'blockNumber': 3055999, 'transactionHash': HexBytes('0xa060791eecc72dfbd1f5865ebd4ed063ca8d326993cb54a8f99f16a641eabfcf'), 'transactionIndex': 0, 'blockHash': HexBytes('0x6feb6a7eb5d60b8718397e0eef6b2df495cc020075cb05372b377549f54eb195'), 'logIndex': 1, 'removed': False})
+2025-03-28 21:28:45,362 - WARNING - Invalid log format: AttributeDict({'address': '0x8Cc20e4a7BE65295B5F4b201Fa374D513a4710Ba', 'topics': [HexBytes('0xfe33a4a08fa4e77d61713b688ac7067804814fa003ac86ec94eb8920d1a3e82e'), HexBytes('0x000000000000000000000000d2e443f6cf19d5d359e82bbeea76e1133028fda5')], 'data': HexBytes('0x000000000000000000000000000000000000000000000000000000000000001e00000000000000000000000000000000000000000000000000000000002ea17f'), 'blockNumber': 3055999, 'transactionHash': HexBytes('0xa060791eecc72dfbd1f5865ebd4ed063ca8d326993cb54a8f99f16a641eabfcf'), 'transactionIndex': 0, 'blockHash': HexBytes('0x6feb6a7eb5d60b8718397e0eef6b2df495cc020075cb05372b377549f54eb195'), 'logIndex': 1, 'removed': False})
+2025-03-28 21:28:45,363 - INFO - Pruned 6 old events from memory. Remaining: 22
+2025-03-28 21:28:45,650 - INFO - Running ALL_IN status consistency check...
+2025-03-28 21:28:49,469 - INFO - No ALL_IN status inconsistencies found
+2025-03-28 21:28:49,608 - INFO - Checking blocks 3055976 to 3056006
+2025-03-28 21:28:49,929 - INFO - Removing invalid timer for 0x9Fde625ED8A6eC0f3cA393A62be34231a5c167F4 - current turn is 0xd2e443f6cf19d5d359e82bbeea76e1133028fda5
+2025-03-28 21:28:50,407 - INFO - Set timer for player 0xd2e443... - expires at 21:29:20 in 30s
+2025-03-28 21:28:50,407 - INFO - Started timer for player 0xd2e443F6CF19d5d359e82bbEea76e1133028fda5, expires at 2025-03-28 21:29:20.407071 (duration: 30s)
+2025-03-28 21:28:51,112 - ERROR - Error logging contract event: 'TranscriptManager' object has no attribute 'file_path'
+2025-03-28 21:28:51,112 - ERROR - Error logging contract event: 'TranscriptManager' object has no attribute 'file_path'
+2025-03-28 21:28:51,311 - INFO - Action type: 3055999 by player: 0x9Fde625E...
+2025-03-28 21:28:51,311 - INFO - Player 0x9Fde625ED8A6eC0f3cA393A62be34231a5c167F4 has acted (UNKNOWN), timer removed
+2025-03-28 21:28:51,758 - ERROR - Error logging contract event: 'TranscriptManager' object has no attribute 'file_path'
+2025-03-28 21:28:51,758 - ERROR - Error logging contract event: 'TranscriptManager' object has no attribute 'file_path'
+2025-03-28 21:28:52,044 - INFO - JSON_DATA: {"type": "GAME_STATE", "timestamp": 1743177532.0441248, "round_type": "Flop", "round_number": 1, "current_turn": "0xd2e443F6CF19d5d359e82bbEea76e1133028fda5", "shortened_turn": "0xd2e443...28fda5", "pot_size": 275, "current_bet": 100, "community_cards": "J\u2660 7\u2663 Q\u2665", "human_time": "2025-03-28 21:28:52"}
+2025-03-28 21:28:52,044 - INFO - JSON_DATA: {"type": "GAME_STATE", "timestamp": 1743177532.0441248, "round_type": "Flop", "round_number": 1, "current_turn": "0xd2e443F6CF19d5d359e82bbEea76e1133028fda5", "shortened_turn": "0xd2e443...28fda5", "pot_size": 275, "current_bet": 100, "community_cards": "J\u2660 7\u2663 Q\u2665", "human_time": "2025-03-28 21:28:52"}
+2025-03-28 21:28:52,044 - INFO - Game state: Round=Flop(1), Turn=0xd2e443...28fda5, Pot=275, Bet=100, Cards=J♠ 7♣ Q♥
+2025-03-28 21:28:52,044 - INFO - Game state: Round=Flop(1), Turn=0xd2e443...28fda5, Pot=275, Bet=100, Cards=J♠ 7♣ Q♥
+2025-03-28 21:28:52,044 - WARNING - Found 1 other timers after player action - clearing all
+2025-03-28 21:28:52,044 - INFO - EVENT: ALL TIMERS CLEARED AFTER ACTION
+2025-03-28 21:28:52,044 - INFO - EVENT: ALL TIMERS CLEARED AFTER ACTION
+2025-03-28 21:28:52,045 - INFO - DETAILS: {"action_by": "0x9Fde625ED8A6eC0f3cA393A62be34231a5c167F4", "action_type": "UNKNOWN", "timer_count_before": 1, "is_all_in": false}
+2025-03-28 21:28:52,045 - INFO - DETAILS: {"action_by": "0x9Fde625ED8A6eC0f3cA393A62be34231a5c167F4", "action_type": "UNKNOWN", "timer_count_before": 1, "is_all_in": false}
+2025-03-28 21:28:52,045 - INFO - Action type: 3055999 by player: 0x0Fae3743...
+2025-03-28 21:28:52,045 - INFO - Player 0x0Fae37437c1347c23dc279b424663579d2df67df has acted (UNKNOWN), timer removed
+2025-03-28 21:28:52,466 - ERROR - Error logging contract event: 'TranscriptManager' object has no attribute 'file_path'
+2025-03-28 21:28:52,466 - ERROR - Error logging contract event: 'TranscriptManager' object has no attribute 'file_path'
+2025-03-28 21:28:52,768 - INFO - JSON_DATA: {"type": "GAME_STATE", "timestamp": 1743177532.7681038, "round_type": "Flop", "round_number": 1, "current_turn": "0xd2e443F6CF19d5d359e82bbEea76e1133028fda5", "shortened_turn": "0xd2e443...28fda5", "pot_size": 275, "current_bet": 100, "community_cards": "J\u2660 7\u2663 Q\u2665", "human_time": "2025-03-28 21:28:52"}
+2025-03-28 21:28:52,768 - INFO - JSON_DATA: {"type": "GAME_STATE", "timestamp": 1743177532.7681038, "round_type": "Flop", "round_number": 1, "current_turn": "0xd2e443F6CF19d5d359e82bbEea76e1133028fda5", "shortened_turn": "0xd2e443...28fda5", "pot_size": 275, "current_bet": 100, "community_cards": "J\u2660 7\u2663 Q\u2665", "human_time": "2025-03-28 21:28:52"}
+2025-03-28 21:28:52,768 - INFO - Game state: Round=Flop(1), Turn=0xd2e443...28fda5, Pot=275, Bet=100, Cards=J♠ 7♣ Q♥
+2025-03-28 21:28:52,768 - INFO - Game state: Round=Flop(1), Turn=0xd2e443...28fda5, Pot=275, Bet=100, Cards=J♠ 7♣ Q♥
+2025-03-28 21:28:53,659 - WARNING - Added timer for 0xd2e443..., expires in 40s
+2025-03-28 21:28:53,660 - INFO - EVENT: BETTING OPEN ISSUE FIXED
+2025-03-28 21:28:53,660 - INFO - EVENT: BETTING OPEN ISSUE FIXED
+2025-03-28 21:28:53,660 - INFO - DETAILS: {"player": "0xd2e443F6CF19d5d359e82bbEea76e1133028fda5", "timeout_added": 40, "round": 1, "betting_open_fixed": true, "manual_event_id": "event-timer-manual-1743177533-0xd2e443f6cf19d5d359e82bbeea76e1133028fda5"}
+2025-03-28 21:28:53,660 - INFO - DETAILS: {"player": "0xd2e443F6CF19d5d359e82bbEea76e1133028fda5", "timeout_added": 40, "round": 1, "betting_open_fixed": true, "manual_event_id": "event-timer-manual-1743177533-0xd2e443f6cf19d5d359e82bbeea76e1133028fda5"}
+2025-03-28 21:28:54,248 - INFO - Detected my turn via polling: 0xd2e443F6CF19d5d359e82bbEea76e1133028fda5
+2025-03-28 21:28:54,565 - INFO - Turn started at 21:28:54.565
+2025-03-28 21:28:55,150 - INFO - Calling OpenRouter API with model: openai/gpt-4-1106-preview
+2025-03-28 21:28:57,607 - INFO - Valid decision on attempt 1: Action=2
+2025-03-28 21:28:57,607 - INFO - Decided on action: 2 with amount 0, waiting 1.96s more to reach 5.0s total delay...
+2025-03-28 21:28:58,499 - INFO - GAME STATE: Round=FLOP | Pot=275 | Player=0xd2e443...28fda5 | Time=123s | Blinds=25/50
+2025-03-28 21:28:58,499 - INFO - GAME STATE: Round=FLOP | Pot=275 | Player=0xd2e443...28fda5 | Time=123s | Blinds=25/50
+2025-03-28 21:28:59,219 - INFO - Checking for payout events from blocks 3055975 to 3056015
+2025-03-28 21:29:03,553 - INFO - Checking blocks 3056007 to 3056020
+2025-03-28 21:29:05,730 - INFO - Action reasoning: Top pair + short stack, call for all-in with potential to double up
+2025-03-28 21:29:06,023 - INFO - Gas estimation successful: 514834 (adding 30% buffer: 669284)
+2025-03-28 21:29:06,715 - INFO - Pre-transaction validation - Current turn: 0xd2e443F6CF19d5d359e82bbEea76e1133028fda5
+2025-03-28 21:29:06,716 - INFO - My address: 0xd2e443F6CF19d5d359e82bbEea76e1133028fda5
+2025-03-28 21:29:06,716 - INFO - My player state: Status=1, Position=2
+2025-03-28 21:29:06,716 - INFO - Game state: Round=1, CurrentBet=100
+2025-03-28 21:29:06,863 - INFO - Sending transaction: Action=2, Data=0xc4c8ca27000000000000000000000000000000000000000000000000000000000000000200000000000000000000000000000000000000000000000000000000000000400000000000000000000000000000000000000000000000000000000000000043546f702070616972202b2073686f727420737461636b2c2063616c6c20666f7220616c6c2d696e207769746820706f74656e7469616c20746f20646f75626c652075700000000000000000000000000000000000000000000000000000000000
+2025-03-28 21:29:06,863 - INFO - Transaction details: {'from': '0xd2e443F6CF19d5d359e82bbEea76e1133028fda5', 'to': '0x1e779451E3e640FB87997e2C8e1725521Ec65407', 'gas': 669284, 'maxFeePerGas': 250000000, 'maxPriorityFeePerGas': 100000000, 'chainId': 443, 'data': '0xc4c8ca27000000000000000000000000000000000000000000000000000000000000000200000000000000000000000000000000000000000000000000000000000000400000000000000000000000000000000000000000000000000000000000000043546f702070616972202b2073686f727420737461636b2c2063616c6c20666f7220616c6c2d696e207769746820706f74656e7469616c20746f20646f75626c652075700000000000000000000000000000000000000000000000000000000000', 'value': 0, 'nonce': 203}
+2025-03-28 21:29:07,017 - INFO - Transaction sent: 0x8317f2b5bfbbebb799d7766c574e145ed5a69db0d8945d897fccf65e622b3011
+2025-03-28 21:29:07,018 - INFO - TRANSACTION: 0x8317f2...2b3011 | CALL | Pending | Player: 0xd2e443...
+2025-03-28 21:29:07,018 - INFO - TRANSACTION: 0x8317f2...2b3011 | CALL | Pending | Player: 0xd2e443...
+2025-03-28 21:29:09,326 - INFO - EVENT: ACTION | Player 0xd2e443... performed CALL
+2025-03-28 21:29:09,326 - INFO - EVENT: ACTION | Player 0xd2e443... performed CALL
+2025-03-28 21:29:09,606 - ERROR - Error logging player action: 'TranscriptManager' object has no attribute 'file_path'
+2025-03-28 21:29:09,606 - ERROR - Error logging player action: 'TranscriptManager' object has no attribute 'file_path'
+2025-03-28 21:29:09,607 - INFO - Action completed: type=2, investment=100, total_investment=275, tx_hash=0x8317f2b5bfbbebb799d7766c574e145ed5a69db0d8945d897fccf65e622b3011
+2025-03-28 21:29:09,607 - INFO - Successfully executed action: 2 with amount 0
+2025-03-28 21:29:10,721 - INFO - GAME STATE: Round=FLOP | Pot=375 | Player=0x9Fde62...c167F4 | Time=135s | Blinds=25/50
+2025-03-28 21:29:10,721 - INFO - GAME STATE: Round=FLOP | Pot=375 | Player=0x9Fde62...c167F4 | Time=135s | Blinds=25/50
+2025-03-28 21:29:11,631 - WARNING - Invalid log format: AttributeDict({'address': '0x8Cc20e4a7BE65295B5F4b201Fa374D513a4710Ba', 'topics': [HexBytes('0xfe33a4a08fa4e77d61713b688ac7067804814fa003ac86ec94eb8920d1a3e82e'), HexBytes('0x0000000000000000000000009fde625ed8a6ec0f3ca393a62be34231a5c167f4')], 'data': HexBytes('0x000000000000000000000000000000000000000000000000000000000000001e00000000000000000000000000000000000000000000000000000000002ea198'), 'blockNumber': 3056024, 'transactionHash': HexBytes('0x8317f2b5bfbbebb799d7766c574e145ed5a69db0d8945d897fccf65e622b3011'), 'transactionIndex': 0, 'blockHash': HexBytes('0xc5db891f020c26342cd553ba1dee8074d01955f02e0138ba5eedaef97e0a833f'), 'logIndex': 1, 'removed': False})
+2025-03-28 21:29:11,921 - INFO - Removing stale timer for 0xd2e443F6CF19d5d359e82bbEea76e1133028fda5 - not current turn
+2025-03-28 21:29:12,476 - INFO - Detected my turn via polling: 0x9Fde625ED8A6eC0f3cA393A62be34231a5c167F4
+2025-03-28 21:29:12,773 - INFO - Turn started at 21:29:12.773
+2025-03-28 21:29:13,347 - INFO - Calling OpenRouter API with model: anthropic/claude-3.5-sonnet
+2025-03-28 21:29:25,154 - INFO - Valid decision on attempt 1: Action=2
+2025-03-28 21:29:25,154 - INFO - Decision took 12.38s (> 5.0s target), executing immediately...
+2025-03-28 21:29:26,009 - INFO - Action reasoning: K♦Q♦ has overcards and backdoor flush draw. Pot odds justify call. Position & stack depth make folding too tight. Aggressive line earlier suggests call.
+2025-03-28 21:29:26,331 - INFO - Gas estimation successful: 648378 (adding 30% buffer: 842891)
+2025-03-28 21:29:27,042 - INFO - Pre-transaction validation - Current turn: 0x9Fde625ED8A6eC0f3cA393A62be34231a5c167F4
+2025-03-28 21:29:27,042 - INFO - My address: 0x9Fde625ED8A6eC0f3cA393A62be34231a5c167F4
+2025-03-28 21:29:27,042 - INFO - My player state: Status=1, Position=0
+2025-03-28 21:29:27,042 - INFO - Game state: Round=1, CurrentBet=100
+2025-03-28 21:29:27,186 - INFO - Sending transaction: Action=2, Data=0xc4c8ca2700000000000000000000000000000000000000000000000000000000000000020000000000000000000000000000000000000000000000000000000000000040000000000000000000000000000000000000000000000000000000000000009c4be299a651e299a620686173206f766572636172647320616e64206261636b646f6f7220666c75736820647261772e20506f74206f646473206a7573746966792063616c6c2e20506f736974696f6e202620737461636b206465707468206d616b6520666f6c64696e6720746f6f2074696768742e2041676772657373697665206c696e65206561726c6965722073756767657374732063616c6c2e00000000
+2025-03-28 21:29:27,186 - INFO - Transaction details: {'from': '0x9Fde625ED8A6eC0f3cA393A62be34231a5c167F4', 'to': '0x1e779451E3e640FB87997e2C8e1725521Ec65407', 'gas': 842891, 'maxFeePerGas': 250000000, 'maxPriorityFeePerGas': 100000000, 'chainId': 443, 'data': '0xc4c8ca2700000000000000000000000000000000000000000000000000000000000000020000000000000000000000000000000000000000000000000000000000000040000000000000000000000000000000000000000000000000000000000000009c4be299a651e299a620686173206f766572636172647320616e64206261636b646f6f7220666c75736820647261772e20506f74206f646473206a7573746966792063616c6c2e20506f736974696f6e202620737461636b206465707468206d616b6520666f6c64696e6720746f6f2074696768742e2041676772657373697665206c696e65206561726c6965722073756767657374732063616c6c2e00000000', 'value': 0, 'nonce': 288}
+2025-03-28 21:29:27,339 - INFO - Transaction sent: 0x8ac14124a78776647437889e06c228c8366151be2f8c9ad34d3c2a70f84ea3c1
+2025-03-28 21:29:27,339 - INFO - TRANSACTION: 0x8ac141...4ea3c1 | CALL | Pending | Player: 0x9Fde62...
+2025-03-28 21:29:27,339 - INFO - TRANSACTION: 0x8ac141...4ea3c1 | CALL | Pending | Player: 0x9Fde62...
+2025-03-28 21:29:29,641 - INFO - EVENT: ACTION | Player 0x9Fde62... performed CALL
+2025-03-28 21:29:29,641 - INFO - EVENT: ACTION | Player 0x9Fde62... performed CALL
+2025-03-28 21:29:29,932 - ERROR - Error logging player action: 'TranscriptManager' object has no attribute 'file_path'
+2025-03-28 21:29:29,932 - ERROR - Error logging player action: 'TranscriptManager' object has no attribute 'file_path'
+2025-03-28 21:29:29,933 - INFO - Action completed: type=2, investment=100, total_investment=450, tx_hash=0x8ac14124a78776647437889e06c228c8366151be2f8c9ad34d3c2a70f84ea3c1
+2025-03-28 21:29:29,933 - INFO - Successfully executed action: 2 with amount 0
+2025-03-28 21:29:30,854 - INFO - Detected my turn via polling: 0x0Fae37437c1347c23dc279b424663579d2df67df
+2025-03-28 21:29:31,126 - INFO - Turn started at 21:29:31.126
+2025-03-28 21:29:31,695 - INFO - Calling OpenRouter API with model: anthropic/claude-3.5-sonnet
+2025-03-28 21:29:36,717 - INFO - Raise details: current_bet=0, min_raise=0, calculated_min=0, raise_amount=25, total_bet=25
+2025-03-28 21:29:36,718 - INFO - Valid decision on attempt 1: Action=3
+2025-03-28 21:29:36,718 - INFO - Decision took 5.59s (> 5.0s target), executing immediately...
+2025-03-28 21:29:37,570 - INFO - Action reasoning: Paired 9s with T kicker and straight draw. Already invested heavily. Small raise to extract value and maintain pot control on turn.
+2025-03-28 21:29:37,853 - INFO - Encoded RAISE amount: 25 (current bet: 0)
+2025-03-28 21:29:38,143 - INFO - Gas estimation successful: 528859 (adding 30% buffer: 687516)
+2025-03-28 21:29:38,850 - INFO - Pre-transaction validation - Current turn: 0x0Fae37437c1347c23dc279b424663579d2df67df
+2025-03-28 21:29:38,850 - INFO - My address: 0x0Fae37437c1347c23dc279b424663579d2df67df
+2025-03-28 21:29:38,850 - INFO - My player state: Status=1, Position=1
+2025-03-28 21:29:38,850 - INFO - Game state: Round=2, CurrentBet=0
+2025-03-28 21:29:38,993 - INFO - Sending transaction: Action=3, Data=0xc4c8ca270000000000000000000000000000000000000000000000000000000000000003000000000000000000000000000000000000000000000000000000000000004000000000000000000000000000000000000000000000000000000000000000a3000000000000000000000000000000000000000000000000000000000000001950616972656420397320776974682054206b69636b657220616e6420737472616967687420647261772e20416c726561647920696e7665737465642068656176696c792e20536d616c6c20726169736520746f20657874726163742076616c756520616e64206d61696e7461696e20706f7420636f6e74726f6c206f6e207475726e2e0000000000000000000000000000000000000000000000000000000000
+2025-03-28 21:29:38,993 - INFO - Transaction details: {'from': '0x0Fae37437c1347c23dc279b424663579d2df67df', 'to': '0x1e779451E3e640FB87997e2C8e1725521Ec65407', 'gas': 687516, 'maxFeePerGas': 250000000, 'maxPriorityFeePerGas': 100000000, 'chainId': 443, 'data': '0xc4c8ca270000000000000000000000000000000000000000000000000000000000000003000000000000000000000000000000000000000000000000000000000000004000000000000000000000000000000000000000000000000000000000000000a3000000000000000000000000000000000000000000000000000000000000001950616972656420397320776974682054206b69636b657220616e6420737472616967687420647261772e20416c726561647920696e7665737465642068656176696c792e20536d616c6c20726169736520746f20657874726163742076616c756520616e64206d61696e7461696e20706f7420636f6e74726f6c206f6e207475726e2e0000000000000000000000000000000000000000000000000000000000', 'value': 0, 'nonce': 288}
+2025-03-28 21:29:39,150 - INFO - Transaction sent: 0x56e6c481e331c16641093d667dfe6f00fba1e3bd3e675f62e7a3ab98be90205c
+2025-03-28 21:29:39,150 - INFO - TRANSACTION: 0x56e6c4...90205c | RAISE 25 | Pending | Player: 0x0Fae37...
+2025-03-28 21:29:39,150 - INFO - TRANSACTION: 0x56e6c4...90205c | RAISE 25 | Pending | Player: 0x0Fae37...
+2025-03-28 21:29:41,445 - INFO - EVENT: ACTION | Player 0x0Fae37... performed RAISE
+2025-03-28 21:29:41,445 - INFO - EVENT: ACTION | Player 0x0Fae37... performed RAISE
+2025-03-28 21:29:41,726 - ERROR - Error logging player action: 'TranscriptManager' object has no attribute 'file_path'
+2025-03-28 21:29:41,726 - ERROR - Error logging player action: 'TranscriptManager' object has no attribute 'file_path'
+2025-03-28 21:29:41,726 - INFO - Action completed: type=3, investment=25, total_investment=200, tx_hash=0x56e6c481e331c16641093d667dfe6f00fba1e3bd3e675f62e7a3ab98be90205c
+2025-03-28 21:29:41,726 - INFO - Successfully executed action: 3 with amount 25
+2025-03-28 21:29:42,058 - WARNING - Invalid log format: AttributeDict({'address': '0x8Cc20e4a7BE65295B5F4b201Fa374D513a4710Ba', 'topics': [HexBytes('0xfe33a4a08fa4e77d61713b688ac7067804814fa003ac86ec94eb8920d1a3e82e'), HexBytes('0x000000000000000000000000d2e443f6cf19d5d359e82bbeea76e1133028fda5')], 'data': HexBytes('0x000000000000000000000000000000000000000000000000000000000000001e00000000000000000000000000000000000000000000000000000000002ea1b8'), 'blockNumber': 3056056, 'transactionHash': HexBytes('0x56e6c481e331c16641093d667dfe6f00fba1e3bd3e675f62e7a3ab98be90205c'), 'transactionIndex': 0, 'blockHash': HexBytes('0x4e5c85d8f5a89a3c6c4a06f7d3e52cb06775f69221d34047af69c7194a5470c8'), 'logIndex': 1, 'removed': False})
+2025-03-28 21:29:43,112 - WARNING - Invalid log format: AttributeDict({'address': '0x8Cc20e4a7BE65295B5F4b201Fa374D513a4710Ba', 'topics': [HexBytes('0xfe33a4a08fa4e77d61713b688ac7067804814fa003ac86ec94eb8920d1a3e82e'), HexBytes('0x000000000000000000000000d2e443f6cf19d5d359e82bbeea76e1133028fda5')], 'data': HexBytes('0x000000000000000000000000000000000000000000000000000000000000001e00000000000000000000000000000000000000000000000000000000002ea1b8'), 'blockNumber': 3056056, 'transactionHash': HexBytes('0x56e6c481e331c16641093d667dfe6f00fba1e3bd3e675f62e7a3ab98be90205c'), 'transactionIndex': 0, 'blockHash': HexBytes('0x4e5c85d8f5a89a3c6c4a06f7d3e52cb06775f69221d34047af69c7194a5470c8'), 'logIndex': 1, 'removed': False})
+2025-03-28 21:29:43,445 - WARNING - Invalid log format: AttributeDict({'address': '0x8Cc20e4a7BE65295B5F4b201Fa374D513a4710Ba', 'topics': [HexBytes('0xfe33a4a08fa4e77d61713b688ac7067804814fa003ac86ec94eb8920d1a3e82e'), HexBytes('0x000000000000000000000000d2e443f6cf19d5d359e82bbeea76e1133028fda5')], 'data': HexBytes('0x000000000000000000000000000000000000000000000000000000000000001e00000000000000000000000000000000000000000000000000000000002ea1b8'), 'blockNumber': 3056056, 'transactionHash': HexBytes('0x56e6c481e331c16641093d667dfe6f00fba1e3bd3e675f62e7a3ab98be90205c'), 'transactionIndex': 0, 'blockHash': HexBytes('0x4e5c85d8f5a89a3c6c4a06f7d3e52cb06775f69221d34047af69c7194a5470c8'), 'logIndex': 1, 'removed': False})
+2025-03-28 21:29:43,585 - INFO - Checking blocks 3056021 to 3056060
+2025-03-28 21:29:44,354 - WARNING - INVALID TIMER DETECTED: Timer event for 0x9Fde62... but current turn is 0xd2e443... - SKIPPING
+2025-03-28 21:29:44,623 - INFO - Set timer for player 0xd2e443... - expires at 21:30:14 in 30s
+2025-03-28 21:29:44,623 - INFO - Started timer for player 0xd2e443F6CF19d5d359e82bbEea76e1133028fda5, expires at 2025-03-28 21:30:14.622905 (duration: 30s)
+2025-03-28 21:29:45,338 - ERROR - Error logging contract event: 'TranscriptManager' object has no attribute 'file_path'
+2025-03-28 21:29:45,338 - ERROR - Error logging contract event: 'TranscriptManager' object has no attribute 'file_path'
+2025-03-28 21:29:45,533 - INFO - Action type: 3056056 by player: 0xd2e443F6...
+2025-03-28 21:29:45,533 - INFO - Player 0xd2e443F6CF19d5d359e82bbEea76e1133028fda5 has acted (UNKNOWN), timer removed
+2025-03-28 21:29:45,952 - ERROR - Error logging contract event: 'TranscriptManager' object has no attribute 'file_path'
+2025-03-28 21:29:45,952 - ERROR - Error logging contract event: 'TranscriptManager' object has no attribute 'file_path'
+2025-03-28 21:29:46,220 - INFO - JSON_DATA: {"type": "GAME_STATE", "timestamp": 1743177586.219937, "round_type": "Turn", "round_number": 2, "current_turn": "0xd2e443F6CF19d5d359e82bbEea76e1133028fda5", "shortened_turn": "0xd2e443...28fda5", "pot_size": 500, "current_bet": 25, "community_cards": "J\u2660 7\u2663 Q\u2665 5\u2666", "human_time": "2025-03-28 21:29:46"}
+2025-03-28 21:29:46,220 - INFO - JSON_DATA: {"type": "GAME_STATE", "timestamp": 1743177586.219937, "round_type": "Turn", "round_number": 2, "current_turn": "0xd2e443F6CF19d5d359e82bbEea76e1133028fda5", "shortened_turn": "0xd2e443...28fda5", "pot_size": 500, "current_bet": 25, "community_cards": "J\u2660 7\u2663 Q\u2665 5\u2666", "human_time": "2025-03-28 21:29:46"}
+2025-03-28 21:29:46,220 - INFO - Game state: Round=Turn(2), Turn=0xd2e443...28fda5, Pot=500, Bet=25, Cards=J♠ 7♣ Q♥ 5♦
+2025-03-28 21:29:46,220 - INFO - Game state: Round=Turn(2), Turn=0xd2e443...28fda5, Pot=500, Bet=25, Cards=J♠ 7♣ Q♥ 5♦
+2025-03-28 21:29:46,220 - INFO - Action type: 3056056 by player: 0x9Fde625E...
+2025-03-28 21:29:46,220 - INFO - Player 0x9Fde625ED8A6eC0f3cA393A62be34231a5c167F4 has acted (UNKNOWN), timer removed
+2025-03-28 21:29:46,652 - ERROR - Error logging contract event: 'TranscriptManager' object has no attribute 'file_path'
+2025-03-28 21:29:46,652 - ERROR - Error logging contract event: 'TranscriptManager' object has no attribute 'file_path'
+2025-03-28 21:29:46,952 - INFO - JSON_DATA: {"type": "GAME_STATE", "timestamp": 1743177586.952621, "round_type": "Turn", "round_number": 2, "current_turn": "0xd2e443F6CF19d5d359e82bbEea76e1133028fda5", "shortened_turn": "0xd2e443...28fda5", "pot_size": 500, "current_bet": 25, "community_cards": "J\u2660 7\u2663 Q\u2665 5\u2666", "human_time": "2025-03-28 21:29:46"}
+2025-03-28 21:29:46,952 - INFO - JSON_DATA: {"type": "GAME_STATE", "timestamp": 1743177586.952621, "round_type": "Turn", "round_number": 2, "current_turn": "0xd2e443F6CF19d5d359e82bbEea76e1133028fda5", "shortened_turn": "0xd2e443...28fda5", "pot_size": 500, "current_bet": 25, "community_cards": "J\u2660 7\u2663 Q\u2665 5\u2666", "human_time": "2025-03-28 21:29:46"}
+2025-03-28 21:29:46,953 - INFO - Game state: Round=Turn(2), Turn=0xd2e443...28fda5, Pot=500, Bet=25, Cards=J♠ 7♣ Q♥ 5♦
+2025-03-28 21:29:46,953 - INFO - Game state: Round=Turn(2), Turn=0xd2e443...28fda5, Pot=500, Bet=25, Cards=J♠ 7♣ Q♥ 5♦
+2025-03-28 21:29:46,953 - INFO - Action type: 3056056 by player: 0x0Fae3743...
+2025-03-28 21:29:46,953 - INFO - Player 0x0Fae37437c1347c23dc279b424663579d2df67df has acted (UNKNOWN), timer removed
+2025-03-28 21:29:47,400 - ERROR - Error logging contract event: 'TranscriptManager' object has no attribute 'file_path'
+2025-03-28 21:29:47,400 - ERROR - Error logging contract event: 'TranscriptManager' object has no attribute 'file_path'
+2025-03-28 21:29:47,686 - INFO - JSON_DATA: {"type": "GAME_STATE", "timestamp": 1743177587.686896, "round_type": "Turn", "round_number": 2, "current_turn": "0xd2e443F6CF19d5d359e82bbEea76e1133028fda5", "shortened_turn": "0xd2e443...28fda5", "pot_size": 500, "current_bet": 25, "community_cards": "J\u2660 7\u2663 Q\u2665 5\u2666", "human_time": "2025-03-28 21:29:47"}
+2025-03-28 21:29:47,686 - INFO - JSON_DATA: {"type": "GAME_STATE", "timestamp": 1743177587.686896, "round_type": "Turn", "round_number": 2, "current_turn": "0xd2e443F6CF19d5d359e82bbEea76e1133028fda5", "shortened_turn": "0xd2e443...28fda5", "pot_size": 500, "current_bet": 25, "community_cards": "J\u2660 7\u2663 Q\u2665 5\u2666", "human_time": "2025-03-28 21:29:47"}
+2025-03-28 21:29:47,687 - INFO - Game state: Round=Turn(2), Turn=0xd2e443...28fda5, Pot=500, Bet=25, Cards=J♠ 7♣ Q♥ 5♦
+2025-03-28 21:29:47,687 - INFO - Game state: Round=Turn(2), Turn=0xd2e443...28fda5, Pot=500, Bet=25, Cards=J♠ 7♣ Q♥ 5♦
+2025-03-28 21:29:48,541 - INFO - Not creating duplicate timer - found recent timer for 0xd2e443...
+2025-03-28 21:29:48,680 - INFO - Checking for payout events from blocks 3056016 to 3056065
+2025-03-28 21:29:49,436 - INFO - Detected my turn via polling: 0xd2e443F6CF19d5d359e82bbEea76e1133028fda5
+2025-03-28 21:29:49,719 - INFO - Turn started at 21:29:49.719
+2025-03-28 21:29:50,284 - INFO - Calling OpenRouter API with model: openai/gpt-4-1106-preview
+2025-03-28 21:29:53,315 - INFO - Valid decision on attempt 1: Action=2
+2025-03-28 21:29:53,316 - INFO - Decided on action: 2 with amount 0, waiting 1.40s more to reach 5.0s total delay...
+2025-03-28 21:29:55,365 - INFO - GAME STATE: Round=TURN | Pot=500 | Player=0xd2e443...28fda5 | Time=180s | Blinds=25/50
+2025-03-28 21:29:55,365 - INFO - GAME STATE: Round=TURN | Pot=500 | Player=0xd2e443...28fda5 | Time=180s | Blinds=25/50
+2025-03-28 21:29:58,733 - INFO - Pruned 9 old events from memory. Remaining: 22
+2025-03-28 21:29:59,007 - INFO - Running ALL_IN status consistency check...
+2025-03-28 21:30:02,843 - INFO - No ALL_IN status inconsistencies found
+2025-03-28 21:30:02,979 - INFO - Checking blocks 3056061 to 3056079
+2025-03-28 21:30:04,560 - INFO - Not creating duplicate timer - found recent timer for 0xd2e443...
+2025-03-28 21:30:05,419 - INFO - Action reasoning: Top pair with potential straight, short stack, push for fold equity or double-up.
+2025-03-28 21:30:05,717 - INFO - Gas estimation successful: 483168 (adding 30% buffer: 628118)
+2025-03-28 21:30:06,415 - INFO - Pre-transaction validation - Current turn: 0xd2e443F6CF19d5d359e82bbEea76e1133028fda5
+2025-03-28 21:30:06,416 - INFO - My address: 0xd2e443F6CF19d5d359e82bbEea76e1133028fda5
+2025-03-28 21:30:06,416 - INFO - My player state: Status=1, Position=2
+2025-03-28 21:30:06,416 - INFO - Game state: Round=2, CurrentBet=25
+2025-03-28 21:30:06,556 - INFO - Sending transaction: Action=2, Data=0xc4c8ca27000000000000000000000000000000000000000000000000000000000000000200000000000000000000000000000000000000000000000000000000000000400000000000000000000000000000000000000000000000000000000000000051546f702070616972207769746820706f74656e7469616c2073747261696768742c2073686f727420737461636b2c207075736820666f7220666f6c6420657175697479206f7220646f75626c652d75702e000000000000000000000000000000
+2025-03-28 21:30:06,557 - INFO - Transaction details: {'from': '0xd2e443F6CF19d5d359e82bbEea76e1133028fda5', 'to': '0x1e779451E3e640FB87997e2C8e1725521Ec65407', 'gas': 628118, 'maxFeePerGas': 250000000, 'maxPriorityFeePerGas': 100000000, 'chainId': 443, 'data': '0xc4c8ca27000000000000000000000000000000000000000000000000000000000000000200000000000000000000000000000000000000000000000000000000000000400000000000000000000000000000000000000000000000000000000000000051546f702070616972207769746820706f74656e7469616c2073747261696768742c2073686f727420737461636b2c207075736820666f7220666f6c6420657175697479206f7220646f75626c652d75702e000000000000000000000000000000', 'value': 0, 'nonce': 204}
+2025-03-28 21:30:06,711 - INFO - Transaction sent: 0x3671592a9dd39bd8abe73019be9fed4432aee8f9243942325984398a47561787
+2025-03-28 21:30:06,712 - INFO - TRANSACTION: 0x367159...561787 | CALL | Pending | Player: 0xd2e443...
+2025-03-28 21:30:06,712 - INFO - TRANSACTION: 0x367159...561787 | CALL | Pending | Player: 0xd2e443...
+2025-03-28 21:30:09,008 - INFO - EVENT: ACTION | Player 0xd2e443... performed CALL
+2025-03-28 21:30:09,008 - INFO - EVENT: ACTION | Player 0xd2e443... performed CALL
+2025-03-28 21:30:09,289 - ERROR - Error logging player action: 'TranscriptManager' object has no attribute 'file_path'
+2025-03-28 21:30:09,289 - ERROR - Error logging player action: 'TranscriptManager' object has no attribute 'file_path'
+2025-03-28 21:30:09,289 - INFO - Action completed: type=2, investment=25, total_investment=300, tx_hash=0x3671592a9dd39bd8abe73019be9fed4432aee8f9243942325984398a47561787
+2025-03-28 21:30:09,289 - INFO - Successfully executed action: 2 with amount 0
+2025-03-28 21:30:10,722 - WARNING - Invalid log format: AttributeDict({'address': '0x8Cc20e4a7BE65295B5F4b201Fa374D513a4710Ba', 'topics': [HexBytes('0xfe33a4a08fa4e77d61713b688ac7067804814fa003ac86ec94eb8920d1a3e82e'), HexBytes('0x0000000000000000000000009fde625ed8a6ec0f3ca393a62be34231a5c167f4')], 'data': HexBytes('0x000000000000000000000000000000000000000000000000000000000000001e00000000000000000000000000000000000000000000000000000000002ea1d4'), 'blockNumber': 3056084, 'transactionHash': HexBytes('0x3671592a9dd39bd8abe73019be9fed4432aee8f9243942325984398a47561787'), 'transactionIndex': 0, 'blockHash': HexBytes('0x946d9980c7de6c637bb30707cab65a4c63402fd5556bfbbadb045e886344b029'), 'logIndex': 1, 'removed': False})
+2025-03-28 21:30:11,620 - INFO - Detected my turn via polling: 0x9Fde625ED8A6eC0f3cA393A62be34231a5c167F4
+2025-03-28 21:30:11,912 - INFO - Turn started at 21:30:11.912
+2025-03-28 21:30:12,548 - INFO - Calling OpenRouter API with model: anthropic/claude-3.5-sonnet
+2025-03-28 21:30:18,381 - INFO - Valid decision on attempt 1: Action=2
+2025-03-28 21:30:18,382 - INFO - Decision took 6.47s (> 5.0s target), executing immediately...
+2025-03-28 21:30:19,242 - INFO - Action reasoning: KQ suited with overcards, decent pot odds, significant investment already made. Calling gives flexibility to see river while controlling pot size.
+2025-03-28 21:30:19,529 - ERROR - Gas estimation failed: execution reverted: Pot amount mismatch
+2025-03-28 21:30:20,217 - INFO - Pre-transaction validation - Current turn: 0x9Fde625ED8A6eC0f3cA393A62be34231a5c167F4
+2025-03-28 21:30:20,217 - INFO - My address: 0x9Fde625ED8A6eC0f3cA393A62be34231a5c167F4
+2025-03-28 21:30:20,218 - INFO - My player state: Status=1, Position=0
+2025-03-28 21:30:20,218 - INFO - Game state: Round=2, CurrentBet=25
+2025-03-28 21:30:20,361 - INFO - Sending transaction: Action=2, Data=0xc4c8ca270000000000000000000000000000000000000000000000000000000000000002000000000000000000000000000000000000000000000000000000000000004000000000000000000000000000000000000000000000000000000000000000924b51207375697465642077697468206f76657263617264732c20646563656e7420706f74206f6464732c207369676e69666963616e7420696e766573746d656e7420616c7265616479206d6164652e2043616c6c696e6720676976657320666c65786962696c69747920746f20736565207269766572207768696c6520636f6e74726f6c6c696e6720706f742073697a652e0000000000000000000000000000
+2025-03-28 21:30:20,361 - INFO - Transaction details: {'from': '0x9Fde625ED8A6eC0f3cA393A62be34231a5c167F4', 'to': '0x1e779451E3e640FB87997e2C8e1725521Ec65407', 'gas': 350000, 'maxFeePerGas': 250000000, 'maxPriorityFeePerGas': 100000000, 'chainId': 443, 'data': '0xc4c8ca270000000000000000000000000000000000000000000000000000000000000002000000000000000000000000000000000000000000000000000000000000004000000000000000000000000000000000000000000000000000000000000000924b51207375697465642077697468206f76657263617264732c20646563656e7420706f74206f6464732c207369676e69666963616e7420696e766573746d656e7420616c7265616479206d6164652e2043616c6c696e6720676976657320666c65786962696c69747920746f20736565207269766572207768696c6520636f6e74726f6c6c696e6720706f742073697a652e0000000000000000000000000000', 'value': 0, 'nonce': 289}
+2025-03-28 21:30:20,518 - INFO - Transaction sent: 0x737fd26773fe0919f92953e12802b8b2e6fdf70763456f2276b762134a356acc
+2025-03-28 21:30:20,518 - INFO - TRANSACTION: 0x737fd2...356acc | CALL | Pending | Player: 0x9Fde62...
+2025-03-28 21:30:20,518 - INFO - TRANSACTION: 0x737fd2...356acc | CALL | Pending | Player: 0x9Fde62...
+2025-03-28 21:30:22,820 - ERROR - Transaction failed: tx_hash=0x737fd26773fe0919f92953e12802b8b2e6fdf70763456f2276b762134a356acc
+2025-03-28 21:30:23,096 - INFO - Player whitelisted status: True
+2025-03-28 21:30:23,096 - INFO - Valid actions: FOLD=True, CHECK=False, CALL=True, RAISE=True
+2025-03-28 21:30:23,554 - ERROR - Failed to get revert reason: execution reverted
+2025-03-28 21:30:23,554 - ERROR - Transaction receipt details: AttributeDict({'blockHash': HexBytes('0x552b1e1030a664c6d11b957517b88f7bef46785a4d0c8b55b2c511376b978749'), 'blockNumber': 3056098, 'contractAddress': None, 'cumulativeGasUsed': 345649, 'effectiveGasPrice': 200000000, 'from': '0x9Fde625ED8A6eC0f3cA393A62be34231a5c167F4', 'gasUsed': 345860, 'logs': [], 'logsBloom': HexBytes('0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000'), 'status': 0, 'to': '0x1e779451E3e640FB87997e2C8e1725521Ec65407', 'transactionHash': HexBytes('0x737fd26773fe0919f92953e12802b8b2e6fdf70763456f2276b762134a356acc'), 'transactionIndex': 0, 'type': 2})
+2025-03-28 21:30:23,841 - INFO - Game state after failed tx: Turn=0x9Fde625ED8A6eC0f3cA393A62be34231a5c167F4, Round=2, Bet=25
+2025-03-28 21:30:23,842 - INFO - Retrying in 2s (attempt 1/3)
+2025-03-28 21:30:24,394 - INFO - GAME STATE: Round=TURN | Pot=525 | Player=0x9Fde62...c167F4 | Time=209s | Blinds=25/50
+2025-03-28 21:30:24,394 - INFO - GAME STATE: Round=TURN | Pot=525 | Player=0x9Fde62...c167F4 | Time=209s | Blinds=25/50
+2025-03-28 21:30:26,032 - INFO - Checking for payout events from blocks 3056066 to 3056102
+2025-03-28 21:30:27,397 - INFO - Checking blocks 3056080 to 3056104
+2025-03-28 21:30:28,278 - INFO - Set timer for player 0x9Fde62... - expires at 21:30:58 in 30s
+2025-03-28 21:30:28,279 - INFO - Started timer for player 0x9Fde625ED8A6eC0f3cA393A62be34231a5c167F4, expires at 2025-03-28 21:30:58.278620 (duration: 30s)
+2025-03-28 21:30:28,974 - ERROR - Error logging contract event: 'TranscriptManager' object has no attribute 'file_path'
+2025-03-28 21:30:28,974 - ERROR - Error logging contract event: 'TranscriptManager' object has no attribute 'file_path'
+2025-03-28 21:30:29,178 - INFO - Action type: 3056084 by player: 0xd2e443F6...
+2025-03-28 21:30:29,179 - INFO - Player 0xd2e443F6CF19d5d359e82bbEea76e1133028fda5 has acted (UNKNOWN), timer removed
+2025-03-28 21:30:29,598 - ERROR - Error logging contract event: 'TranscriptManager' object has no attribute 'file_path'
+2025-03-28 21:30:29,598 - ERROR - Error logging contract event: 'TranscriptManager' object has no attribute 'file_path'
+2025-03-28 21:30:29,887 - INFO - JSON_DATA: {"type": "GAME_STATE", "timestamp": 1743177629.887582, "round_type": "Turn", "round_number": 2, "current_turn": "0x9Fde625ED8A6eC0f3cA393A62be34231a5c167F4", "shortened_turn": "0x9Fde62...c167F4", "pot_size": 525, "current_bet": 25, "community_cards": "J\u2660 7\u2663 Q\u2665 5\u2666", "human_time": "2025-03-28 21:30:29"}
+2025-03-28 21:30:29,887 - INFO - JSON_DATA: {"type": "GAME_STATE", "timestamp": 1743177629.887582, "round_type": "Turn", "round_number": 2, "current_turn": "0x9Fde625ED8A6eC0f3cA393A62be34231a5c167F4", "shortened_turn": "0x9Fde62...c167F4", "pot_size": 525, "current_bet": 25, "community_cards": "J\u2660 7\u2663 Q\u2665 5\u2666", "human_time": "2025-03-28 21:30:29"}
+2025-03-28 21:30:29,888 - INFO - Game state: Round=Turn(2), Turn=0x9Fde62...c167F4, Pot=525, Bet=25, Cards=J♠ 7♣ Q♥ 5♦
+2025-03-28 21:30:29,888 - INFO - Game state: Round=Turn(2), Turn=0x9Fde62...c167F4, Pot=525, Bet=25, Cards=J♠ 7♣ Q♥ 5♦
+2025-03-28 21:30:29,888 - WARNING - Found 1 other timers after player action - clearing all
+2025-03-28 21:30:29,888 - INFO - EVENT: ALL TIMERS CLEARED AFTER ACTION
+2025-03-28 21:30:29,888 - INFO - EVENT: ALL TIMERS CLEARED AFTER ACTION
+2025-03-28 21:30:29,888 - INFO - DETAILS: {"action_by": "0xd2e443F6CF19d5d359e82bbEea76e1133028fda5", "action_type": "UNKNOWN", "timer_count_before": 1, "is_all_in": false}
+2025-03-28 21:30:29,888 - INFO - DETAILS: {"action_by": "0xd2e443F6CF19d5d359e82bbEea76e1133028fda5", "action_type": "UNKNOWN", "timer_count_before": 1, "is_all_in": false}
+2025-03-28 21:30:30,724 - WARNING - Added timer for 0x9Fde62..., expires in 40s
+2025-03-28 21:30:30,724 - INFO - EVENT: BETTING OPEN ISSUE FIXED
+2025-03-28 21:30:30,724 - INFO - EVENT: BETTING OPEN ISSUE FIXED
+2025-03-28 21:30:30,724 - INFO - DETAILS: {"player": "0x9Fde625ED8A6eC0f3cA393A62be34231a5c167F4", "timeout_added": 40, "round": 2, "betting_open_fixed": true, "manual_event_id": "event-timer-manual-1743177630-0x9fde625ed8a6ec0f3ca393a62be34231a5c167f4"}
+2025-03-28 21:30:30,724 - INFO - DETAILS: {"player": "0x9Fde625ED8A6eC0f3cA393A62be34231a5c167F4", "timeout_added": 40, "round": 2, "betting_open_fixed": true, "manual_event_id": "event-timer-manual-1743177630-0x9fde625ed8a6ec0f3ca393a62be34231a5c167f4"}
+2025-03-28 21:30:33,959 - INFO - Pre-transaction validation - Current turn: 0x9Fde625ED8A6eC0f3cA393A62be34231a5c167F4
+2025-03-28 21:30:33,960 - INFO - My address: 0x9Fde625ED8A6eC0f3cA393A62be34231a5c167F4
+2025-03-28 21:30:33,960 - INFO - My player state: Status=1, Position=0
+2025-03-28 21:30:33,960 - INFO - Game state: Round=2, CurrentBet=25
+2025-03-28 21:30:34,103 - INFO - Sending transaction: Action=2, Data=0xc4c8ca270000000000000000000000000000000000000000000000000000000000000002000000000000000000000000000000000000000000000000000000000000004000000000000000000000000000000000000000000000000000000000000000924b51207375697465642077697468206f76657263617264732c20646563656e7420706f74206f6464732c207369676e69666963616e7420696e766573746d656e7420616c7265616479206d6164652e2043616c6c696e6720676976657320666c65786962696c69747920746f20736565207269766572207768696c6520636f6e74726f6c6c696e6720706f742073697a652e0000000000000000000000000000
+2025-03-28 21:30:34,104 - INFO - Transaction details: {'from': '0x9Fde625ED8A6eC0f3cA393A62be34231a5c167F4', 'to': '0x1e779451E3e640FB87997e2C8e1725521Ec65407', 'gas': 350000, 'maxFeePerGas': 250000000, 'maxPriorityFeePerGas': 100000000, 'chainId': 443, 'data': '0xc4c8ca270000000000000000000000000000000000000000000000000000000000000002000000000000000000000000000000000000000000000000000000000000004000000000000000000000000000000000000000000000000000000000000000924b51207375697465642077697468206f76657263617264732c20646563656e7420706f74206f6464732c207369676e69666963616e7420696e766573746d656e7420616c7265616479206d6164652e2043616c6c696e6720676976657320666c65786962696c69747920746f20736565207269766572207768696c6520636f6e74726f6c6c696e6720706f742073697a652e0000000000000000000000000000', 'value': 0, 'nonce': 290}
+2025-03-28 21:30:34,260 - INFO - Transaction sent: 0x257fe178de087cd0a23f7cb0baa7bb5a9002b756af89ac2def46f27231608f30
+2025-03-28 21:30:34,261 - INFO - TRANSACTION: 0x257fe1...608f30 | CALL | Pending | Player: 0x9Fde62...
+2025-03-28 21:30:34,261 - INFO - TRANSACTION: 0x257fe1...608f30 | CALL | Pending | Player: 0x9Fde62...
+2025-03-28 21:30:36,580 - ERROR - Transaction failed: tx_hash=0x257fe178de087cd0a23f7cb0baa7bb5a9002b756af89ac2def46f27231608f30
+2025-03-28 21:30:36,858 - INFO - Player whitelisted status: True
+2025-03-28 21:30:36,859 - INFO - Valid actions: FOLD=True, CHECK=False, CALL=True, RAISE=True
+2025-03-28 21:30:37,312 - ERROR - Failed to get revert reason: execution reverted
+2025-03-28 21:30:37,313 - ERROR - Transaction receipt details: AttributeDict({'blockHash': HexBytes('0xefaa1303cc27972537e4681998a110a513757f1538120039e5c9d97fa17bec80'), 'blockNumber': 3056112, 'contractAddress': None, 'cumulativeGasUsed': 345628, 'effectiveGasPrice': 200000000, 'from': '0x9Fde625ED8A6eC0f3cA393A62be34231a5c167F4', 'gasUsed': 345861, 'logs': [], 'logsBloom': HexBytes('0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000'), 'status': 0, 'to': '0x1e779451E3e640FB87997e2C8e1725521Ec65407', 'transactionHash': HexBytes('0x257fe178de087cd0a23f7cb0baa7bb5a9002b756af89ac2def46f27231608f30'), 'transactionIndex': 0, 'type': 2})
+2025-03-28 21:30:37,595 - INFO - Game state after failed tx: Turn=0x9Fde625ED8A6eC0f3cA393A62be34231a5c167F4, Round=2, Bet=25
+2025-03-28 21:30:37,596 - INFO - Retrying in 4s (attempt 2/3)
+2025-03-28 21:30:38,733 - INFO - GAME STATE: Round=TURN | Pot=525 | Player=0x9Fde62...c167F4 | Time=223s | Blinds=25/50
+2025-03-28 21:30:38,733 - INFO - GAME STATE: Round=TURN | Pot=525 | Player=0x9Fde62...c167F4 | Time=223s | Blinds=25/50
+2025-03-28 21:30:41,121 - INFO - Checking blocks 3056105 to 3056117
+2025-03-28 21:30:44,284 - INFO - Checking for payout events from blocks 3056103 to 3056121
+2025-03-28 21:30:46,412 - INFO - GAME STATE: Round=TURN | Pot=525 | Player=0x9Fde62...c167F4 | Time=231s | Blinds=25/50
+2025-03-28 21:30:46,412 - INFO - GAME STATE: Round=TURN | Pot=525 | Player=0x9Fde62...c167F4 | Time=231s | Blinds=25/50
+2025-03-28 21:30:47,364 - INFO - Pre-transaction validation - Current turn: 0x9Fde625ED8A6eC0f3cA393A62be34231a5c167F4
+2025-03-28 21:30:47,365 - INFO - My address: 0x9Fde625ED8A6eC0f3cA393A62be34231a5c167F4
+2025-03-28 21:30:47,365 - INFO - My player state: Status=1, Position=0
+2025-03-28 21:30:47,365 - INFO - Game state: Round=2, CurrentBet=25
+2025-03-28 21:30:47,526 - INFO - Sending transaction: Action=2, Data=0xc4c8ca270000000000000000000000000000000000000000000000000000000000000002000000000000000000000000000000000000000000000000000000000000004000000000000000000000000000000000000000000000000000000000000000924b51207375697465642077697468206f76657263617264732c20646563656e7420706f74206f6464732c207369676e69666963616e7420696e766573746d656e7420616c7265616479206d6164652e2043616c6c696e6720676976657320666c65786962696c69747920746f20736565207269766572207768696c6520636f6e74726f6c6c696e6720706f742073697a652e0000000000000000000000000000
+2025-03-28 21:30:47,527 - INFO - Transaction details: {'from': '0x9Fde625ED8A6eC0f3cA393A62be34231a5c167F4', 'to': '0x1e779451E3e640FB87997e2C8e1725521Ec65407', 'gas': 350000, 'maxFeePerGas': 250000000, 'maxPriorityFeePerGas': 100000000, 'chainId': 443, 'data': '0xc4c8ca270000000000000000000000000000000000000000000000000000000000000002000000000000000000000000000000000000000000000000000000000000004000000000000000000000000000000000000000000000000000000000000000924b51207375697465642077697468206f76657263617264732c20646563656e7420706f74206f6464732c207369676e69666963616e7420696e766573746d656e7420616c7265616479206d6164652e2043616c6c696e6720676976657320666c65786962696c69747920746f20736565207269766572207768696c6520636f6e74726f6c6c696e6720706f742073697a652e0000000000000000000000000000', 'value': 0, 'nonce': 291}
+2025-03-28 21:30:47,701 - INFO - Transaction sent: 0x3f897bf658a63d58039f3466983745a609f93b8147a91fb69fd0809d72421021
+2025-03-28 21:30:47,701 - INFO - TRANSACTION: 0x3f897b...421021 | CALL | Pending | Player: 0x9Fde62...
+2025-03-28 21:30:47,701 - INFO - TRANSACTION: 0x3f897b...421021 | CALL | Pending | Player: 0x9Fde62...
+2025-03-28 21:30:49,251 - INFO - Shutdown signal received. Cleaning up...
+2025-03-28 21:30:50,040 - ERROR - Transaction failed: tx_hash=0x3f897bf658a63d58039f3466983745a609f93b8147a91fb69fd0809d72421021
+2025-03-28 21:30:50,341 - INFO - Player whitelisted status: True
+2025-03-28 21:30:50,341 - INFO - Valid actions: FOLD=True, CHECK=False, CALL=True, RAISE=True
+2025-03-28 21:30:50,814 - ERROR - Failed to get revert reason: execution reverted
+2025-03-28 21:30:50,815 - ERROR - Transaction receipt details: AttributeDict({'blockHash': HexBytes('0x09f850d5ad5e8ac30bbf4dda8b7ea9fce493c6a914db51c1230483fd7bf02b6f'), 'blockNumber': 3056125, 'contractAddress': None, 'cumulativeGasUsed': 345633, 'effectiveGasPrice': 200000000, 'from': '0x9Fde625ED8A6eC0f3cA393A62be34231a5c167F4', 'gasUsed': 345861, 'logs': [], 'logsBloom': HexBytes('0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000'), 'status': 0, 'to': '0x1e779451E3e640FB87997e2C8e1725521Ec65407', 'transactionHash': HexBytes('0x3f897bf658a63d58039f3466983745a609f93b8147a91fb69fd0809d72421021'), 'transactionIndex': 0, 'type': 2})
+2025-03-28 21:30:51,139 - INFO - Game state after failed tx: Turn=0x9Fde625ED8A6eC0f3cA393A62be34231a5c167F4, Round=2, Bet=25
+2025-03-28 21:30:51,140 - WARNING - CALL also failed - trying FOLD as last resort
+2025-03-28 21:30:51,141 - ERROR - All attempts failed, giving up on action
+2025-03-28 21:30:51,141 - ERROR - Failed to execute action: 2 with amount 0
+2025-03-28 21:30:52,708 - INFO - Shutdown signal received. Cleaning up...
+2025-03-28 21:30:53,226 - INFO - Checking blocks 3056118 to 3056129
+2025-03-28 21:30:55,143 - INFO - Current active timers (1): ['0x9Fde625ED8A6eC0f3cA393A62be34231a5c167F4']
+2025-03-28 21:30:55,144 - INFO -   Timer 1: 0x9Fde625ED8A6eC0f3cA393A62be34231a5c167F4 expires in 15.6s
+2025-03-28 21:30:55,144 - INFO - ===== TIMER DEBUG [Periodic check from monitor_timers] =====
+2025-03-28 21:30:55,144 - INFO - Active timers: 1
+2025-03-28 21:30:55,144 - INFO - Processed events: 25 total
+2025-03-28 21:30:55,144 - INFO -   - Timer events: 21
+2025-03-28 21:30:55,144 - INFO -   - Action events: 4
+2025-03-28 21:30:55,144 - INFO -   - Manual timers: 7
+2025-03-28 21:30:55,144 - INFO -   Timer 1: Player 0x9Fde62... expires in 15.6s
+2025-03-28 21:30:55,144 - INFO - Recent events (last 5 min, showing most recent 5):
+2025-03-28 21:30:55,144 - INFO -   event-timer-manual-1743177630-0x9fde625ed8a6ec0f3ca393a62be34231a5c167f4 (24.4s ago)
+2025-03-28 21:30:55,144 - INFO -   event-action-3056084-0-0 (25.3s ago)
+2025-03-28 21:30:55,144 - INFO -   event-timer-3056084-0-1 (26.9s ago)
+2025-03-28 21:30:55,144 - INFO -   event-action-3056056-0-0 (67.5s ago)
+2025-03-28 21:30:55,144 - INFO -   event-action-3056045-0-0 (68.2s ago)
+2025-03-28 21:30:55,144 - INFO - =============================
+2025-03-28 21:30:55,144 - INFO - EVENT: TIMER_DEBUG_STATE
+2025-03-28 21:30:55,144 - INFO - EVENT: TIMER_DEBUG_STATE
+2025-03-28 21:30:55,144 - INFO - DETAILS: {"reason": "Periodic check from monitor_timers", "active_timer_count": 1, "processed_events_total": 25, "timer_events": 21, "action_events": 4, "manual_timers": 7, "recent_event_count": 22}
+2025-03-28 21:30:55,144 - INFO - DETAILS: {"reason": "Periodic check from monitor_timers", "active_timer_count": 1, "processed_events_total": 25, "timer_events": 21, "action_events": 4, "manual_timers": 7, "recent_event_count": 22}
+2025-03-28 21:30:55,424 - WARNING - UI: Terminal UI stopping
+2025-03-28 21:30:55,424 - WARNING - UI: Terminal UI stopping
+2025-03-28 21:30:55,929 - INFO - Main task was cancelled. Performing cleanup...
+2025-03-28 21:30:55,930 - INFO - Exiting application
+2025-03-28 21:30:58,374 - INFO - Detected my turn via polling: 0x9Fde625ED8A6eC0f3cA393A62be34231a5c167F4
+2025-03-28 21:30:59,635 - INFO - Checking for payout events from blocks 3056122 to 3056136
+2025-03-28 21:30:59,885 - ERROR - Task was destroyed but it is pending!
+task: <Task pending name='Task-3' coro=<TimerAgent.start() running at /Users/0xjba/PokerAgents/poker_agents/timer_agent.py:2755> wait_for=<_GatheringFuture pending cb=[Task.task_wakeup()]>>
+2025-03-28 21:30:59,886 - ERROR - Task was destroyed but it is pending!
+task: <Task pending name='Task-5' coro=<PokerAgentCLI._run_agent() running at /Users/0xjba/PokerAgents/poker_agents/cli.py:771> wait_for=<_GatheringFuture pending cb=[Task.task_wakeup()]> cb=[PokerAgentCLI._start_configured_agents.<locals>.<lambda>() at /Users/0xjba/PokerAgents/poker_agents/cli.py:344]>
+2025-03-28 21:30:59,886 - ERROR - Task was destroyed but it is pending!
+task: <Task pending name='Task-4' coro=<PokerAgentCLI._run_agent() running at /Users/0xjba/PokerAgents/poker_agents/cli.py:771> wait_for=<_GatheringFuture pending cb=[Task.task_wakeup()]> cb=[PokerAgentCLI._start_configured_agents.<locals>.<lambda>() at /Users/0xjba/PokerAgents/poker_agents/cli.py:344]>
+2025-03-28 21:30:59,886 - ERROR - Task was destroyed but it is pending!
+task: <Task pending name='Task-7' coro=<PokerAgentCLI._run_agent() running at /Users/0xjba/PokerAgents/poker_agents/cli.py:771> wait_for=<_GatheringFuture pending cb=[Task.task_wakeup()]> cb=[PokerAgentCLI._start_configured_agents.<locals>.<lambda>() at /Users/0xjba/PokerAgents/poker_agents/cli.py:344]>
+2025-03-28 21:30:59,886 - ERROR - Task was destroyed but it is pending!
+task: <Task pending name='Task-8' coro=<PokerAgentCLI._run_agent() running at /Users/0xjba/PokerAgents/poker_agents/cli.py:771> wait_for=<_GatheringFuture pending cb=[Task.task_wakeup()]> cb=[PokerAgentCLI._start_configured_agents.<locals>.<lambda>() at /Users/0xjba/PokerAgents/poker_agents/cli.py:344]>
+2025-03-28 21:30:59,886 - ERROR - Task was destroyed but it is pending!
+task: <Task pending name='Task-6' coro=<PokerAgentCLI._run_agent() running at /Users/0xjba/PokerAgents/poker_agents/cli.py:771> wait_for=<_GatheringFuture pending cb=[Task.task_wakeup()]> cb=[PokerAgentCLI._start_configured_agents.<locals>.<lambda>() at /Users/0xjba/PokerAgents/poker_agents/cli.py:344]>
