@@ -1,0 +1,82 @@
+2025-04-01 17:07:44,090 - INFO - Simplified logging system initialized
+2025-04-01 17:07:44,090 - INFO - Simplified logging system initialized
+2025-04-01 17:07:44,110 - INFO - Application initialized
+2025-04-01 17:07:44,110 - WARNING - Test warning message
+2025-04-01 17:07:44,110 - ERROR - Test error message
+2025-04-01 17:07:44,619 - INFO - UI-SUCCESS: Terminal UI started
+2025-04-01 17:07:44,619 - INFO - UI-SUCCESS: Terminal UI started
+2025-04-01 17:07:44,619 - INFO - UI: Press 'q' to quit
+2025-04-01 17:07:44,619 - INFO - UI: Press 'q' to quit
+2025-04-01 17:07:44,619 - INFO - UI: System ready
+2025-04-01 17:07:44,619 - INFO - UI: System ready
+2025-04-01 17:07:44,619 - INFO - UI: Starting in non-interactive mode using config.json...
+2025-04-01 17:07:44,619 - INFO - UI: Starting in non-interactive mode using config.json...
+2025-04-01 17:07:44,619 - INFO - UI-SUCCESS: Logging system initialized
+2025-04-01 17:07:44,619 - INFO - UI-SUCCESS: Logging system initialized
+2025-04-01 17:07:44,619 - INFO - UI: UI Logging enabled
+2025-04-01 17:07:44,619 - INFO - UI: UI Logging enabled
+2025-04-01 17:07:44,620 - WARNING - UI: Warning test message
+2025-04-01 17:07:44,620 - WARNING - UI: Warning test message
+2025-04-01 17:07:44,620 - ERROR - UI: Error test message
+2025-04-01 17:07:44,620 - ERROR - UI: Error test message
+2025-04-01 17:07:44,620 - INFO - Standard logging test message
+2025-04-01 17:07:44,620 - WARNING - Standard logging warning message
+2025-04-01 17:07:44,620 - ERROR - Standard logging error message
+2025-04-01 17:07:44,667 - INFO - Betting contract address provided: 0x64175E0dD9428d465bF7D46df074a278A068C277
+2025-04-01 17:07:45,594 - INFO - Timer agent 0x1dA9aCB41763f97F744Da547F2d103042e8Ab239 is authorized
+2025-04-01 17:07:45,595 - INFO - Timer agent initialized with address: 0x1dA9aCB41763f97F744Da547F2d103042e8Ab239
+2025-04-01 17:07:45,595 - INFO - UI: Found agents in config: dict_keys(['Agent1', 'Agent2', 'Agent3', 'Agent4', 'Agent5'])
+2025-04-01 17:07:45,595 - INFO - UI: Found agents in config: dict_keys(['Agent1', 'Agent2', 'Agent3', 'Agent4', 'Agent5'])
+2025-04-01 17:07:45,627 - INFO - Agent initialized with address: 0x9Fde625ED8A6eC0f3cA393A62be34231a5c167F4
+2025-04-01 17:07:45,645 - INFO - Agent initialized with address: 0x0Fae37437c1347c23dc279b424663579d2df67df
+2025-04-01 17:07:45,662 - INFO - Agent initialized with address: 0xd2e443F6CF19d5d359e82bbEea76e1133028fda5
+2025-04-01 17:07:45,677 - INFO - Agent initialized with address: 0x7B7057B07218fa9f357E39cb2fC2E723C2bfcf9F
+2025-04-01 17:07:45,690 - INFO - Agent initialized with address: 0x52731AEDA26AB8D159226C51180a7542a4287500
+2025-04-01 17:07:45,691 - INFO - UI-SUCCESS: Startup Complete!
+2025-04-01 17:07:45,691 - INFO - UI-SUCCESS: Startup Complete!
+2025-04-01 17:07:45,691 - INFO - UI: Running: Timer Agent
+2025-04-01 17:07:45,691 - INFO - UI: Running: Timer Agent
+2025-04-01 17:07:45,691 - INFO - UI: Running: Agent: Agent1
+2025-04-01 17:07:45,691 - INFO - UI: Running: Agent: Agent1
+2025-04-01 17:07:45,691 - INFO - UI: Running: Agent: Agent2
+2025-04-01 17:07:45,691 - INFO - UI: Running: Agent: Agent2
+2025-04-01 17:07:45,691 - INFO - UI: Running: Agent: Agent3
+2025-04-01 17:07:45,691 - INFO - UI: Running: Agent: Agent3
+2025-04-01 17:07:45,691 - INFO - UI: Running: Agent: Agent4
+2025-04-01 17:07:45,691 - INFO - UI: Running: Agent: Agent4
+2025-04-01 17:07:45,691 - INFO - UI: Running: Agent: Agent5
+2025-04-01 17:07:45,691 - INFO - UI: Running: Agent: Agent5
+2025-04-01 17:07:45,691 - INFO - EVENT: STARTUP | Poker agents system started successfully
+2025-04-01 17:07:45,691 - INFO - EVENT: STARTUP | Poker agents system started successfully
+2025-04-01 17:07:46,260 - INFO - GAME STATE: Round=FLOP | Pot=50 | Player=0x000000...000000 | Time=320333s | Blinds=25/50
+2025-04-01 17:07:46,260 - INFO - GAME STATE: Round=FLOP | Pot=50 | Player=0x000000...000000 | Time=320333s | Blinds=25/50
+2025-04-01 17:07:46,261 - INFO - Starting timer agent...
+2025-04-01 17:07:46,261 - INFO - Starting poker agent with address 0x9Fde625ED8A6eC0f3cA393A62be34231a5c167F4
+2025-04-01 17:07:46,261 - INFO - Monitoring GameLogic contract at 0xEaDbD9ef09C61864bd10D1B063908f5775b02912
+2025-04-01 17:07:46,262 - INFO - Starting poker agent with address 0x0Fae37437c1347c23dc279b424663579d2df67df
+2025-04-01 17:07:46,262 - INFO - Monitoring GameLogic contract at 0xEaDbD9ef09C61864bd10D1B063908f5775b02912
+2025-04-01 17:07:46,262 - INFO - Starting poker agent with address 0xd2e443F6CF19d5d359e82bbEea76e1133028fda5
+2025-04-01 17:07:46,262 - INFO - Monitoring GameLogic contract at 0xEaDbD9ef09C61864bd10D1B063908f5775b02912
+2025-04-01 17:07:46,262 - INFO - Starting poker agent with address 0x7B7057B07218fa9f357E39cb2fC2E723C2bfcf9F
+2025-04-01 17:07:46,262 - INFO - Monitoring GameLogic contract at 0xEaDbD9ef09C61864bd10D1B063908f5775b02912
+2025-04-01 17:07:46,262 - INFO - Starting poker agent with address 0x52731AEDA26AB8D159226C51180a7542a4287500
+2025-04-01 17:07:46,262 - INFO - Monitoring GameLogic contract at 0xEaDbD9ef09C61864bd10D1B063908f5775b02912
+2025-04-01 17:07:46,344 - INFO - Shutdown signal received. Cleaning up...
+2025-04-01 17:07:46,540 - INFO - Checking blocks 3384763 to 3385762
+2025-04-01 17:07:47,937 - INFO - BLIND MONITOR: Started monitoring blind levels
+2025-04-01 17:07:47,938 - INFO - UI: BLIND MONITOR: Initialized blind tracking
+2025-04-01 17:07:47,938 - INFO - UI: BLIND MONITOR: Initialized blind tracking
+2025-04-01 17:07:49,213 - INFO - Player eliminated - stopping agent
+2025-04-01 17:07:49,792 - INFO - Player eliminated - stopping agent
+2025-04-01 17:07:50,368 - INFO - Player eliminated - stopping agent
+2025-04-01 17:07:52,247 - WARNING - UI: Terminal UI stopping
+2025-04-01 17:07:52,247 - WARNING - UI: Terminal UI stopping
+2025-04-01 17:07:52,753 - INFO - Main task was cancelled. Performing cleanup...
+2025-04-01 17:07:52,753 - INFO - Exiting application
+2025-04-01 17:07:53,179 - INFO - Checking blocks 3385763 to 3385768
+2025-04-01 17:07:55,479 - ERROR - Task was destroyed but it is pending!
+task: <Task pending name='Task-3' coro=<TimerAgent.start() running at /Users/0xjba/PokerAgents/poker_agents/timer_agent.py:2755> wait_for=<_GatheringFuture pending cb=[Task.task_wakeup()]>>
+2025-04-01 17:07:55,479 - ERROR - Task was destroyed but it is pending!
+task: <Task pending name='Task-8' coro=<PokerAgentCLI._run_agent() done, defined at /Users/0xjba/PokerAgents/poker_agents/cli.py:768> wait_for=<_GatheringFuture pending cb=[Task.task_wakeup()]> cb=[PokerAgentCLI._start_configured_agents.<locals>.<lambda>() at /Users/0xjba/PokerAgents/poker_agents/cli.py:344]>
+2025-04-01 17:07:55,480 - ERROR - Task was destroyed but it is pending!
+task: <Task pending name='Task-7' coro=<PokerAgentCLI._run_agent() running at /Users/0xjba/PokerAgents/poker_agents/cli.py:771> wait_for=<_GatheringFuture pending cb=[Task.task_wakeup()]> cb=[PokerAgentCLI._start_configured_agents.<locals>.<lambda>() at /Users/0xjba/PokerAgents/poker_agents/cli.py:344]>
