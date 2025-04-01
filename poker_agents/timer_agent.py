@@ -1015,19 +1015,37 @@ class TimerAgent:
                         player_positions = []
                         active_players_addrs = []
                         try:
-                            active_players_addrs = self.state_storage.functions.getActivePlayers().call()
-                            for addr in active_players_addrs:
+                            # Find active players by checking each position
+                            MAX_PLAYERS = 5  # Maximum number of players from PokerConstants library
+                            
+                            for pos in range(MAX_PLAYERS):
                                 try:
-                                    player_data = self.state_storage.functions.getPlayer(addr).call()
+                                    # Get player address at this position
+                                    player_addr = self.state_storage.functions.getPlayerAtPosition(pos).call()
+                                    
+                                    # Skip empty positions
+                                    if player_addr == "0x0000000000000000000000000000000000000000":
+                                        continue
+                                        
+                                    # Get player state to check status
+                                    player_data = self.state_storage.functions.getPlayer(player_addr).call()
+                                    player_status = player_data[1]  # Status is the second field (index 1)
+                                    
+                                    # If player is active, add to list (active=1)
+                                    if player_status == 1:  # PlayerStatus.Active
+                                        active_players_addrs.append(player_addr)
+                                    
+                                    # Add to player positions for all non-empty positions
                                     player_positions.append({
-                                        'address': addr,
+                                        'address': player_addr,
                                         'position': player_data[3],
                                         'status': player_data[1],
                                         'stack': player_data[0]
                                     })
-                                except Exception:
-                                    pass
-                        except Exception:
+                                except Exception as e:
+                                    logger.debug(f"Error checking player at position {pos}: {e}")
+                        except Exception as e:
+                            logger.error(f"Error getting active players: {e}")
                             pass
                         
                         # Check if player is still active/valid
