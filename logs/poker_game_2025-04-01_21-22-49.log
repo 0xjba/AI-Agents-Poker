@@ -1,0 +1,113 @@
+2025-04-01 21:22:49,298 - INFO - Simplified logging system initialized
+2025-04-01 21:22:49,298 - INFO - Simplified logging system initialized
+2025-04-01 21:22:49,302 - INFO - Application initialized
+2025-04-01 21:22:49,302 - WARNING - Test warning message
+2025-04-01 21:22:49,302 - ERROR - Test error message
+2025-04-01 21:22:49,808 - INFO - UI-SUCCESS: Terminal UI started
+2025-04-01 21:22:49,808 - INFO - UI-SUCCESS: Terminal UI started
+2025-04-01 21:22:49,808 - INFO - UI: Press 'q' to quit
+2025-04-01 21:22:49,808 - INFO - UI: Press 'q' to quit
+2025-04-01 21:22:49,808 - INFO - UI: System ready
+2025-04-01 21:22:49,808 - INFO - UI: System ready
+2025-04-01 21:22:49,808 - INFO - UI: Starting in non-interactive mode using config.json...
+2025-04-01 21:22:49,808 - INFO - UI: Starting in non-interactive mode using config.json...
+2025-04-01 21:22:49,809 - INFO - UI-SUCCESS: Logging system initialized
+2025-04-01 21:22:49,809 - INFO - UI-SUCCESS: Logging system initialized
+2025-04-01 21:22:49,809 - INFO - UI: UI Logging enabled
+2025-04-01 21:22:49,809 - INFO - UI: UI Logging enabled
+2025-04-01 21:22:49,809 - WARNING - UI: Warning test message
+2025-04-01 21:22:49,809 - WARNING - UI: Warning test message
+2025-04-01 21:22:49,809 - ERROR - UI: Error test message
+2025-04-01 21:22:49,809 - ERROR - UI: Error test message
+2025-04-01 21:22:49,809 - INFO - Standard logging test message
+2025-04-01 21:22:49,809 - WARNING - Standard logging warning message
+2025-04-01 21:22:49,809 - ERROR - Standard logging error message
+2025-04-01 21:22:49,840 - INFO - Betting contract address provided: 0x078802C9f60DC8dB78A9EF780976C79206612af5
+2025-04-01 21:22:49,846 - ERROR - Error checking timer authorization: No connection adapters were found for 'hhttps://testnet.ten.xyz/v1/?token=8d3ac421f63f8c3f80c181a78237c89d29d86862'
+2025-04-01 21:22:49,846 - INFO - Timer agent initialized with address: 0x1dA9aCB41763f97F744Da547F2d103042e8Ab239
+2025-04-01 21:22:49,846 - INFO - UI: Found agents in config: dict_keys(['Agent1', 'Agent2', 'Agent3', 'Agent4', 'Agent5'])
+2025-04-01 21:22:49,846 - INFO - UI: Found agents in config: dict_keys(['Agent1', 'Agent2', 'Agent3', 'Agent4', 'Agent5'])
+2025-04-01 21:22:49,860 - INFO - Agent initialized with address: 0x9Fde625ED8A6eC0f3cA393A62be34231a5c167F4
+2025-04-01 21:22:49,872 - INFO - Agent initialized with address: 0x0Fae37437c1347c23dc279b424663579d2df67df
+2025-04-01 21:22:49,884 - INFO - Agent initialized with address: 0xd2e443F6CF19d5d359e82bbEea76e1133028fda5
+2025-04-01 21:22:49,895 - INFO - Agent initialized with address: 0x7B7057B07218fa9f357E39cb2fC2E723C2bfcf9F
+2025-04-01 21:22:49,905 - INFO - Agent initialized with address: 0x52731AEDA26AB8D159226C51180a7542a4287500
+2025-04-01 21:22:49,905 - INFO - UI-SUCCESS: Startup Complete!
+2025-04-01 21:22:49,905 - INFO - UI-SUCCESS: Startup Complete!
+2025-04-01 21:22:49,905 - INFO - UI: Running: Timer Agent
+2025-04-01 21:22:49,905 - INFO - UI: Running: Timer Agent
+2025-04-01 21:22:49,905 - INFO - UI: Running: Agent: Agent1
+2025-04-01 21:22:49,905 - INFO - UI: Running: Agent: Agent1
+2025-04-01 21:22:49,905 - INFO - UI: Running: Agent: Agent2
+2025-04-01 21:22:49,905 - INFO - UI: Running: Agent: Agent2
+2025-04-01 21:22:49,905 - INFO - UI: Running: Agent: Agent3
+2025-04-01 21:22:49,905 - INFO - UI: Running: Agent: Agent3
+2025-04-01 21:22:49,905 - INFO - UI: Running: Agent: Agent4
+2025-04-01 21:22:49,905 - INFO - UI: Running: Agent: Agent4
+2025-04-01 21:22:49,905 - INFO - UI: Running: Agent: Agent5
+2025-04-01 21:22:49,905 - INFO - UI: Running: Agent: Agent5
+2025-04-01 21:22:49,906 - INFO - EVENT: STARTUP | Poker agents system started successfully
+2025-04-01 21:22:49,906 - INFO - EVENT: STARTUP | Poker agents system started successfully
+2025-04-01 21:22:49,906 - ERROR - Error getting game state: No connection adapters were found for 'hhttps://testnet.ten.xyz/v1/?token=8d3ac421f63f8c3f80c181a78237c89d29d86862'
+2025-04-01 21:22:49,906 - INFO - Starting timer agent...
+2025-04-01 21:22:49,906 - INFO - Starting poker agent with address 0x9Fde625ED8A6eC0f3cA393A62be34231a5c167F4
+2025-04-01 21:22:49,906 - INFO - Monitoring GameLogic contract at 0x964B4e7a3d9CCB0Ba6c86cB7E96E60D4E4F83e8D
+2025-04-01 21:22:49,906 - INFO - Starting poker agent with address 0x0Fae37437c1347c23dc279b424663579d2df67df
+2025-04-01 21:22:49,906 - INFO - Monitoring GameLogic contract at 0x964B4e7a3d9CCB0Ba6c86cB7E96E60D4E4F83e8D
+2025-04-01 21:22:49,906 - INFO - Starting poker agent with address 0xd2e443F6CF19d5d359e82bbEea76e1133028fda5
+2025-04-01 21:22:49,906 - INFO - Monitoring GameLogic contract at 0x964B4e7a3d9CCB0Ba6c86cB7E96E60D4E4F83e8D
+2025-04-01 21:22:49,906 - INFO - Starting poker agent with address 0x7B7057B07218fa9f357E39cb2fC2E723C2bfcf9F
+2025-04-01 21:22:49,906 - INFO - Monitoring GameLogic contract at 0x964B4e7a3d9CCB0Ba6c86cB7E96E60D4E4F83e8D
+2025-04-01 21:22:49,906 - INFO - Starting poker agent with address 0x52731AEDA26AB8D159226C51180a7542a4287500
+2025-04-01 21:22:49,906 - INFO - Monitoring GameLogic contract at 0x964B4e7a3d9CCB0Ba6c86cB7E96E60D4E4F83e8D
+2025-04-01 21:22:49,907 - ERROR - Error getting game state: No connection adapters were found for 'hhttps://testnet.ten.xyz/v1/?token=8d3ac421f63f8c3f80c181a78237c89d29d86862'
+2025-04-01 21:22:49,907 - INFO - BLIND MONITOR: Started monitoring blind levels
+2025-04-01 21:22:49,907 - INFO - UI: BLIND MONITOR: Initialized blind tracking
+2025-04-01 21:22:49,907 - INFO - UI: BLIND MONITOR: Initialized blind tracking
+2025-04-01 21:22:49,908 - ERROR - Error getting tournament state: No connection adapters were found for 'hhttps://testnet.ten.xyz/v1/?token=8d3ac421f63f8c3f80c181a78237c89d29d86862'
+2025-04-01 21:22:49,908 - ERROR - Error getting game state: No connection adapters were found for 'hhttps://testnet.ten.xyz/v1/?token=8d3ac421f63f8c3f80c181a78237c89d29d86862'
+2025-04-01 21:22:49,909 - ERROR - Error getting player state: No connection adapters were found for 'hhttps://testnet.ten.xyz/v1/?token=8d3ac421f63f8c3f80c181a78237c89d29d86862'
+2025-04-01 21:22:49,909 - ERROR - Error in event monitoring: No connection adapters were found for 'hhttps://testnet.ten.xyz/v1/?token=8d3ac421f63f8c3f80c181a78237c89d29d86862'
+2025-04-01 21:22:49,909 - ERROR - Error getting game state: No connection adapters were found for 'hhttps://testnet.ten.xyz/v1/?token=8d3ac421f63f8c3f80c181a78237c89d29d86862'
+2025-04-01 21:22:49,910 - ERROR - Error getting player state: No connection adapters were found for 'hhttps://testnet.ten.xyz/v1/?token=8d3ac421f63f8c3f80c181a78237c89d29d86862'
+2025-04-01 21:22:49,910 - ERROR - Error in event monitoring: No connection adapters were found for 'hhttps://testnet.ten.xyz/v1/?token=8d3ac421f63f8c3f80c181a78237c89d29d86862'
+2025-04-01 21:22:49,911 - ERROR - Error getting game state: No connection adapters were found for 'hhttps://testnet.ten.xyz/v1/?token=8d3ac421f63f8c3f80c181a78237c89d29d86862'
+2025-04-01 21:22:49,911 - ERROR - Error getting player state: No connection adapters were found for 'hhttps://testnet.ten.xyz/v1/?token=8d3ac421f63f8c3f80c181a78237c89d29d86862'
+2025-04-01 21:22:49,911 - ERROR - Error in event monitoring: No connection adapters were found for 'hhttps://testnet.ten.xyz/v1/?token=8d3ac421f63f8c3f80c181a78237c89d29d86862'
+2025-04-01 21:22:49,911 - ERROR - Error getting game state: No connection adapters were found for 'hhttps://testnet.ten.xyz/v1/?token=8d3ac421f63f8c3f80c181a78237c89d29d86862'
+2025-04-01 21:22:49,912 - ERROR - Error getting player state: No connection adapters were found for 'hhttps://testnet.ten.xyz/v1/?token=8d3ac421f63f8c3f80c181a78237c89d29d86862'
+2025-04-01 21:22:49,912 - ERROR - Error in event monitoring: No connection adapters were found for 'hhttps://testnet.ten.xyz/v1/?token=8d3ac421f63f8c3f80c181a78237c89d29d86862'
+2025-04-01 21:22:49,912 - ERROR - Error getting game state: No connection adapters were found for 'hhttps://testnet.ten.xyz/v1/?token=8d3ac421f63f8c3f80c181a78237c89d29d86862'
+2025-04-01 21:22:49,913 - ERROR - Error getting player state: No connection adapters were found for 'hhttps://testnet.ten.xyz/v1/?token=8d3ac421f63f8c3f80c181a78237c89d29d86862'
+2025-04-01 21:22:49,913 - ERROR - Error in event monitoring: No connection adapters were found for 'hhttps://testnet.ten.xyz/v1/?token=8d3ac421f63f8c3f80c181a78237c89d29d86862'
+2025-04-01 21:22:49,913 - ERROR - Error in timer agent main loop: No connection adapters were found for 'hhttps://testnet.ten.xyz/v1/?token=8d3ac421f63f8c3f80c181a78237c89d29d86862'
+2025-04-01 21:22:50,914 - ERROR - Error getting game state: No connection adapters were found for 'hhttps://testnet.ten.xyz/v1/?token=8d3ac421f63f8c3f80c181a78237c89d29d86862'
+2025-04-01 21:22:50,915 - ERROR - Error getting player state: No connection adapters were found for 'hhttps://testnet.ten.xyz/v1/?token=8d3ac421f63f8c3f80c181a78237c89d29d86862'
+2025-04-01 21:22:50,916 - ERROR - Error in event monitoring: No connection adapters were found for 'hhttps://testnet.ten.xyz/v1/?token=8d3ac421f63f8c3f80c181a78237c89d29d86862'
+2025-04-01 21:22:50,917 - ERROR - Error getting game state: No connection adapters were found for 'hhttps://testnet.ten.xyz/v1/?token=8d3ac421f63f8c3f80c181a78237c89d29d86862'
+2025-04-01 21:22:50,919 - ERROR - Error getting player state: No connection adapters were found for 'hhttps://testnet.ten.xyz/v1/?token=8d3ac421f63f8c3f80c181a78237c89d29d86862'
+2025-04-01 21:22:50,920 - ERROR - Error in event monitoring: No connection adapters were found for 'hhttps://testnet.ten.xyz/v1/?token=8d3ac421f63f8c3f80c181a78237c89d29d86862'
+2025-04-01 21:22:50,921 - ERROR - Error getting game state: No connection adapters were found for 'hhttps://testnet.ten.xyz/v1/?token=8d3ac421f63f8c3f80c181a78237c89d29d86862'
+2025-04-01 21:22:50,922 - ERROR - Error getting player state: No connection adapters were found for 'hhttps://testnet.ten.xyz/v1/?token=8d3ac421f63f8c3f80c181a78237c89d29d86862'
+2025-04-01 21:22:50,923 - ERROR - Error in event monitoring: No connection adapters were found for 'hhttps://testnet.ten.xyz/v1/?token=8d3ac421f63f8c3f80c181a78237c89d29d86862'
+2025-04-01 21:22:50,924 - ERROR - Error getting game state: No connection adapters were found for 'hhttps://testnet.ten.xyz/v1/?token=8d3ac421f63f8c3f80c181a78237c89d29d86862'
+2025-04-01 21:22:50,925 - ERROR - Error getting player state: No connection adapters were found for 'hhttps://testnet.ten.xyz/v1/?token=8d3ac421f63f8c3f80c181a78237c89d29d86862'
+2025-04-01 21:22:50,926 - ERROR - Error in event monitoring: No connection adapters were found for 'hhttps://testnet.ten.xyz/v1/?token=8d3ac421f63f8c3f80c181a78237c89d29d86862'
+2025-04-01 21:22:50,927 - ERROR - Error getting game state: No connection adapters were found for 'hhttps://testnet.ten.xyz/v1/?token=8d3ac421f63f8c3f80c181a78237c89d29d86862'
+2025-04-01 21:22:50,929 - ERROR - Error getting player state: No connection adapters were found for 'hhttps://testnet.ten.xyz/v1/?token=8d3ac421f63f8c3f80c181a78237c89d29d86862'
+2025-04-01 21:22:50,930 - ERROR - Error in event monitoring: No connection adapters were found for 'hhttps://testnet.ten.xyz/v1/?token=8d3ac421f63f8c3f80c181a78237c89d29d86862'
+2025-04-01 21:22:51,023 - INFO - Shutdown signal received. Cleaning up...
+2025-04-01 21:22:51,908 - WARNING - UI: Terminal UI stopping
+2025-04-01 21:22:51,908 - WARNING - UI: Terminal UI stopping
+2025-04-01 21:22:52,413 - INFO - Main task was cancelled. Performing cleanup...
+2025-04-01 21:22:52,414 - INFO - Exiting application
+2025-04-01 21:22:52,458 - ERROR - Task was destroyed but it is pending!
+task: <Task pending name='Task-5' coro=<PokerAgentCLI._run_agent() running at /Users/0xjba/Documents/ten-projects/LangChain-Agent-for-Poker/poker_agents/cli.py:771> wait_for=<_GatheringFuture pending cb=[Task.task_wakeup()]> cb=[PokerAgentCLI._start_configured_agents.<locals>.<lambda>() at /Users/0xjba/Documents/ten-projects/LangChain-Agent-for-Poker/poker_agents/cli.py:344]>
+2025-04-01 21:22:52,458 - ERROR - Task was destroyed but it is pending!
+task: <Task pending name='Task-4' coro=<PokerAgentCLI._run_agent() running at /Users/0xjba/Documents/ten-projects/LangChain-Agent-for-Poker/poker_agents/cli.py:771> wait_for=<_GatheringFuture pending cb=[Task.task_wakeup()]> cb=[PokerAgentCLI._start_configured_agents.<locals>.<lambda>() at /Users/0xjba/Documents/ten-projects/LangChain-Agent-for-Poker/poker_agents/cli.py:344]>
+2025-04-01 21:22:52,458 - ERROR - Task was destroyed but it is pending!
+task: <Task pending name='Task-6' coro=<PokerAgentCLI._run_agent() running at /Users/0xjba/Documents/ten-projects/LangChain-Agent-for-Poker/poker_agents/cli.py:771> wait_for=<_GatheringFuture pending cb=[Task.task_wakeup()]> cb=[PokerAgentCLI._start_configured_agents.<locals>.<lambda>() at /Users/0xjba/Documents/ten-projects/LangChain-Agent-for-Poker/poker_agents/cli.py:344]>
+2025-04-01 21:22:52,458 - ERROR - Task was destroyed but it is pending!
+task: <Task pending name='Task-7' coro=<PokerAgentCLI._run_agent() running at /Users/0xjba/Documents/ten-projects/LangChain-Agent-for-Poker/poker_agents/cli.py:771> wait_for=<_GatheringFuture pending cb=[Task.task_wakeup()]> cb=[PokerAgentCLI._start_configured_agents.<locals>.<lambda>() at /Users/0xjba/Documents/ten-projects/LangChain-Agent-for-Poker/poker_agents/cli.py:344]>
+2025-04-01 21:22:52,458 - ERROR - Task was destroyed but it is pending!
+task: <Task pending name='Task-8' coro=<PokerAgentCLI._run_agent() running at /Users/0xjba/Documents/ten-projects/LangChain-Agent-for-Poker/poker_agents/cli.py:771> wait_for=<_GatheringFuture pending cb=[Task.task_wakeup()]> cb=[PokerAgentCLI._start_configured_agents.<locals>.<lambda>() at /Users/0xjba/Documents/ten-projects/LangChain-Agent-for-Poker/poker_agents/cli.py:344]>

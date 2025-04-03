@@ -1,0 +1,158 @@
+2025-04-03 15:38:42,269 - INFO - Simplified logging system initialized
+2025-04-03 15:38:42,269 - INFO - Simplified logging system initialized
+2025-04-03 15:38:42,276 - INFO - Application initialized
+2025-04-03 15:38:42,276 - WARNING - Test warning message
+2025-04-03 15:38:42,276 - ERROR - Test error message
+2025-04-03 15:38:42,783 - INFO - UI-SUCCESS: Terminal UI started
+2025-04-03 15:38:42,783 - INFO - UI-SUCCESS: Terminal UI started
+2025-04-03 15:38:42,783 - INFO - UI: Press 'q' to quit
+2025-04-03 15:38:42,783 - INFO - UI: Press 'q' to quit
+2025-04-03 15:38:42,783 - INFO - UI: System ready
+2025-04-03 15:38:42,783 - INFO - UI: System ready
+2025-04-03 15:38:42,784 - INFO - UI: Starting in non-interactive mode using config.json...
+2025-04-03 15:38:42,784 - INFO - UI: Starting in non-interactive mode using config.json...
+2025-04-03 15:38:42,784 - INFO - UI-SUCCESS: Logging system initialized
+2025-04-03 15:38:42,784 - INFO - UI-SUCCESS: Logging system initialized
+2025-04-03 15:38:42,784 - INFO - UI: UI Logging enabled
+2025-04-03 15:38:42,784 - INFO - UI: UI Logging enabled
+2025-04-03 15:38:42,784 - WARNING - UI: Warning test message
+2025-04-03 15:38:42,784 - WARNING - UI: Warning test message
+2025-04-03 15:38:42,784 - ERROR - UI: Error test message
+2025-04-03 15:38:42,784 - ERROR - UI: Error test message
+2025-04-03 15:38:42,784 - INFO - Standard logging test message
+2025-04-03 15:38:42,784 - WARNING - Standard logging warning message
+2025-04-03 15:38:42,785 - ERROR - Standard logging error message
+2025-04-03 15:38:42,822 - INFO - Betting contract address provided: 0xDB3BC6e7666860151B4E06FcC65a23d0ec10C5e6
+2025-04-03 15:38:43,385 - INFO - Timer agent 0x1dA9aCB41763f97F744Da547F2d103042e8Ab239 is authorized
+2025-04-03 15:38:43,386 - INFO - Timer agent initialized with address: 0x1dA9aCB41763f97F744Da547F2d103042e8Ab239
+2025-04-03 15:38:43,386 - INFO - UI: Found agents in config: dict_keys(['Agent1', 'Agent2', 'Agent3', 'Agent4', 'Agent5'])
+2025-04-03 15:38:43,386 - INFO - UI: Found agents in config: dict_keys(['Agent1', 'Agent2', 'Agent3', 'Agent4', 'Agent5'])
+2025-04-03 15:38:43,411 - INFO - Agent initialized with address: 0x9Fde625ED8A6eC0f3cA393A62be34231a5c167F4
+2025-04-03 15:38:43,427 - INFO - Agent initialized with address: 0x0Fae37437c1347c23dc279b424663579d2df67df
+2025-04-03 15:38:43,441 - INFO - Agent initialized with address: 0xd2e443F6CF19d5d359e82bbEea76e1133028fda5
+2025-04-03 15:38:43,453 - INFO - Agent initialized with address: 0x7B7057B07218fa9f357E39cb2fC2E723C2bfcf9F
+2025-04-03 15:38:43,464 - INFO - Agent initialized with address: 0x52731AEDA26AB8D159226C51180a7542a4287500
+2025-04-03 15:38:43,464 - INFO - UI-SUCCESS: Startup Complete!
+2025-04-03 15:38:43,464 - INFO - UI-SUCCESS: Startup Complete!
+2025-04-03 15:38:43,464 - INFO - UI: Running: Timer Agent
+2025-04-03 15:38:43,464 - INFO - UI: Running: Timer Agent
+2025-04-03 15:38:43,464 - INFO - UI: Running: Agent: Agent1
+2025-04-03 15:38:43,464 - INFO - UI: Running: Agent: Agent1
+2025-04-03 15:38:43,464 - INFO - UI: Running: Agent: Agent2
+2025-04-03 15:38:43,464 - INFO - UI: Running: Agent: Agent2
+2025-04-03 15:38:43,464 - INFO - UI: Running: Agent: Agent3
+2025-04-03 15:38:43,464 - INFO - UI: Running: Agent: Agent3
+2025-04-03 15:38:43,464 - INFO - UI: Running: Agent: Agent4
+2025-04-03 15:38:43,464 - INFO - UI: Running: Agent: Agent4
+2025-04-03 15:38:43,464 - INFO - UI: Running: Agent: Agent5
+2025-04-03 15:38:43,464 - INFO - UI: Running: Agent: Agent5
+2025-04-03 15:38:43,464 - INFO - EVENT: STARTUP | Poker agents system started successfully
+2025-04-03 15:38:43,464 - INFO - EVENT: STARTUP | Poker agents system started successfully
+2025-04-03 15:38:44,030 - INFO - GAME STATE: Round=PREFLOP | Pot=0 | Player=0x000000...000000 | Time=0s | Blinds=25/50
+2025-04-03 15:38:44,030 - INFO - GAME STATE: Round=PREFLOP | Pot=0 | Player=0x000000...000000 | Time=0s | Blinds=25/50
+2025-04-03 15:38:44,031 - INFO - Starting timer agent...
+2025-04-03 15:38:44,031 - INFO - Starting poker agent with address 0x9Fde625ED8A6eC0f3cA393A62be34231a5c167F4
+2025-04-03 15:38:44,031 - INFO - Monitoring GameLogic contract at 0xFd17FC4b5Dd3e1832d313bbe78D5bf8657a4e11a
+2025-04-03 15:38:44,031 - INFO - Starting poker agent with address 0x0Fae37437c1347c23dc279b424663579d2df67df
+2025-04-03 15:38:44,031 - INFO - Monitoring GameLogic contract at 0xFd17FC4b5Dd3e1832d313bbe78D5bf8657a4e11a
+2025-04-03 15:38:44,031 - INFO - Starting poker agent with address 0xd2e443F6CF19d5d359e82bbEea76e1133028fda5
+2025-04-03 15:38:44,031 - INFO - Monitoring GameLogic contract at 0xFd17FC4b5Dd3e1832d313bbe78D5bf8657a4e11a
+2025-04-03 15:38:44,032 - INFO - Starting poker agent with address 0x7B7057B07218fa9f357E39cb2fC2E723C2bfcf9F
+2025-04-03 15:38:44,032 - INFO - Monitoring GameLogic contract at 0xFd17FC4b5Dd3e1832d313bbe78D5bf8657a4e11a
+2025-04-03 15:38:44,032 - INFO - Starting poker agent with address 0x52731AEDA26AB8D159226C51180a7542a4287500
+2025-04-03 15:38:44,032 - INFO - Monitoring GameLogic contract at 0xFd17FC4b5Dd3e1832d313bbe78D5bf8657a4e11a
+2025-04-03 15:38:44,303 - INFO - Checking blocks 3552132 to 3553132
+2025-04-03 15:38:45,529 - INFO - BLIND MONITOR: Started monitoring blind levels
+2025-04-03 15:38:45,529 - INFO - UI: BLIND MONITOR: Initialized blind tracking
+2025-04-03 15:38:45,529 - INFO - UI: BLIND MONITOR: Initialized blind tracking
+2025-04-03 15:38:51,362 - INFO - GAME STATE: Round=PREFLOP | Pot=0 | Player=0x000000...000000 | Time=0s | Blinds=25/50
+2025-04-03 15:38:51,362 - INFO - GAME STATE: Round=PREFLOP | Pot=0 | Player=0x000000...000000 | Time=0s | Blinds=25/50
+2025-04-03 15:38:51,786 - INFO - Checking blocks 3553133 to 3553139
+2025-04-03 15:38:57,208 - INFO - Initialized betting contract at 0xDB3BC6e7666860151B4E06FcC65a23d0ec10C5e6
+2025-04-03 15:38:57,343 - INFO - Checking for payout events from blocks 3552145 to 3553145
+2025-04-03 15:38:59,310 - INFO - GAME STATE: Round=PREFLOP | Pot=0 | Player=0x000000...000000 | Time=0s | Blinds=25/50
+2025-04-03 15:38:59,310 - INFO - GAME STATE: Round=PREFLOP | Pot=0 | Player=0x000000...000000 | Time=0s | Blinds=25/50
+2025-04-03 15:39:00,336 - INFO - Checking blocks 3553140 to 3553148
+2025-04-03 15:39:07,376 - INFO - GAME STATE: Round=PREFLOP | Pot=0 | Player=0x000000...000000 | Time=0s | Blinds=25/50
+2025-04-03 15:39:07,376 - INFO - GAME STATE: Round=PREFLOP | Pot=0 | Player=0x000000...000000 | Time=0s | Blinds=25/50
+2025-04-03 15:39:08,412 - INFO - Checking blocks 3553149 to 3553156
+2025-04-03 15:39:13,153 - INFO - Checking for payout events from blocks 3553146 to 3553160
+2025-04-03 15:39:15,874 - INFO - GAME STATE: Round=PREFLOP | Pot=0 | Player=0x000000...000000 | Time=0s | Blinds=25/50
+2025-04-03 15:39:15,874 - INFO - GAME STATE: Round=PREFLOP | Pot=0 | Player=0x000000...000000 | Time=0s | Blinds=25/50
+2025-04-03 15:39:16,884 - INFO - Checking blocks 3553157 to 3553164
+2025-04-03 15:39:23,942 - INFO - GAME STATE: Round=PREFLOP | Pot=0 | Player=0x000000...000000 | Time=0s | Blinds=25/50
+2025-04-03 15:39:23,942 - INFO - GAME STATE: Round=PREFLOP | Pot=0 | Player=0x000000...000000 | Time=0s | Blinds=25/50
+2025-04-03 15:39:24,990 - INFO - Checking blocks 3553165 to 3553172
+2025-04-03 15:39:29,111 - INFO - Checking for payout events from blocks 3553161 to 3553176
+2025-04-03 15:39:32,341 - INFO - GAME STATE: Round=PREFLOP | Pot=0 | Player=0x000000...000000 | Time=0s | Blinds=25/50
+2025-04-03 15:39:32,341 - INFO - GAME STATE: Round=PREFLOP | Pot=0 | Player=0x000000...000000 | Time=0s | Blinds=25/50
+2025-04-03 15:39:33,353 - INFO - Checking blocks 3553173 to 3553181
+2025-04-03 15:39:39,690 - INFO - GAME STATE: Round=PREFLOP | Pot=0 | Player=0x000000...000000 | Time=0s | Blinds=25/50
+2025-04-03 15:39:39,690 - INFO - GAME STATE: Round=PREFLOP | Pot=0 | Player=0x000000...000000 | Time=0s | Blinds=25/50
+2025-04-03 15:39:41,341 - INFO - Checking blocks 3553182 to 3553189
+2025-04-03 15:39:45,638 - INFO - Checking for payout events from blocks 3553177 to 3553193
+2025-04-03 15:39:47,684 - INFO - GAME STATE: Round=PREFLOP | Pot=0 | Player=0x000000...000000 | Time=0s | Blinds=25/50
+2025-04-03 15:39:47,684 - INFO - GAME STATE: Round=PREFLOP | Pot=0 | Player=0x000000...000000 | Time=0s | Blinds=25/50
+2025-04-03 15:39:49,574 - INFO - Running ALL_IN status consistency check...
+2025-04-03 15:39:53,246 - INFO - No ALL_IN status inconsistencies found
+2025-04-03 15:39:53,379 - INFO - Checking blocks 3553190 to 3553201
+2025-04-03 15:39:59,254 - INFO - GAME STATE: Round=PREFLOP | Pot=0 | Player=0x000000...000000 | Time=0s | Blinds=25/50
+2025-04-03 15:39:59,254 - INFO - GAME STATE: Round=PREFLOP | Pot=0 | Player=0x000000...000000 | Time=0s | Blinds=25/50
+2025-04-03 15:40:00,737 - INFO - Checking for payout events from blocks 3553194 to 3553208
+2025-04-03 15:40:01,933 - INFO - Checking blocks 3553202 to 3553209
+2025-04-03 15:40:07,294 - INFO - GAME STATE: Round=PREFLOP | Pot=0 | Player=0x000000...000000 | Time=0s | Blinds=25/50
+2025-04-03 15:40:07,294 - INFO - GAME STATE: Round=PREFLOP | Pot=0 | Player=0x000000...000000 | Time=0s | Blinds=25/50
+2025-04-03 15:40:09,920 - INFO - Checking blocks 3553210 to 3553217
+2025-04-03 15:40:15,741 - INFO - GAME STATE: Round=PREFLOP | Pot=0 | Player=0x000000...000000 | Time=0s | Blinds=25/50
+2025-04-03 15:40:15,741 - INFO - GAME STATE: Round=PREFLOP | Pot=0 | Player=0x000000...000000 | Time=0s | Blinds=25/50
+2025-04-03 15:40:16,796 - INFO - Checking for payout events from blocks 3553209 to 3553224
+2025-04-03 15:40:18,951 - INFO - Checking blocks 3553218 to 3553226
+2025-04-03 15:40:24,332 - INFO - GAME STATE: Round=PREFLOP | Pot=0 | Player=0x000000...000000 | Time=0s | Blinds=25/50
+2025-04-03 15:40:24,332 - INFO - GAME STATE: Round=PREFLOP | Pot=0 | Player=0x000000...000000 | Time=0s | Blinds=25/50
+2025-04-03 15:40:27,148 - INFO - Checking blocks 3553227 to 3553234
+2025-04-03 15:40:32,596 - INFO - GAME STATE: Round=PREFLOP | Pot=0 | Player=0x000000...000000 | Time=0s | Blinds=25/50
+2025-04-03 15:40:32,596 - INFO - GAME STATE: Round=PREFLOP | Pot=0 | Player=0x000000...000000 | Time=0s | Blinds=25/50
+2025-04-03 15:40:32,730 - INFO - Checking for payout events from blocks 3553225 to 3553240
+2025-04-03 15:40:35,478 - INFO - Checking blocks 3553235 to 3553243
+2025-04-03 15:40:41,010 - INFO - GAME STATE: Round=PREFLOP | Pot=0 | Player=0x000000...000000 | Time=0s | Blinds=25/50
+2025-04-03 15:40:41,010 - INFO - GAME STATE: Round=PREFLOP | Pot=0 | Player=0x000000...000000 | Time=0s | Blinds=25/50
+2025-04-03 15:40:44,007 - INFO - Checking blocks 3553244 to 3553251
+2025-04-03 15:40:48,953 - INFO - Checking for payout events from blocks 3553241 to 3553256
+2025-04-03 15:40:49,713 - INFO - GAME STATE: Round=PREFLOP | Pot=0 | Player=0x000000...000000 | Time=0s | Blinds=25/50
+2025-04-03 15:40:49,713 - INFO - GAME STATE: Round=PREFLOP | Pot=0 | Player=0x000000...000000 | Time=0s | Blinds=25/50
+2025-04-03 15:40:53,118 - INFO - Running ALL_IN status consistency check...
+2025-04-03 15:40:56,806 - INFO - No ALL_IN status inconsistencies found
+2025-04-03 15:40:56,941 - INFO - Checking blocks 3553252 to 3553264
+2025-04-03 15:41:01,800 - INFO - GAME STATE: Round=PREFLOP | Pot=0 | Player=0x000000...000000 | Time=0s | Blinds=25/50
+2025-04-03 15:41:01,800 - INFO - GAME STATE: Round=PREFLOP | Pot=0 | Player=0x000000...000000 | Time=0s | Blinds=25/50
+2025-04-03 15:41:04,116 - INFO - Checking for payout events from blocks 3553257 to 3553271
+2025-04-03 15:41:05,349 - INFO - Checking blocks 3553265 to 3553273
+2025-04-03 15:41:10,244 - INFO - GAME STATE: Round=PREFLOP | Pot=0 | Player=0x000000...000000 | Time=0s | Blinds=25/50
+2025-04-03 15:41:10,244 - INFO - GAME STATE: Round=PREFLOP | Pot=0 | Player=0x000000...000000 | Time=0s | Blinds=25/50
+2025-04-03 15:41:13,529 - INFO - Checking blocks 3553274 to 3553281
+2025-04-03 15:41:18,388 - INFO - GAME STATE: Round=PREFLOP | Pot=0 | Player=0x000000...000000 | Time=0s | Blinds=25/50
+2025-04-03 15:41:18,388 - INFO - GAME STATE: Round=PREFLOP | Pot=0 | Player=0x000000...000000 | Time=0s | Blinds=25/50
+2025-04-03 15:41:19,409 - INFO - Checking for payout events from blocks 3553272 to 3553287
+2025-04-03 15:41:21,623 - INFO - Checking blocks 3553282 to 3553289
+2025-04-03 15:41:27,491 - INFO - GAME STATE: Round=PREFLOP | Pot=0 | Player=0x000000...000000 | Time=0s | Blinds=25/50
+2025-04-03 15:41:27,491 - INFO - GAME STATE: Round=PREFLOP | Pot=0 | Player=0x000000...000000 | Time=0s | Blinds=25/50
+2025-04-03 15:41:30,082 - INFO - Checking blocks 3553290 to 3553297
+2025-04-03 15:41:32,758 - INFO - Shutdown signal received. Cleaning up...
+2025-04-03 15:41:34,222 - WARNING - UI: Terminal UI stopping
+2025-04-03 15:41:34,222 - WARNING - UI: Terminal UI stopping
+2025-04-03 15:41:34,724 - INFO - Main task was cancelled. Performing cleanup...
+2025-04-03 15:41:34,724 - INFO - Exiting application
+2025-04-03 15:41:35,751 - INFO - Checking for payout events from blocks 3553288 to 3553303
+2025-04-03 15:41:38,533 - INFO - Checking blocks 3553298 to 3553306
+2025-04-03 15:41:40,439 - ERROR - Task was destroyed but it is pending!
+task: <Task pending name='Task-3' coro=<TimerAgent.start() running at /Users/0xjba/Documents/ten-projects/LangChain-Agent-for-Poker/poker_agents/timer_agent.py:2773> wait_for=<_GatheringFuture pending cb=[Task.task_wakeup()]>>
+2025-04-03 15:41:40,440 - ERROR - Task was destroyed but it is pending!
+task: <Task pending name='Task-5' coro=<PokerAgentCLI._run_agent() running at /Users/0xjba/Documents/ten-projects/LangChain-Agent-for-Poker/poker_agents/cli.py:771> wait_for=<_GatheringFuture pending cb=[Task.task_wakeup()]> cb=[PokerAgentCLI._start_configured_agents.<locals>.<lambda>() at /Users/0xjba/Documents/ten-projects/LangChain-Agent-for-Poker/poker_agents/cli.py:344]>
+2025-04-03 15:41:40,440 - ERROR - Task was destroyed but it is pending!
+task: <Task pending name='Task-4' coro=<PokerAgentCLI._run_agent() running at /Users/0xjba/Documents/ten-projects/LangChain-Agent-for-Poker/poker_agents/cli.py:771> wait_for=<_GatheringFuture pending cb=[Task.task_wakeup()]> cb=[PokerAgentCLI._start_configured_agents.<locals>.<lambda>() at /Users/0xjba/Documents/ten-projects/LangChain-Agent-for-Poker/poker_agents/cli.py:344]>
+2025-04-03 15:41:40,440 - ERROR - Task was destroyed but it is pending!
+task: <Task pending name='Task-6' coro=<PokerAgentCLI._run_agent() running at /Users/0xjba/Documents/ten-projects/LangChain-Agent-for-Poker/poker_agents/cli.py:771> wait_for=<_GatheringFuture pending cb=[Task.task_wakeup()]> cb=[PokerAgentCLI._start_configured_agents.<locals>.<lambda>() at /Users/0xjba/Documents/ten-projects/LangChain-Agent-for-Poker/poker_agents/cli.py:344]>
+2025-04-03 15:41:40,440 - ERROR - Task was destroyed but it is pending!
+task: <Task pending name='Task-7' coro=<PokerAgentCLI._run_agent() running at /Users/0xjba/Documents/ten-projects/LangChain-Agent-for-Poker/poker_agents/cli.py:771> wait_for=<_GatheringFuture pending cb=[Task.task_wakeup()]> cb=[PokerAgentCLI._start_configured_agents.<locals>.<lambda>() at /Users/0xjba/Documents/ten-projects/LangChain-Agent-for-Poker/poker_agents/cli.py:344]>
+2025-04-03 15:41:40,440 - ERROR - Task was destroyed but it is pending!
+task: <Task pending name='Task-8' coro=<PokerAgentCLI._run_agent() running at /Users/0xjba/Documents/ten-projects/LangChain-Agent-for-Poker/poker_agents/cli.py:771> wait_for=<_GatheringFuture pending cb=[Task.task_wakeup()]> cb=[PokerAgentCLI._start_configured_agents.<locals>.<lambda>() at /Users/0xjba/Documents/ten-projects/LangChain-Agent-for-Poker/poker_agents/cli.py:344]>

@@ -1,0 +1,220 @@
+2025-04-03 15:35:29,974 - INFO - Simplified logging system initialized
+2025-04-03 15:35:29,974 - INFO - Simplified logging system initialized
+2025-04-03 15:35:29,986 - INFO - Application initialized
+2025-04-03 15:35:29,986 - WARNING - Test warning message
+2025-04-03 15:35:29,986 - ERROR - Test error message
+2025-04-03 15:35:30,492 - INFO - UI-SUCCESS: Terminal UI started
+2025-04-03 15:35:30,492 - INFO - UI-SUCCESS: Terminal UI started
+2025-04-03 15:35:30,493 - INFO - UI: Press 'q' to quit
+2025-04-03 15:35:30,493 - INFO - UI: Press 'q' to quit
+2025-04-03 15:35:30,493 - INFO - UI: System ready
+2025-04-03 15:35:30,493 - INFO - UI: System ready
+2025-04-03 15:35:30,493 - INFO - UI: Starting in non-interactive mode using config.json...
+2025-04-03 15:35:30,493 - INFO - UI: Starting in non-interactive mode using config.json...
+2025-04-03 15:35:30,493 - INFO - UI-SUCCESS: Logging system initialized
+2025-04-03 15:35:30,493 - INFO - UI-SUCCESS: Logging system initialized
+2025-04-03 15:35:30,493 - INFO - UI: UI Logging enabled
+2025-04-03 15:35:30,493 - INFO - UI: UI Logging enabled
+2025-04-03 15:35:30,493 - WARNING - UI: Warning test message
+2025-04-03 15:35:30,493 - WARNING - UI: Warning test message
+2025-04-03 15:35:30,494 - ERROR - UI: Error test message
+2025-04-03 15:35:30,494 - ERROR - UI: Error test message
+2025-04-03 15:35:30,494 - INFO - Standard logging test message
+2025-04-03 15:35:30,494 - WARNING - Standard logging warning message
+2025-04-03 15:35:30,494 - ERROR - Standard logging error message
+2025-04-03 15:35:30,546 - INFO - Betting contract address provided: 0x64175E0dD9428d465bF7D46df074a278A068C277
+2025-04-03 15:35:32,102 - ERROR - Error checking timer authorization: HTTPSConnectionPool(host='rpc.testnet.ten.xyz', port=443): Max retries exceeded with url: /v1/?token=51154a88f3ff5d15277168e385cf21999119febe (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x1089cccd0>: Failed to resolve 'rpc.testnet.ten.xyz' ([Errno 8] nodename nor servname provided, or not known)"))
+2025-04-03 15:35:32,102 - INFO - Timer agent initialized with address: 0x1dA9aCB41763f97F744Da547F2d103042e8Ab239
+2025-04-03 15:35:32,103 - INFO - UI: Found agents in config: dict_keys(['Agent1', 'Agent2', 'Agent3', 'Agent4', 'Agent5'])
+2025-04-03 15:35:32,103 - INFO - UI: Found agents in config: dict_keys(['Agent1', 'Agent2', 'Agent3', 'Agent4', 'Agent5'])
+2025-04-03 15:35:32,135 - INFO - Agent initialized with address: 0x9Fde625ED8A6eC0f3cA393A62be34231a5c167F4
+2025-04-03 15:35:32,152 - INFO - Agent initialized with address: 0x0Fae37437c1347c23dc279b424663579d2df67df
+2025-04-03 15:35:32,167 - INFO - Agent initialized with address: 0xd2e443F6CF19d5d359e82bbEea76e1133028fda5
+2025-04-03 15:35:32,179 - INFO - Agent initialized with address: 0x7B7057B07218fa9f357E39cb2fC2E723C2bfcf9F
+2025-04-03 15:35:32,190 - INFO - Agent initialized with address: 0x52731AEDA26AB8D159226C51180a7542a4287500
+2025-04-03 15:35:32,190 - INFO - UI-SUCCESS: Startup Complete!
+2025-04-03 15:35:32,190 - INFO - UI-SUCCESS: Startup Complete!
+2025-04-03 15:35:32,190 - INFO - UI: Running: Timer Agent
+2025-04-03 15:35:32,190 - INFO - UI: Running: Timer Agent
+2025-04-03 15:35:32,190 - INFO - UI: Running: Agent: Agent1
+2025-04-03 15:35:32,190 - INFO - UI: Running: Agent: Agent1
+2025-04-03 15:35:32,190 - INFO - UI: Running: Agent: Agent2
+2025-04-03 15:35:32,190 - INFO - UI: Running: Agent: Agent2
+2025-04-03 15:35:32,190 - INFO - UI: Running: Agent: Agent3
+2025-04-03 15:35:32,190 - INFO - UI: Running: Agent: Agent3
+2025-04-03 15:35:32,190 - INFO - UI: Running: Agent: Agent4
+2025-04-03 15:35:32,190 - INFO - UI: Running: Agent: Agent4
+2025-04-03 15:35:32,190 - INFO - UI: Running: Agent: Agent5
+2025-04-03 15:35:32,190 - INFO - UI: Running: Agent: Agent5
+2025-04-03 15:35:32,190 - INFO - EVENT: STARTUP | Poker agents system started successfully
+2025-04-03 15:35:32,190 - INFO - EVENT: STARTUP | Poker agents system started successfully
+2025-04-03 15:35:33,424 - ERROR - Error getting game state: HTTPSConnectionPool(host='rpc.testnet.ten.xyz', port=443): Max retries exceeded with url: /v1/?token=51154a88f3ff5d15277168e385cf21999119febe (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x108d94910>: Failed to resolve 'rpc.testnet.ten.xyz' ([Errno 8] nodename nor servname provided, or not known)"))
+2025-04-03 15:35:33,425 - INFO - Starting timer agent...
+2025-04-03 15:35:33,425 - INFO - Starting poker agent with address 0x9Fde625ED8A6eC0f3cA393A62be34231a5c167F4
+2025-04-03 15:35:33,425 - INFO - Monitoring GameLogic contract at 0xEaDbD9ef09C61864bd10D1B063908f5775b02912
+2025-04-03 15:35:33,425 - INFO - Starting poker agent with address 0x0Fae37437c1347c23dc279b424663579d2df67df
+2025-04-03 15:35:33,425 - INFO - Monitoring GameLogic contract at 0xEaDbD9ef09C61864bd10D1B063908f5775b02912
+2025-04-03 15:35:33,425 - INFO - Starting poker agent with address 0xd2e443F6CF19d5d359e82bbEea76e1133028fda5
+2025-04-03 15:35:33,425 - INFO - Monitoring GameLogic contract at 0xEaDbD9ef09C61864bd10D1B063908f5775b02912
+2025-04-03 15:35:33,425 - INFO - Starting poker agent with address 0x7B7057B07218fa9f357E39cb2fC2E723C2bfcf9F
+2025-04-03 15:35:33,425 - INFO - Monitoring GameLogic contract at 0xEaDbD9ef09C61864bd10D1B063908f5775b02912
+2025-04-03 15:35:33,426 - INFO - Starting poker agent with address 0x52731AEDA26AB8D159226C51180a7542a4287500
+2025-04-03 15:35:33,426 - INFO - Monitoring GameLogic contract at 0xEaDbD9ef09C61864bd10D1B063908f5775b02912
+2025-04-03 15:35:35,895 - ERROR - Error getting game state: HTTPSConnectionPool(host='rpc.testnet.ten.xyz', port=443): Max retries exceeded with url: /v1/?token=51154a88f3ff5d15277168e385cf21999119febe (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x108d97750>: Failed to resolve 'rpc.testnet.ten.xyz' ([Errno 8] nodename nor servname provided, or not known)"))
+2025-04-03 15:35:35,895 - INFO - BLIND MONITOR: Started monitoring blind levels
+2025-04-03 15:35:35,895 - INFO - UI: BLIND MONITOR: Initialized blind tracking
+2025-04-03 15:35:35,895 - INFO - UI: BLIND MONITOR: Initialized blind tracking
+2025-04-03 15:35:37,124 - ERROR - Error getting tournament state: HTTPSConnectionPool(host='rpc.testnet.ten.xyz', port=443): Max retries exceeded with url: /v1/?token=51154a88f3ff5d15277168e385cf21999119febe (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x108dd8cd0>: Failed to resolve 'rpc.testnet.ten.xyz' ([Errno 8] nodename nor servname provided, or not known)"))
+2025-04-03 15:35:38,350 - ERROR - Error getting game state: HTTPSConnectionPool(host='rpc.testnet.ten.xyz', port=443): Max retries exceeded with url: /v1/?token=51154a88f3ff5d15277168e385cf21999119febe (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x108d96fd0>: Failed to resolve 'rpc.testnet.ten.xyz' ([Errno 8] nodename nor servname provided, or not known)"))
+2025-04-03 15:35:39,576 - ERROR - Error getting player state: HTTPSConnectionPool(host='rpc.testnet.ten.xyz', port=443): Max retries exceeded with url: /v1/?token=51154a88f3ff5d15277168e385cf21999119febe (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x108d95450>: Failed to resolve 'rpc.testnet.ten.xyz' ([Errno 8] nodename nor servname provided, or not known)"))
+2025-04-03 15:35:40,812 - ERROR - Error in event monitoring: HTTPSConnectionPool(host='rpc.testnet.ten.xyz', port=443): Max retries exceeded with url: /v1/?token=51154a88f3ff5d15277168e385cf21999119febe (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x108dd8cd0>: Failed to resolve 'rpc.testnet.ten.xyz' ([Errno 8] nodename nor servname provided, or not known)"))
+2025-04-03 15:35:42,043 - ERROR - Error getting game state: HTTPSConnectionPool(host='rpc.testnet.ten.xyz', port=443): Max retries exceeded with url: /v1/?token=51154a88f3ff5d15277168e385cf21999119febe (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x108dd9950>: Failed to resolve 'rpc.testnet.ten.xyz' ([Errno 8] nodename nor servname provided, or not known)"))
+2025-04-03 15:35:43,272 - ERROR - Error getting player state: HTTPSConnectionPool(host='rpc.testnet.ten.xyz', port=443): Max retries exceeded with url: /v1/?token=51154a88f3ff5d15277168e385cf21999119febe (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x108ddb110>: Failed to resolve 'rpc.testnet.ten.xyz' ([Errno 8] nodename nor servname provided, or not known)"))
+2025-04-03 15:35:44,501 - ERROR - Error in event monitoring: HTTPSConnectionPool(host='rpc.testnet.ten.xyz', port=443): Max retries exceeded with url: /v1/?token=51154a88f3ff5d15277168e385cf21999119febe (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x108d94910>: Failed to resolve 'rpc.testnet.ten.xyz' ([Errno 8] nodename nor servname provided, or not known)"))
+2025-04-03 15:35:45,726 - ERROR - Error getting game state: HTTPSConnectionPool(host='rpc.testnet.ten.xyz', port=443): Max retries exceeded with url: /v1/?token=51154a88f3ff5d15277168e385cf21999119febe (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x108d96c10>: Failed to resolve 'rpc.testnet.ten.xyz' ([Errno 8] nodename nor servname provided, or not known)"))
+2025-04-03 15:35:46,165 - INFO - Shutdown signal received. Cleaning up...
+2025-04-03 15:35:46,954 - ERROR - Error getting player state: HTTPSConnectionPool(host='rpc.testnet.ten.xyz', port=443): Max retries exceeded with url: /v1/?token=51154a88f3ff5d15277168e385cf21999119febe (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x108ddac10>: Failed to resolve 'rpc.testnet.ten.xyz' ([Errno 8] nodename nor servname provided, or not known)"))
+2025-04-03 15:35:48,178 - ERROR - Error in event monitoring: HTTPSConnectionPool(host='rpc.testnet.ten.xyz', port=443): Max retries exceeded with url: /v1/?token=51154a88f3ff5d15277168e385cf21999119febe (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x108dd9590>: Failed to resolve 'rpc.testnet.ten.xyz' ([Errno 8] nodename nor servname provided, or not known)"))
+2025-04-03 15:35:49,420 - ERROR - Error getting game state: HTTPSConnectionPool(host='rpc.testnet.ten.xyz', port=443): Max retries exceeded with url: /v1/?token=51154a88f3ff5d15277168e385cf21999119febe (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x108ddb610>: Failed to resolve 'rpc.testnet.ten.xyz' ([Errno 8] nodename nor servname provided, or not known)"))
+2025-04-03 15:35:50,649 - ERROR - Error getting player state: HTTPSConnectionPool(host='rpc.testnet.ten.xyz', port=443): Max retries exceeded with url: /v1/?token=51154a88f3ff5d15277168e385cf21999119febe (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x108d956d0>: Failed to resolve 'rpc.testnet.ten.xyz' ([Errno 8] nodename nor servname provided, or not known)"))
+2025-04-03 15:35:51,888 - ERROR - Error in event monitoring: HTTPSConnectionPool(host='rpc.testnet.ten.xyz', port=443): Max retries exceeded with url: /v1/?token=51154a88f3ff5d15277168e385cf21999119febe (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x108d94910>: Failed to resolve 'rpc.testnet.ten.xyz' ([Errno 8] nodename nor servname provided, or not known)"))
+2025-04-03 15:35:53,116 - ERROR - Error getting game state: HTTPSConnectionPool(host='rpc.testnet.ten.xyz', port=443): Max retries exceeded with url: /v1/?token=51154a88f3ff5d15277168e385cf21999119febe (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x1089cf9d0>: Failed to resolve 'rpc.testnet.ten.xyz' ([Errno 8] nodename nor servname provided, or not known)"))
+2025-04-03 15:35:54,346 - ERROR - Error getting player state: HTTPSConnectionPool(host='rpc.testnet.ten.xyz', port=443): Max retries exceeded with url: /v1/?token=51154a88f3ff5d15277168e385cf21999119febe (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x108dd9810>: Failed to resolve 'rpc.testnet.ten.xyz' ([Errno 8] nodename nor servname provided, or not known)"))
+2025-04-03 15:35:55,579 - ERROR - Error in event monitoring: HTTPSConnectionPool(host='rpc.testnet.ten.xyz', port=443): Max retries exceeded with url: /v1/?token=51154a88f3ff5d15277168e385cf21999119febe (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x108ddafd0>: Failed to resolve 'rpc.testnet.ten.xyz' ([Errno 8] nodename nor servname provided, or not known)"))
+2025-04-03 15:35:55,579 - WARNING - UI: Terminal UI stopping
+2025-04-03 15:35:55,579 - WARNING - UI: Terminal UI stopping
+2025-04-03 15:35:56,085 - INFO - Main task was cancelled. Performing cleanup...
+2025-04-03 15:35:56,085 - INFO - Exiting application
+2025-04-03 15:35:56,085 - ERROR - Error in timer agent main loop: HTTPSConnectionPool(host='rpc.testnet.ten.xyz', port=443): Max retries exceeded with url: /v1/?token=51154a88f3ff5d15277168e385cf21999119febe (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x108d96350>: Failed to resolve 'rpc.testnet.ten.xyz' ([Errno 8] nodename nor servname provided, or not known)"))
+2025-04-03 15:35:57,321 - ERROR - Error getting game state: HTTPSConnectionPool(host='rpc.testnet.ten.xyz', port=443): Max retries exceeded with url: /v1/?token=51154a88f3ff5d15277168e385cf21999119febe (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x108d94050>: Failed to resolve 'rpc.testnet.ten.xyz' ([Errno 8] nodename nor servname provided, or not known)"))
+2025-04-03 15:35:58,557 - ERROR - Error getting player state: HTTPSConnectionPool(host='rpc.testnet.ten.xyz', port=443): Max retries exceeded with url: /v1/?token=51154a88f3ff5d15277168e385cf21999119febe (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x108d960d0>: Failed to resolve 'rpc.testnet.ten.xyz' ([Errno 8] nodename nor servname provided, or not known)"))
+2025-04-03 15:35:59,794 - ERROR - Error in event monitoring: HTTPSConnectionPool(host='rpc.testnet.ten.xyz', port=443): Max retries exceeded with url: /v1/?token=51154a88f3ff5d15277168e385cf21999119febe (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x108d97b10>: Failed to resolve 'rpc.testnet.ten.xyz' ([Errno 8] nodename nor servname provided, or not known)"))
+2025-04-03 15:36:02,253 - ERROR - Error getting game state: HTTPSConnectionPool(host='rpc.testnet.ten.xyz', port=443): Max retries exceeded with url: /v1/?token=51154a88f3ff5d15277168e385cf21999119febe (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x108dd8550>: Failed to resolve 'rpc.testnet.ten.xyz' ([Errno 8] nodename nor servname provided, or not known)"))
+2025-04-03 15:36:03,476 - ERROR - Error getting player state: HTTPSConnectionPool(host='rpc.testnet.ten.xyz', port=443): Max retries exceeded with url: /v1/?token=51154a88f3ff5d15277168e385cf21999119febe (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x108d97890>: Failed to resolve 'rpc.testnet.ten.xyz' ([Errno 8] nodename nor servname provided, or not known)"))
+2025-04-03 15:36:04,711 - ERROR - Error in event monitoring: HTTPSConnectionPool(host='rpc.testnet.ten.xyz', port=443): Max retries exceeded with url: /v1/?token=51154a88f3ff5d15277168e385cf21999119febe (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x108d95f90>: Failed to resolve 'rpc.testnet.ten.xyz' ([Errno 8] nodename nor servname provided, or not known)"))
+2025-04-03 15:36:05,945 - ERROR - Error getting game state: HTTPSConnectionPool(host='rpc.testnet.ten.xyz', port=443): Max retries exceeded with url: /v1/?token=51154a88f3ff5d15277168e385cf21999119febe (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x108d947d0>: Failed to resolve 'rpc.testnet.ten.xyz' ([Errno 8] nodename nor servname provided, or not known)"))
+2025-04-03 15:36:07,176 - ERROR - Error getting player state: HTTPSConnectionPool(host='rpc.testnet.ten.xyz', port=443): Max retries exceeded with url: /v1/?token=51154a88f3ff5d15277168e385cf21999119febe (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x108dd8190>: Failed to resolve 'rpc.testnet.ten.xyz' ([Errno 8] nodename nor servname provided, or not known)"))
+2025-04-03 15:36:08,407 - ERROR - Error in event monitoring: HTTPSConnectionPool(host='rpc.testnet.ten.xyz', port=443): Max retries exceeded with url: /v1/?token=51154a88f3ff5d15277168e385cf21999119febe (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x108dda850>: Failed to resolve 'rpc.testnet.ten.xyz' ([Errno 8] nodename nor servname provided, or not known)"))
+2025-04-03 15:36:09,647 - ERROR - Error getting game state: HTTPSConnectionPool(host='rpc.testnet.ten.xyz', port=443): Max retries exceeded with url: /v1/?token=51154a88f3ff5d15277168e385cf21999119febe (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x108ddbd90>: Failed to resolve 'rpc.testnet.ten.xyz' ([Errno 8] nodename nor servname provided, or not known)"))
+2025-04-03 15:36:10,880 - ERROR - Error getting player state: HTTPSConnectionPool(host='rpc.testnet.ten.xyz', port=443): Max retries exceeded with url: /v1/?token=51154a88f3ff5d15277168e385cf21999119febe (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x108dd96d0>: Failed to resolve 'rpc.testnet.ten.xyz' ([Errno 8] nodename nor servname provided, or not known)"))
+2025-04-03 15:36:12,107 - ERROR - Error in event monitoring: HTTPSConnectionPool(host='rpc.testnet.ten.xyz', port=443): Max retries exceeded with url: /v1/?token=51154a88f3ff5d15277168e385cf21999119febe (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x1089cfb10>: Failed to resolve 'rpc.testnet.ten.xyz' ([Errno 8] nodename nor servname provided, or not known)"))
+2025-04-03 15:36:13,340 - ERROR - Error getting game state: HTTPSConnectionPool(host='rpc.testnet.ten.xyz', port=443): Max retries exceeded with url: /v1/?token=51154a88f3ff5d15277168e385cf21999119febe (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x108d95450>: Failed to resolve 'rpc.testnet.ten.xyz' ([Errno 8] nodename nor servname provided, or not known)"))
+2025-04-03 15:36:14,574 - ERROR - Error getting player state: HTTPSConnectionPool(host='rpc.testnet.ten.xyz', port=443): Max retries exceeded with url: /v1/?token=51154a88f3ff5d15277168e385cf21999119febe (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x108d97610>: Failed to resolve 'rpc.testnet.ten.xyz' ([Errno 8] nodename nor servname provided, or not known)"))
+2025-04-03 15:36:14,574 - ERROR - Task exception was never retrieved
+future: <Task finished name='Task-12' coro=<TimerAgent.monitor_betting_payouts() done, defined at /Users/0xjba/Documents/ten-projects/LangChain-Agent-for-Poker/poker_agents/timer_agent.py:2378> exception=ConnectionError(MaxRetryError('HTTPSConnectionPool(host=\'rpc.testnet.ten.xyz\', port=443): Max retries exceeded with url: /v1/?token=51154a88f3ff5d15277168e385cf21999119febe (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x108dda210>: Failed to resolve \'rpc.testnet.ten.xyz\' ([Errno 8] nodename nor servname provided, or not known)"))'))>
+Traceback (most recent call last):
+  File "/Users/0xjba/Documents/ten-projects/LangChain-Agent-for-Poker/venv/lib/python3.13/site-packages/urllib3/connection.py", line 198, in _new_conn
+    sock = connection.create_connection(
+        (self._dns_host, self.port),
+    ...<2 lines>...
+        socket_options=self.socket_options,
+    )
+  File "/Users/0xjba/Documents/ten-projects/LangChain-Agent-for-Poker/venv/lib/python3.13/site-packages/urllib3/util/connection.py", line 60, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+               ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.13/3.13.2/Frameworks/Python.framework/Versions/3.13/lib/python3.13/socket.py", line 977, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+               ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/0xjba/Documents/ten-projects/LangChain-Agent-for-Poker/venv/lib/python3.13/site-packages/urllib3/connectionpool.py", line 787, in urlopen
+    response = self._make_request(
+        conn,
+    ...<10 lines>...
+        **response_kw,
+    )
+  File "/Users/0xjba/Documents/ten-projects/LangChain-Agent-for-Poker/venv/lib/python3.13/site-packages/urllib3/connectionpool.py", line 488, in _make_request
+    raise new_e
+  File "/Users/0xjba/Documents/ten-projects/LangChain-Agent-for-Poker/venv/lib/python3.13/site-packages/urllib3/connectionpool.py", line 464, in _make_request
+    self._validate_conn(conn)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "/Users/0xjba/Documents/ten-projects/LangChain-Agent-for-Poker/venv/lib/python3.13/site-packages/urllib3/connectionpool.py", line 1093, in _validate_conn
+    conn.connect()
+    ~~~~~~~~~~~~^^
+  File "/Users/0xjba/Documents/ten-projects/LangChain-Agent-for-Poker/venv/lib/python3.13/site-packages/urllib3/connection.py", line 704, in connect
+    self.sock = sock = self._new_conn()
+                       ~~~~~~~~~~~~~~^^
+  File "/Users/0xjba/Documents/ten-projects/LangChain-Agent-for-Poker/venv/lib/python3.13/site-packages/urllib3/connection.py", line 205, in _new_conn
+    raise NameResolutionError(self.host, self, e) from e
+urllib3.exceptions.NameResolutionError: <urllib3.connection.HTTPSConnection object at 0x108dda210>: Failed to resolve 'rpc.testnet.ten.xyz' ([Errno 8] nodename nor servname provided, or not known)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/0xjba/Documents/ten-projects/LangChain-Agent-for-Poker/venv/lib/python3.13/site-packages/requests/adapters.py", line 486, in send
+    resp = conn.urlopen(
+        method=request.method,
+    ...<9 lines>...
+        chunked=chunked,
+    )
+  File "/Users/0xjba/Documents/ten-projects/LangChain-Agent-for-Poker/venv/lib/python3.13/site-packages/urllib3/connectionpool.py", line 841, in urlopen
+    retries = retries.increment(
+        method, url, error=new_e, _pool=self, _stacktrace=sys.exc_info()[2]
+    )
+  File "/Users/0xjba/Documents/ten-projects/LangChain-Agent-for-Poker/venv/lib/python3.13/site-packages/urllib3/util/retry.py", line 519, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='rpc.testnet.ten.xyz', port=443): Max retries exceeded with url: /v1/?token=51154a88f3ff5d15277168e385cf21999119febe (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x108dda210>: Failed to resolve 'rpc.testnet.ten.xyz' ([Errno 8] nodename nor servname provided, or not known)"))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/0xjba/Documents/ten-projects/LangChain-Agent-for-Poker/poker_agents/timer_agent.py", line 2385, in monitor_betting_payouts
+    self.last_payout_block = max(0, self.web3.eth.block_number - 1000)
+                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/0xjba/Documents/ten-projects/LangChain-Agent-for-Poker/venv/lib/python3.13/site-packages/web3/eth/eth.py", line 134, in block_number
+    return self.get_block_number()
+           ~~~~~~~~~~~~~~~~~~~~~^^
+  File "/Users/0xjba/Documents/ten-projects/LangChain-Agent-for-Poker/venv/lib/python3.13/site-packages/web3/module.py", line 75, in caller
+    result = w3.manager.request_blocking(
+        method_str, params, error_formatters, null_result_formatters
+    )
+  File "/Users/0xjba/Documents/ten-projects/LangChain-Agent-for-Poker/venv/lib/python3.13/site-packages/web3/manager.py", line 324, in request_blocking
+    response = self._make_request(method, params)
+  File "/Users/0xjba/Documents/ten-projects/LangChain-Agent-for-Poker/venv/lib/python3.13/site-packages/web3/manager.py", line 212, in _make_request
+    return request_func(method, params)
+  File "/Users/0xjba/Documents/ten-projects/LangChain-Agent-for-Poker/venv/lib/python3.13/site-packages/web3/middleware/gas_price_strategy.py", line 101, in middleware
+    return make_request(method, params)
+  File "/Users/0xjba/Documents/ten-projects/LangChain-Agent-for-Poker/venv/lib/python3.13/site-packages/web3/middleware/formatting.py", line 126, in middleware
+    response = make_request(method, params)
+  File "/Users/0xjba/Documents/ten-projects/LangChain-Agent-for-Poker/venv/lib/python3.13/site-packages/web3/middleware/attrdict.py", line 43, in middleware
+    response = make_request(method, params)
+  File "/Users/0xjba/Documents/ten-projects/LangChain-Agent-for-Poker/venv/lib/python3.13/site-packages/web3/middleware/formatting.py", line 126, in middleware
+    response = make_request(method, params)
+  File "/Users/0xjba/Documents/ten-projects/LangChain-Agent-for-Poker/venv/lib/python3.13/site-packages/web3/middleware/formatting.py", line 126, in middleware
+    response = make_request(method, params)
+  File "/Users/0xjba/Documents/ten-projects/LangChain-Agent-for-Poker/venv/lib/python3.13/site-packages/web3/middleware/buffered_gas_estimate.py", line 43, in middleware
+    return make_request(method, params)
+  File "/Users/0xjba/Documents/ten-projects/LangChain-Agent-for-Poker/venv/lib/python3.13/site-packages/web3/middleware/exception_retry_request.py", line 124, in middleware
+    return make_request(method, params)
+  File "/Users/0xjba/Documents/ten-projects/LangChain-Agent-for-Poker/venv/lib/python3.13/site-packages/web3/providers/rpc.py", line 90, in make_request
+    raw_response = make_post_request(
+        self.endpoint_uri, request_data, **self.get_request_kwargs()
+    )
+  File "/Users/0xjba/Documents/ten-projects/LangChain-Agent-for-Poker/venv/lib/python3.13/site-packages/web3/_utils/request.py", line 114, in make_post_request
+    response = get_response_from_post_request(endpoint_uri, data=data, *args, **kwargs)
+  File "/Users/0xjba/Documents/ten-projects/LangChain-Agent-for-Poker/venv/lib/python3.13/site-packages/web3/_utils/request.py", line 107, in get_response_from_post_request
+    response = session.post(endpoint_uri, *args, **kwargs)
+  File "/Users/0xjba/Documents/ten-projects/LangChain-Agent-for-Poker/venv/lib/python3.13/site-packages/requests/sessions.py", line 637, in post
+    return self.request("POST", url, data=data, json=json, **kwargs)
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/0xjba/Documents/ten-projects/LangChain-Agent-for-Poker/venv/lib/python3.13/site-packages/requests/sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/Users/0xjba/Documents/ten-projects/LangChain-Agent-for-Poker/venv/lib/python3.13/site-packages/requests/sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+  File "/Users/0xjba/Documents/ten-projects/LangChain-Agent-for-Poker/venv/lib/python3.13/site-packages/requests/adapters.py", line 519, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='rpc.testnet.ten.xyz', port=443): Max retries exceeded with url: /v1/?token=51154a88f3ff5d15277168e385cf21999119febe (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x108dda210>: Failed to resolve 'rpc.testnet.ten.xyz' ([Errno 8] nodename nor servname provided, or not known)"))
+2025-04-03 15:36:14,625 - ERROR - Task was destroyed but it is pending!
+task: <Task pending name='Task-5' coro=<PokerAgentCLI._run_agent() running at /Users/0xjba/Documents/ten-projects/LangChain-Agent-for-Poker/poker_agents/cli.py:771> wait_for=<_GatheringFuture pending cb=[Task.task_wakeup()]> cb=[PokerAgentCLI._start_configured_agents.<locals>.<lambda>() at /Users/0xjba/Documents/ten-projects/LangChain-Agent-for-Poker/poker_agents/cli.py:344]>
+2025-04-03 15:36:14,625 - ERROR - Task was destroyed but it is pending!
+task: <Task pending name='Task-4' coro=<PokerAgentCLI._run_agent() running at /Users/0xjba/Documents/ten-projects/LangChain-Agent-for-Poker/poker_agents/cli.py:771> wait_for=<_GatheringFuture pending cb=[Task.task_wakeup()]> cb=[PokerAgentCLI._start_configured_agents.<locals>.<lambda>() at /Users/0xjba/Documents/ten-projects/LangChain-Agent-for-Poker/poker_agents/cli.py:344]>
+2025-04-03 15:36:14,625 - ERROR - Task was destroyed but it is pending!
+task: <Task pending name='Task-7' coro=<PokerAgentCLI._run_agent() running at /Users/0xjba/Documents/ten-projects/LangChain-Agent-for-Poker/poker_agents/cli.py:771> wait_for=<_GatheringFuture pending cb=[Task.task_wakeup()]> cb=[PokerAgentCLI._start_configured_agents.<locals>.<lambda>() at /Users/0xjba/Documents/ten-projects/LangChain-Agent-for-Poker/poker_agents/cli.py:344]>
+2025-04-03 15:36:14,625 - ERROR - Task was destroyed but it is pending!
+task: <Task pending name='Task-8' coro=<PokerAgentCLI._run_agent() running at /Users/0xjba/Documents/ten-projects/LangChain-Agent-for-Poker/poker_agents/cli.py:771> wait_for=<_GatheringFuture pending cb=[Task.task_wakeup()]> cb=[PokerAgentCLI._start_configured_agents.<locals>.<lambda>() at /Users/0xjba/Documents/ten-projects/LangChain-Agent-for-Poker/poker_agents/cli.py:344]>
+2025-04-03 15:36:14,625 - ERROR - Task was destroyed but it is pending!
+task: <Task pending name='Task-6' coro=<PokerAgentCLI._run_agent() running at /Users/0xjba/Documents/ten-projects/LangChain-Agent-for-Poker/poker_agents/cli.py:771> wait_for=<_GatheringFuture pending cb=[Task.task_wakeup()]> cb=[PokerAgentCLI._start_configured_agents.<locals>.<lambda>() at /Users/0xjba/Documents/ten-projects/LangChain-Agent-for-Poker/poker_agents/cli.py:344]>

@@ -1,0 +1,155 @@
+2025-04-03 15:37:57,557 - INFO - Simplified logging system initialized
+2025-04-03 15:37:57,557 - INFO - Simplified logging system initialized
+2025-04-03 15:37:57,565 - INFO - Application initialized
+2025-04-03 15:37:57,565 - WARNING - Test warning message
+2025-04-03 15:37:57,565 - ERROR - Test error message
+2025-04-03 15:37:58,069 - INFO - UI-SUCCESS: Terminal UI started
+2025-04-03 15:37:58,069 - INFO - UI-SUCCESS: Terminal UI started
+2025-04-03 15:37:58,069 - INFO - UI: Press 'q' to quit
+2025-04-03 15:37:58,069 - INFO - UI: Press 'q' to quit
+2025-04-03 15:37:58,069 - INFO - UI: System ready
+2025-04-03 15:37:58,069 - INFO - UI: System ready
+2025-04-03 15:37:58,069 - INFO - UI: Starting in non-interactive mode using config.json...
+2025-04-03 15:37:58,069 - INFO - UI: Starting in non-interactive mode using config.json...
+2025-04-03 15:37:58,069 - INFO - UI-SUCCESS: Logging system initialized
+2025-04-03 15:37:58,069 - INFO - UI-SUCCESS: Logging system initialized
+2025-04-03 15:37:58,069 - INFO - UI: UI Logging enabled
+2025-04-03 15:37:58,069 - INFO - UI: UI Logging enabled
+2025-04-03 15:37:58,069 - WARNING - UI: Warning test message
+2025-04-03 15:37:58,069 - WARNING - UI: Warning test message
+2025-04-03 15:37:58,069 - ERROR - UI: Error test message
+2025-04-03 15:37:58,069 - ERROR - UI: Error test message
+2025-04-03 15:37:58,069 - INFO - Standard logging test message
+2025-04-03 15:37:58,069 - WARNING - Standard logging warning message
+2025-04-03 15:37:58,069 - ERROR - Standard logging error message
+2025-04-03 15:37:58,088 - INFO - Betting contract address provided: 0xDB3BC6e7666860151B4E06FcC65a23d0ec10C5e6
+2025-04-03 15:37:58,647 - INFO - Timer agent 0x1dA9aCB41763f97F744Da547F2d103042e8Ab239 is authorized
+2025-04-03 15:37:58,647 - INFO - Timer agent initialized with address: 0x1dA9aCB41763f97F744Da547F2d103042e8Ab239
+2025-04-03 15:37:58,647 - INFO - UI: Found agents in config: dict_keys(['Agent1', 'Agent2', 'Agent3', 'Agent4', 'Agent5'])
+2025-04-03 15:37:58,647 - INFO - UI: Found agents in config: dict_keys(['Agent1', 'Agent2', 'Agent3', 'Agent4', 'Agent5'])
+2025-04-03 15:37:58,677 - INFO - Agent initialized with address: 0x9Fde625ED8A6eC0f3cA393A62be34231a5c167F4
+2025-04-03 15:37:58,693 - INFO - Agent initialized with address: 0x0Fae37437c1347c23dc279b424663579d2df67df
+2025-04-03 15:37:58,709 - INFO - Agent initialized with address: 0xd2e443F6CF19d5d359e82bbEea76e1133028fda5
+2025-04-03 15:37:58,720 - INFO - Agent initialized with address: 0x7B7057B07218fa9f357E39cb2fC2E723C2bfcf9F
+2025-04-03 15:37:58,731 - INFO - Agent initialized with address: 0x52731AEDA26AB8D159226C51180a7542a4287500
+2025-04-03 15:37:58,731 - INFO - UI-SUCCESS: Startup Complete!
+2025-04-03 15:37:58,731 - INFO - UI-SUCCESS: Startup Complete!
+2025-04-03 15:37:58,731 - INFO - UI: Running: Timer Agent
+2025-04-03 15:37:58,731 - INFO - UI: Running: Timer Agent
+2025-04-03 15:37:58,731 - INFO - UI: Running: Agent: Agent1
+2025-04-03 15:37:58,731 - INFO - UI: Running: Agent: Agent1
+2025-04-03 15:37:58,731 - INFO - UI: Running: Agent: Agent2
+2025-04-03 15:37:58,731 - INFO - UI: Running: Agent: Agent2
+2025-04-03 15:37:58,731 - INFO - UI: Running: Agent: Agent3
+2025-04-03 15:37:58,731 - INFO - UI: Running: Agent: Agent3
+2025-04-03 15:37:58,731 - INFO - UI: Running: Agent: Agent4
+2025-04-03 15:37:58,731 - INFO - UI: Running: Agent: Agent4
+2025-04-03 15:37:58,731 - INFO - UI: Running: Agent: Agent5
+2025-04-03 15:37:58,731 - INFO - UI: Running: Agent: Agent5
+2025-04-03 15:37:58,731 - INFO - EVENT: STARTUP | Poker agents system started successfully
+2025-04-03 15:37:58,731 - INFO - EVENT: STARTUP | Poker agents system started successfully
+2025-04-03 15:37:59,288 - INFO - GAME STATE: Round=PREFLOP | Pot=0 | Player=0x000000...000000 | Time=0s | Blinds=25/50
+2025-04-03 15:37:59,288 - INFO - GAME STATE: Round=PREFLOP | Pot=0 | Player=0x000000...000000 | Time=0s | Blinds=25/50
+2025-04-03 15:37:59,288 - INFO - Starting timer agent...
+2025-04-03 15:37:59,289 - ERROR - Agent 'Agent1' error: 'PokerAgent' object has no attribute 'start'
+Traceback (most recent call last):
+  File "/Users/0xjba/Documents/ten-projects/LangChain-Agent-for-Poker/poker_agents/cli.py", line 771, in _run_agent
+    await agent.start()
+          ^^^^^^^^^^^
+AttributeError: 'PokerAgent' object has no attribute 'start'
+2025-04-03 15:37:59,291 - ERROR - Agent 'Agent2' error: 'PokerAgent' object has no attribute 'start'
+Traceback (most recent call last):
+  File "/Users/0xjba/Documents/ten-projects/LangChain-Agent-for-Poker/poker_agents/cli.py", line 771, in _run_agent
+    await agent.start()
+          ^^^^^^^^^^^
+AttributeError: 'PokerAgent' object has no attribute 'start'
+2025-04-03 15:37:59,292 - ERROR - Agent 'Agent3' error: 'PokerAgent' object has no attribute 'start'
+Traceback (most recent call last):
+  File "/Users/0xjba/Documents/ten-projects/LangChain-Agent-for-Poker/poker_agents/cli.py", line 771, in _run_agent
+    await agent.start()
+          ^^^^^^^^^^^
+AttributeError: 'PokerAgent' object has no attribute 'start'
+2025-04-03 15:37:59,292 - ERROR - Agent 'Agent4' error: 'PokerAgent' object has no attribute 'start'
+Traceback (most recent call last):
+  File "/Users/0xjba/Documents/ten-projects/LangChain-Agent-for-Poker/poker_agents/cli.py", line 771, in _run_agent
+    await agent.start()
+          ^^^^^^^^^^^
+AttributeError: 'PokerAgent' object has no attribute 'start'
+2025-04-03 15:37:59,292 - ERROR - Agent 'Agent5' error: 'PokerAgent' object has no attribute 'start'
+Traceback (most recent call last):
+  File "/Users/0xjba/Documents/ten-projects/LangChain-Agent-for-Poker/poker_agents/cli.py", line 771, in _run_agent
+    await agent.start()
+          ^^^^^^^^^^^
+AttributeError: 'PokerAgent' object has no attribute 'start'
+2025-04-03 15:37:59,559 - INFO - Checking blocks 3552088 to 3553087
+2025-04-03 15:38:00,758 - INFO - BLIND MONITOR: Started monitoring blind levels
+2025-04-03 15:38:00,758 - INFO - UI: BLIND MONITOR: Initialized blind tracking
+2025-04-03 15:38:00,758 - INFO - UI: BLIND MONITOR: Initialized blind tracking
+2025-04-03 15:38:01,447 - ERROR - Agent 'Agent5' failed with error: 'PokerAgent' object has no attribute 'start'
+2025-04-03 15:38:01,447 - ERROR - Agent 'Agent5' failed with error: 'PokerAgent' object has no attribute 'start'
+2025-04-03 15:38:01,447 - ERROR - Agent 'Agent5' failed with error: 'PokerAgent' object has no attribute 'start'
+2025-04-03 15:38:01,447 - ERROR - Agent 'Agent5' failed with error: 'PokerAgent' object has no attribute 'start'
+2025-04-03 15:38:01,447 - ERROR - Agent 'Agent5' failed with error: 'PokerAgent' object has no attribute 'start'
+2025-04-03 15:38:02,013 - INFO - GAME STATE: Round=PREFLOP | Pot=0 | Player=0x000000...000000 | Time=0s | Blinds=25/50
+2025-04-03 15:38:02,013 - INFO - GAME STATE: Round=PREFLOP | Pot=0 | Player=0x000000...000000 | Time=0s | Blinds=25/50
+2025-04-03 15:38:02,630 - INFO - Checking blocks 3553088 to 3553090
+2025-04-03 15:38:04,572 - INFO - GAME STATE: Round=PREFLOP | Pot=0 | Player=0x000000...000000 | Time=0s | Blinds=25/50
+2025-04-03 15:38:04,572 - INFO - GAME STATE: Round=PREFLOP | Pot=0 | Player=0x000000...000000 | Time=0s | Blinds=25/50
+2025-04-03 15:38:05,703 - INFO - Checking blocks 3553091 to 3553093
+2025-04-03 15:38:06,987 - INFO - Initialized betting contract at 0xDB3BC6e7666860151B4E06FcC65a23d0ec10C5e6
+2025-04-03 15:38:07,119 - INFO - Checking for payout events from blocks 3552095 to 3553094
+2025-04-03 15:38:07,311 - INFO - ===== TIMER DEBUG [Periodic check from monitor_timers] =====
+2025-04-03 15:38:07,311 - INFO - Active timers: 0
+2025-04-03 15:38:07,311 - INFO - Processed events: 0 total
+2025-04-03 15:38:07,311 - INFO -   - Timer events: 0
+2025-04-03 15:38:07,311 - INFO -   - Action events: 0
+2025-04-03 15:38:07,311 - INFO -   - Manual timers: 0
+2025-04-03 15:38:07,311 - INFO - =============================
+2025-04-03 15:38:07,311 - INFO - EVENT: TIMER_DEBUG_STATE
+2025-04-03 15:38:07,311 - INFO - EVENT: TIMER_DEBUG_STATE
+2025-04-03 15:38:07,311 - INFO - DETAILS: {"reason": "Periodic check from monitor_timers", "active_timer_count": 0, "processed_events_total": 0, "timer_events": 0, "action_events": 0, "manual_timers": 0, "recent_event_count": 0}
+2025-04-03 15:38:07,311 - INFO - DETAILS: {"reason": "Periodic check from monitor_timers", "active_timer_count": 0, "processed_events_total": 0, "timer_events": 0, "action_events": 0, "manual_timers": 0, "recent_event_count": 0}
+2025-04-03 15:38:08,148 - INFO - GAME STATE: Round=PREFLOP | Pot=0 | Player=0x000000...000000 | Time=0s | Blinds=25/50
+2025-04-03 15:38:08,148 - INFO - GAME STATE: Round=PREFLOP | Pot=0 | Player=0x000000...000000 | Time=0s | Blinds=25/50
+2025-04-03 15:38:09,384 - INFO - Checking blocks 3553094 to 3553097
+2025-04-03 15:38:10,915 - INFO - GAME STATE: Round=PREFLOP | Pot=0 | Player=0x000000...000000 | Time=0s | Blinds=25/50
+2025-04-03 15:38:10,915 - INFO - GAME STATE: Round=PREFLOP | Pot=0 | Player=0x000000...000000 | Time=0s | Blinds=25/50
+2025-04-03 15:38:13,064 - INFO - Checking blocks 3553098 to 3553100
+2025-04-03 15:38:14,601 - INFO - GAME STATE: Round=PREFLOP | Pot=0 | Player=0x000000...000000 | Time=0s | Blinds=25/50
+2025-04-03 15:38:14,601 - INFO - GAME STATE: Round=PREFLOP | Pot=0 | Player=0x000000...000000 | Time=0s | Blinds=25/50
+2025-04-03 15:38:16,810 - INFO - Checking blocks 3553101 to 3553104
+2025-04-03 15:38:18,299 - INFO - GAME STATE: Round=PREFLOP | Pot=0 | Player=0x000000...000000 | Time=0s | Blinds=25/50
+2025-04-03 15:38:18,299 - INFO - GAME STATE: Round=PREFLOP | Pot=0 | Player=0x000000...000000 | Time=0s | Blinds=25/50
+2025-04-03 15:38:18,433 - INFO - Checking for payout events from blocks 3553095 to 3553106
+2025-04-03 15:38:20,213 - INFO - Checking blocks 3553105 to 3553107
+2025-04-03 15:38:21,959 - INFO - GAME STATE: Round=PREFLOP | Pot=0 | Player=0x000000...000000 | Time=0s | Blinds=25/50
+2025-04-03 15:38:21,959 - INFO - GAME STATE: Round=PREFLOP | Pot=0 | Player=0x000000...000000 | Time=0s | Blinds=25/50
+2025-04-03 15:38:23,915 - INFO - Checking blocks 3553108 to 3553111
+2025-04-03 15:38:25,695 - INFO - GAME STATE: Round=PREFLOP | Pot=0 | Player=0x000000...000000 | Time=0s | Blinds=25/50
+2025-04-03 15:38:25,695 - INFO - GAME STATE: Round=PREFLOP | Pot=0 | Player=0x000000...000000 | Time=0s | Blinds=25/50
+2025-04-03 15:38:27,612 - INFO - Checking blocks 3553112 to 3553115
+2025-04-03 15:38:28,550 - INFO - ===== TIMER DEBUG [Periodic check from monitor_timers] =====
+2025-04-03 15:38:28,550 - INFO - Active timers: 0
+2025-04-03 15:38:28,550 - INFO - Processed events: 0 total
+2025-04-03 15:38:28,550 - INFO -   - Timer events: 0
+2025-04-03 15:38:28,550 - INFO -   - Action events: 0
+2025-04-03 15:38:28,551 - INFO -   - Manual timers: 0
+2025-04-03 15:38:28,551 - INFO - =============================
+2025-04-03 15:38:28,551 - INFO - EVENT: TIMER_DEBUG_STATE
+2025-04-03 15:38:28,551 - INFO - EVENT: TIMER_DEBUG_STATE
+2025-04-03 15:38:28,551 - INFO - DETAILS: {"reason": "Periodic check from monitor_timers", "active_timer_count": 0, "processed_events_total": 0, "timer_events": 0, "action_events": 0, "manual_timers": 0, "recent_event_count": 0}
+2025-04-03 15:38:28,551 - INFO - DETAILS: {"reason": "Periodic check from monitor_timers", "active_timer_count": 0, "processed_events_total": 0, "timer_events": 0, "action_events": 0, "manual_timers": 0, "recent_event_count": 0}
+2025-04-03 15:38:29,367 - INFO - GAME STATE: Round=PREFLOP | Pot=0 | Player=0x000000...000000 | Time=0s | Blinds=25/50
+2025-04-03 15:38:29,367 - INFO - GAME STATE: Round=PREFLOP | Pot=0 | Player=0x000000...000000 | Time=0s | Blinds=25/50
+2025-04-03 15:38:29,500 - INFO - Checking for payout events from blocks 3553107 to 3553117
+2025-04-03 15:38:31,317 - INFO - Checking blocks 3553116 to 3553119
+2025-04-03 15:38:33,085 - INFO - GAME STATE: Round=PREFLOP | Pot=0 | Player=0x000000...000000 | Time=0s | Blinds=25/50
+2025-04-03 15:38:33,085 - INFO - GAME STATE: Round=PREFLOP | Pot=0 | Player=0x000000...000000 | Time=0s | Blinds=25/50
+2025-04-03 15:38:34,489 - INFO - Shutdown signal received. Cleaning up...
+2025-04-03 15:38:34,914 - WARNING - UI: Terminal UI stopping
+2025-04-03 15:38:34,914 - WARNING - UI: Terminal UI stopping
+2025-04-03 15:38:35,418 - INFO - Main task was cancelled. Performing cleanup...
+2025-04-03 15:38:35,418 - INFO - Exiting application
+2025-04-03 15:38:35,551 - INFO - Checking blocks 3553120 to 3553123
+2025-04-03 15:38:36,824 - ERROR - Task was destroyed but it is pending!
+task: <Task pending name='Task-3' coro=<TimerAgent.start() running at /Users/0xjba/Documents/ten-projects/LangChain-Agent-for-Poker/poker_agents/timer_agent.py:2773> wait_for=<_GatheringFuture pending cb=[Task.task_wakeup()]>>

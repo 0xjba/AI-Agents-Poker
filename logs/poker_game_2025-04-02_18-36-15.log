@@ -1,0 +1,130 @@
+2025-04-02 18:36:15,427 - INFO - Simplified logging system initialized
+2025-04-02 18:36:15,427 - INFO - Simplified logging system initialized
+2025-04-02 18:36:15,432 - INFO - Application initialized
+2025-04-02 18:36:15,432 - WARNING - Test warning message
+2025-04-02 18:36:15,432 - ERROR - Test error message
+2025-04-02 18:36:15,938 - INFO - UI-SUCCESS: Terminal UI started
+2025-04-02 18:36:15,938 - INFO - UI-SUCCESS: Terminal UI started
+2025-04-02 18:36:15,939 - INFO - UI: Press 'q' to quit
+2025-04-02 18:36:15,939 - INFO - UI: Press 'q' to quit
+2025-04-02 18:36:15,939 - INFO - UI: System ready
+2025-04-02 18:36:15,939 - INFO - UI: System ready
+2025-04-02 18:36:15,939 - INFO - UI: Starting in non-interactive mode using config.json...
+2025-04-02 18:36:15,939 - INFO - UI: Starting in non-interactive mode using config.json...
+2025-04-02 18:36:15,939 - INFO - UI-SUCCESS: Logging system initialized
+2025-04-02 18:36:15,939 - INFO - UI-SUCCESS: Logging system initialized
+2025-04-02 18:36:15,939 - INFO - UI: UI Logging enabled
+2025-04-02 18:36:15,939 - INFO - UI: UI Logging enabled
+2025-04-02 18:36:15,939 - WARNING - UI: Warning test message
+2025-04-02 18:36:15,939 - WARNING - UI: Warning test message
+2025-04-02 18:36:15,939 - ERROR - UI: Error test message
+2025-04-02 18:36:15,939 - ERROR - UI: Error test message
+2025-04-02 18:36:15,939 - INFO - Standard logging test message
+2025-04-02 18:36:15,939 - WARNING - Standard logging warning message
+2025-04-02 18:36:15,939 - ERROR - Standard logging error message
+2025-04-02 18:36:15,979 - INFO - Betting contract address provided: 0x0165878A594ca255338adfa4d48449f69242Eb8F
+2025-04-02 18:36:15,988 - ERROR - Timer agent 0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266 is not authorized!
+2025-04-02 18:36:15,988 - WARNING - UI: Failed to start timer agent, but continuing with poker agents...
+2025-04-02 18:36:15,988 - WARNING - UI: Failed to start timer agent, but continuing with poker agents...
+2025-04-02 18:36:15,988 - INFO - UI: Found agents in config: dict_keys(['Agent1', 'Agent2', 'Agent3', 'Agent4', 'Agent5'])
+2025-04-02 18:36:15,988 - INFO - UI: Found agents in config: dict_keys(['Agent1', 'Agent2', 'Agent3', 'Agent4', 'Agent5'])
+2025-04-02 18:36:16,002 - INFO - Agent initialized with address: 0x70997970C51812dc3A010C7d01b50e0d17dc79C8
+2025-04-02 18:36:16,014 - INFO - Agent initialized with address: 0x3C44CdDdB6a900fa2b585dd299e03d12FA4293BC
+2025-04-02 18:36:16,027 - INFO - Agent initialized with address: 0x90F79bf6EB2c4f870365E785982E1f101E93b906
+2025-04-02 18:36:16,037 - INFO - Agent initialized with address: 0x15d34AAf54267DB7D7c367839AAf71A00a2C6A65
+2025-04-02 18:36:16,047 - INFO - Agent initialized with address: 0x9965507D1a55bcC2695C58ba16FB37d819B0A4dc
+2025-04-02 18:36:16,047 - INFO - UI-SUCCESS: Startup Complete!
+2025-04-02 18:36:16,047 - INFO - UI-SUCCESS: Startup Complete!
+2025-04-02 18:36:16,047 - INFO - UI: Running: Agent: Agent1
+2025-04-02 18:36:16,047 - INFO - UI: Running: Agent: Agent1
+2025-04-02 18:36:16,047 - INFO - UI: Running: Agent: Agent2
+2025-04-02 18:36:16,047 - INFO - UI: Running: Agent: Agent2
+2025-04-02 18:36:16,047 - INFO - UI: Running: Agent: Agent3
+2025-04-02 18:36:16,047 - INFO - UI: Running: Agent: Agent3
+2025-04-02 18:36:16,047 - INFO - UI: Running: Agent: Agent4
+2025-04-02 18:36:16,047 - INFO - UI: Running: Agent: Agent4
+2025-04-02 18:36:16,047 - INFO - UI: Running: Agent: Agent5
+2025-04-02 18:36:16,047 - INFO - UI: Running: Agent: Agent5
+2025-04-02 18:36:16,047 - INFO - EVENT: STARTUP | Poker agents system started successfully
+2025-04-02 18:36:16,047 - INFO - EVENT: STARTUP | Poker agents system started successfully
+2025-04-02 18:36:16,047 - INFO - Starting poker agent with address 0x70997970C51812dc3A010C7d01b50e0d17dc79C8
+2025-04-02 18:36:16,047 - INFO - Monitoring GameLogic contract at 0xDc64a140Aa3E981100a9becA4E685f962f0cF6C9
+2025-04-02 18:36:16,047 - INFO - Starting poker agent with address 0x3C44CdDdB6a900fa2b585dd299e03d12FA4293BC
+2025-04-02 18:36:16,048 - INFO - Monitoring GameLogic contract at 0xDc64a140Aa3E981100a9becA4E685f962f0cF6C9
+2025-04-02 18:36:16,048 - INFO - Starting poker agent with address 0x90F79bf6EB2c4f870365E785982E1f101E93b906
+2025-04-02 18:36:16,048 - INFO - Monitoring GameLogic contract at 0xDc64a140Aa3E981100a9becA4E685f962f0cF6C9
+2025-04-02 18:36:16,048 - INFO - Starting poker agent with address 0x15d34AAf54267DB7D7c367839AAf71A00a2C6A65
+2025-04-02 18:36:16,048 - INFO - Monitoring GameLogic contract at 0xDc64a140Aa3E981100a9becA4E685f962f0cF6C9
+2025-04-02 18:36:16,048 - INFO - Starting poker agent with address 0x9965507D1a55bcC2695C58ba16FB37d819B0A4dc
+2025-04-02 18:36:16,048 - INFO - Monitoring GameLogic contract at 0xDc64a140Aa3E981100a9becA4E685f962f0cF6C9
+2025-04-02 18:44:30,742 - ERROR - Error getting game state: HTTPConnectionPool(host='127.0.0.1', port=8545): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x1048b2ea0>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2025-04-02 18:44:31,972 - ERROR - Error getting player state: HTTPConnectionPool(host='127.0.0.1', port=8545): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x104d087c0>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2025-04-02 18:44:33,196 - ERROR - Error in event monitoring: HTTPConnectionPool(host='127.0.0.1', port=8545): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x104d0a030>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2025-04-02 18:44:34,420 - ERROR - Error getting game state: HTTPConnectionPool(host='127.0.0.1', port=8545): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x104d0b790>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2025-04-02 18:44:35,647 - ERROR - Error getting player state: HTTPConnectionPool(host='127.0.0.1', port=8545): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x104d0af10>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2025-04-02 18:44:36,873 - ERROR - Error in event monitoring: HTTPConnectionPool(host='127.0.0.1', port=8545): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x104d099d0>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2025-04-02 18:44:38,104 - ERROR - Error getting game state: HTTPConnectionPool(host='127.0.0.1', port=8545): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x104d08050>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2025-04-02 18:44:39,328 - ERROR - Error getting player state: HTTPConnectionPool(host='127.0.0.1', port=8545): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x1047f68b0>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2025-04-02 18:44:40,556 - ERROR - Error in event monitoring: HTTPConnectionPool(host='127.0.0.1', port=8545): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x104d396a0>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2025-04-02 18:44:41,787 - ERROR - Error getting game state: HTTPConnectionPool(host='127.0.0.1', port=8545): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x1047f7240>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2025-04-02 18:44:43,013 - ERROR - Error getting player state: HTTPConnectionPool(host='127.0.0.1', port=8545): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x104d087c0>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2025-04-02 18:44:44,237 - ERROR - Error in event monitoring: HTTPConnectionPool(host='127.0.0.1', port=8545): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x104d0a360>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2025-04-02 18:44:45,467 - ERROR - Error getting game state: HTTPConnectionPool(host='127.0.0.1', port=8545): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x104d0a9c0>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2025-04-02 18:44:46,692 - ERROR - Error getting player state: HTTPConnectionPool(host='127.0.0.1', port=8545): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x104d38380>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2025-04-02 18:44:47,916 - ERROR - Error in event monitoring: HTTPConnectionPool(host='127.0.0.1', port=8545): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x104d0a8b0>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2025-04-02 18:44:49,140 - ERROR - Error getting game state: HTTPConnectionPool(host='127.0.0.1', port=8545): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x104d09150>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2025-04-02 18:44:50,370 - ERROR - Error getting player state: HTTPConnectionPool(host='127.0.0.1', port=8545): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x1047f78a0>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2025-04-02 18:44:51,592 - ERROR - Error in event monitoring: HTTPConnectionPool(host='127.0.0.1', port=8545): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x104d38c00>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2025-04-02 18:44:52,818 - ERROR - Error getting game state: HTTPConnectionPool(host='127.0.0.1', port=8545): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x104d3abe0>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2025-04-02 18:44:54,045 - ERROR - Error getting player state: HTTPConnectionPool(host='127.0.0.1', port=8545): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x1047f7ac0>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2025-04-02 18:44:55,273 - ERROR - Error in event monitoring: HTTPConnectionPool(host='127.0.0.1', port=8545): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x104d08e20>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2025-04-02 18:44:56,500 - ERROR - Error getting game state: HTTPConnectionPool(host='127.0.0.1', port=8545): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x104d0a580>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2025-04-02 18:44:57,730 - ERROR - Error getting player state: HTTPConnectionPool(host='127.0.0.1', port=8545): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x104d39ae0>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2025-04-02 18:44:58,957 - ERROR - Error in event monitoring: HTTPConnectionPool(host='127.0.0.1', port=8545): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x104d3b460>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2025-04-02 18:45:00,185 - ERROR - Error getting game state: HTTPConnectionPool(host='127.0.0.1', port=8545): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x104d0ae00>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2025-04-02 18:45:01,404 - ERROR - Error getting player state: HTTPConnectionPool(host='127.0.0.1', port=8545): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x104d08c00>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2025-04-02 18:45:02,631 - ERROR - Error in event monitoring: HTTPConnectionPool(host='127.0.0.1', port=8545): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x1047f7df0>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2025-04-02 18:45:03,852 - ERROR - Error getting game state: HTTPConnectionPool(host='127.0.0.1', port=8545): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x104d3b130>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2025-04-02 18:45:05,078 - ERROR - Error getting player state: HTTPConnectionPool(host='127.0.0.1', port=8545): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x104d3a690>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2025-04-02 18:45:06,298 - ERROR - Error in event monitoring: HTTPConnectionPool(host='127.0.0.1', port=8545): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x104d085a0>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2025-04-02 18:45:07,524 - ERROR - Error getting game state: HTTPConnectionPool(host='127.0.0.1', port=8545): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x104d086b0>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2025-04-02 18:45:08,752 - ERROR - Error getting player state: HTTPConnectionPool(host='127.0.0.1', port=8545): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x104d09bf0>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2025-04-02 18:45:09,980 - ERROR - Error in event monitoring: HTTPConnectionPool(host='127.0.0.1', port=8545): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x104d38c00>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2025-04-02 18:45:11,204 - ERROR - Error getting game state: HTTPConnectionPool(host='127.0.0.1', port=8545): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x104d3bac0>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2025-04-02 18:45:12,434 - ERROR - Error getting player state: HTTPConnectionPool(host='127.0.0.1', port=8545): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x104d0bac0>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2025-04-02 18:45:13,663 - ERROR - Error in event monitoring: HTTPConnectionPool(host='127.0.0.1', port=8545): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x104d09480>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2025-04-02 18:45:14,893 - ERROR - Error getting game state: HTTPConnectionPool(host='127.0.0.1', port=8545): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x1047f6690>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2025-04-02 18:45:16,113 - ERROR - Error getting player state: HTTPConnectionPool(host='127.0.0.1', port=8545): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x104d38af0>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2025-04-02 18:45:17,338 - ERROR - Error in event monitoring: HTTPConnectionPool(host='127.0.0.1', port=8545): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x104d68380>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2025-04-02 18:45:18,032 - INFO - Shutdown signal received. Cleaning up...
+2025-04-02 18:45:18,564 - ERROR - Error getting game state: HTTPConnectionPool(host='127.0.0.1', port=8545): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x104d38af0>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2025-04-02 18:45:19,791 - ERROR - Error getting player state: HTTPConnectionPool(host='127.0.0.1', port=8545): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x1047f7df0>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2025-04-02 18:45:21,016 - ERROR - Error in event monitoring: HTTPConnectionPool(host='127.0.0.1', port=8545): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x104d087c0>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2025-04-02 18:45:21,016 - WARNING - UI: Terminal UI stopping
+2025-04-02 18:45:21,016 - WARNING - UI: Terminal UI stopping
+2025-04-02 18:45:21,521 - INFO - Main task was cancelled. Performing cleanup...
+2025-04-02 18:45:21,522 - INFO - Exiting application
+2025-04-02 18:45:22,753 - ERROR - Error getting game state: HTTPConnectionPool(host='127.0.0.1', port=8545): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x104d0a030>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2025-04-02 18:45:23,984 - ERROR - Error getting player state: HTTPConnectionPool(host='127.0.0.1', port=8545): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x104d68050>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2025-04-02 18:45:25,210 - ERROR - Error in event monitoring: HTTPConnectionPool(host='127.0.0.1', port=8545): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x104d09f20>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2025-04-02 18:45:26,436 - ERROR - Error getting game state: HTTPConnectionPool(host='127.0.0.1', port=8545): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x104d08380>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2025-04-02 18:45:27,660 - ERROR - Error getting player state: HTTPConnectionPool(host='127.0.0.1', port=8545): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x1047f6690>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2025-04-02 18:45:28,883 - ERROR - Error in event monitoring: HTTPConnectionPool(host='127.0.0.1', port=8545): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x104d385a0>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2025-04-02 18:45:30,113 - ERROR - Error getting game state: HTTPConnectionPool(host='127.0.0.1', port=8545): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x104d68e20>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2025-04-02 18:45:31,340 - ERROR - Error getting player state: HTTPConnectionPool(host='127.0.0.1', port=8545): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x1047f6030>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2025-04-02 18:45:32,566 - ERROR - Error in event monitoring: HTTPConnectionPool(host='127.0.0.1', port=8545): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x104d385a0>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2025-04-02 18:45:33,796 - ERROR - Error getting game state: HTTPConnectionPool(host='127.0.0.1', port=8545): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x104d3bac0>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2025-04-02 18:45:35,023 - ERROR - Error getting player state: HTTPConnectionPool(host='127.0.0.1', port=8545): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x104d68d10>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2025-04-02 18:45:36,243 - ERROR - Error in event monitoring: HTTPConnectionPool(host='127.0.0.1', port=8545): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x104d69bf0>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2025-04-02 18:45:37,473 - ERROR - Error getting game state: HTTPConnectionPool(host='127.0.0.1', port=8545): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x104d39480>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2025-04-02 18:45:38,695 - ERROR - Error getting player state: HTTPConnectionPool(host='127.0.0.1', port=8545): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x104d386b0>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2025-04-02 18:45:38,752 - ERROR - Task was destroyed but it is pending!
+task: <Task pending name='Task-4' coro=<PokerAgentCLI._run_agent() running at /Users/0xjba/Documents/ten-projects/LangChain-Agent-for-Poker/poker_agents/cli.py:771> wait_for=<_GatheringFuture pending cb=[Task.task_wakeup()]> cb=[PokerAgentCLI._start_configured_agents.<locals>.<lambda>() at /Users/0xjba/Documents/ten-projects/LangChain-Agent-for-Poker/poker_agents/cli.py:344]>
+2025-04-02 18:45:38,752 - ERROR - Task was destroyed but it is pending!
+task: <Task pending name='Task-3' coro=<PokerAgentCLI._run_agent() running at /Users/0xjba/Documents/ten-projects/LangChain-Agent-for-Poker/poker_agents/cli.py:771> wait_for=<_GatheringFuture pending cb=[Task.task_wakeup()]> cb=[PokerAgentCLI._start_configured_agents.<locals>.<lambda>() at /Users/0xjba/Documents/ten-projects/LangChain-Agent-for-Poker/poker_agents/cli.py:344]>
+2025-04-02 18:45:38,753 - ERROR - Task was destroyed but it is pending!
+task: <Task pending name='Task-5' coro=<PokerAgentCLI._run_agent() running at /Users/0xjba/Documents/ten-projects/LangChain-Agent-for-Poker/poker_agents/cli.py:771> wait_for=<_GatheringFuture pending cb=[Task.task_wakeup()]> cb=[PokerAgentCLI._start_configured_agents.<locals>.<lambda>() at /Users/0xjba/Documents/ten-projects/LangChain-Agent-for-Poker/poker_agents/cli.py:344]>
+2025-04-02 18:45:38,753 - ERROR - Task was destroyed but it is pending!
+task: <Task pending name='Task-6' coro=<PokerAgentCLI._run_agent() running at /Users/0xjba/Documents/ten-projects/LangChain-Agent-for-Poker/poker_agents/cli.py:771> wait_for=<_GatheringFuture pending cb=[Task.task_wakeup()]> cb=[PokerAgentCLI._start_configured_agents.<locals>.<lambda>() at /Users/0xjba/Documents/ten-projects/LangChain-Agent-for-Poker/poker_agents/cli.py:344]>
+2025-04-02 18:45:38,753 - ERROR - Task was destroyed but it is pending!
+task: <Task pending name='Task-7' coro=<PokerAgentCLI._run_agent() running at /Users/0xjba/Documents/ten-projects/LangChain-Agent-for-Poker/poker_agents/cli.py:771> wait_for=<_GatheringFuture pending cb=[Task.task_wakeup()]> cb=[PokerAgentCLI._start_configured_agents.<locals>.<lambda>() at /Users/0xjba/Documents/ten-projects/LangChain-Agent-for-Poker/poker_agents/cli.py:344]>

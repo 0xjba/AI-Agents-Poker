@@ -13,7 +13,7 @@ class OpenRouterClient:
             raise ValueError("OPENROUTER_API_KEY environment variable not set")
         
         self.model = model_name
-        self.base_url = "https://openrouter.ai/api/v1"
+        self.base_url = "https://api.red-pill.ai/v1"
         
         self.headers = {
             "Authorization": f"Bearer {self.api_key}",

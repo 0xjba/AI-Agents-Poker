@@ -1,0 +1,104 @@
+2025-04-03 15:33:41,572 - INFO - Simplified logging system initialized
+2025-04-03 15:33:41,572 - INFO - Simplified logging system initialized
+2025-04-03 15:33:41,575 - INFO - Application initialized
+2025-04-03 15:33:41,575 - WARNING - Test warning message
+2025-04-03 15:33:41,575 - ERROR - Test error message
+2025-04-03 15:33:42,082 - INFO - UI-SUCCESS: Terminal UI started
+2025-04-03 15:33:42,082 - INFO - UI-SUCCESS: Terminal UI started
+2025-04-03 15:33:42,082 - INFO - UI: Press 'q' to quit
+2025-04-03 15:33:42,082 - INFO - UI: Press 'q' to quit
+2025-04-03 15:33:42,082 - INFO - UI: System ready
+2025-04-03 15:33:42,082 - INFO - UI: System ready
+2025-04-03 15:33:42,082 - INFO - UI: Starting in non-interactive mode using config.json...
+2025-04-03 15:33:42,082 - INFO - UI: Starting in non-interactive mode using config.json...
+2025-04-03 15:33:42,082 - INFO - UI-SUCCESS: Logging system initialized
+2025-04-03 15:33:42,082 - INFO - UI-SUCCESS: Logging system initialized
+2025-04-03 15:33:42,082 - INFO - UI: UI Logging enabled
+2025-04-03 15:33:42,082 - INFO - UI: UI Logging enabled
+2025-04-03 15:33:42,082 - WARNING - UI: Warning test message
+2025-04-03 15:33:42,082 - WARNING - UI: Warning test message
+2025-04-03 15:33:42,082 - ERROR - UI: Error test message
+2025-04-03 15:33:42,082 - ERROR - UI: Error test message
+2025-04-03 15:33:42,082 - INFO - Standard logging test message
+2025-04-03 15:33:42,082 - WARNING - Standard logging warning message
+2025-04-03 15:33:42,082 - ERROR - Standard logging error message
+2025-04-03 15:33:42,105 - INFO - Betting contract address provided: 0xDB3BC6e7666860151B4E06FcC65a23d0ec10C5e6
+2025-04-03 15:33:42,681 - INFO - Timer agent 0x1dA9aCB41763f97F744Da547F2d103042e8Ab239 is authorized
+2025-04-03 15:33:42,681 - INFO - Timer agent initialized with address: 0x1dA9aCB41763f97F744Da547F2d103042e8Ab239
+2025-04-03 15:33:42,681 - INFO - UI: Found agents in config: dict_keys(['Agent1', 'Agent2', 'Agent3', 'Agent4', 'Agent5'])
+2025-04-03 15:33:42,681 - INFO - UI: Found agents in config: dict_keys(['Agent1', 'Agent2', 'Agent3', 'Agent4', 'Agent5'])
+2025-04-03 15:33:42,711 - INFO - Agent initialized with address: 0x9Fde625ED8A6eC0f3cA393A62be34231a5c167F4
+2025-04-03 15:33:42,728 - INFO - Agent initialized with address: 0x0Fae37437c1347c23dc279b424663579d2df67df
+2025-04-03 15:33:42,743 - INFO - Agent initialized with address: 0xd2e443F6CF19d5d359e82bbEea76e1133028fda5
+2025-04-03 15:33:42,755 - INFO - Agent initialized with address: 0x7B7057B07218fa9f357E39cb2fC2E723C2bfcf9F
+2025-04-03 15:33:42,766 - INFO - Agent initialized with address: 0x52731AEDA26AB8D159226C51180a7542a4287500
+2025-04-03 15:33:42,766 - INFO - UI-SUCCESS: Startup Complete!
+2025-04-03 15:33:42,766 - INFO - UI-SUCCESS: Startup Complete!
+2025-04-03 15:33:42,766 - INFO - UI: Running: Timer Agent
+2025-04-03 15:33:42,766 - INFO - UI: Running: Timer Agent
+2025-04-03 15:33:42,766 - INFO - UI: Running: Agent: Agent1
+2025-04-03 15:33:42,766 - INFO - UI: Running: Agent: Agent1
+2025-04-03 15:33:42,766 - INFO - UI: Running: Agent: Agent2
+2025-04-03 15:33:42,766 - INFO - UI: Running: Agent: Agent2
+2025-04-03 15:33:42,766 - INFO - UI: Running: Agent: Agent3
+2025-04-03 15:33:42,766 - INFO - UI: Running: Agent: Agent3
+2025-04-03 15:33:42,766 - INFO - UI: Running: Agent: Agent4
+2025-04-03 15:33:42,766 - INFO - UI: Running: Agent: Agent4
+2025-04-03 15:33:42,766 - INFO - UI: Running: Agent: Agent5
+2025-04-03 15:33:42,766 - INFO - UI: Running: Agent: Agent5
+2025-04-03 15:33:42,766 - INFO - EVENT: STARTUP | Poker agents system started successfully
+2025-04-03 15:33:42,766 - INFO - EVENT: STARTUP | Poker agents system started successfully
+2025-04-03 15:33:43,339 - INFO - GAME STATE: Round=PREFLOP | Pot=0 | Player=0x000000...000000 | Time=0s | Blinds=25/50
+2025-04-03 15:33:43,339 - INFO - GAME STATE: Round=PREFLOP | Pot=0 | Player=0x000000...000000 | Time=0s | Blinds=25/50
+2025-04-03 15:33:43,339 - INFO - Starting timer agent...
+2025-04-03 15:33:43,340 - ERROR - Agent 'Agent1' error: 'PokerAgent' object has no attribute 'start'
+Traceback (most recent call last):
+  File "/Users/0xjba/Documents/ten-projects/LangChain-Agent-for-Poker/poker_agents/cli.py", line 771, in _run_agent
+    await agent.start()
+          ^^^^^^^^^^^
+AttributeError: 'PokerAgent' object has no attribute 'start'
+2025-04-03 15:33:43,342 - ERROR - Agent 'Agent2' error: 'PokerAgent' object has no attribute 'start'
+Traceback (most recent call last):
+  File "/Users/0xjba/Documents/ten-projects/LangChain-Agent-for-Poker/poker_agents/cli.py", line 771, in _run_agent
+    await agent.start()
+          ^^^^^^^^^^^
+AttributeError: 'PokerAgent' object has no attribute 'start'
+2025-04-03 15:33:43,343 - ERROR - Agent 'Agent3' error: 'PokerAgent' object has no attribute 'start'
+Traceback (most recent call last):
+  File "/Users/0xjba/Documents/ten-projects/LangChain-Agent-for-Poker/poker_agents/cli.py", line 771, in _run_agent
+    await agent.start()
+          ^^^^^^^^^^^
+AttributeError: 'PokerAgent' object has no attribute 'start'
+2025-04-03 15:33:43,343 - ERROR - Agent 'Agent4' error: 'PokerAgent' object has no attribute 'start'
+Traceback (most recent call last):
+  File "/Users/0xjba/Documents/ten-projects/LangChain-Agent-for-Poker/poker_agents/cli.py", line 771, in _run_agent
+    await agent.start()
+          ^^^^^^^^^^^
+AttributeError: 'PokerAgent' object has no attribute 'start'
+2025-04-03 15:33:43,343 - ERROR - Agent 'Agent5' error: 'PokerAgent' object has no attribute 'start'
+Traceback (most recent call last):
+  File "/Users/0xjba/Documents/ten-projects/LangChain-Agent-for-Poker/poker_agents/cli.py", line 771, in _run_agent
+    await agent.start()
+          ^^^^^^^^^^^
+AttributeError: 'PokerAgent' object has no attribute 'start'
+2025-04-03 15:33:43,617 - INFO - Checking blocks 3551832 to 3552831
+2025-04-03 15:33:44,833 - INFO - BLIND MONITOR: Started monitoring blind levels
+2025-04-03 15:33:44,833 - INFO - UI: BLIND MONITOR: Initialized blind tracking
+2025-04-03 15:33:44,833 - INFO - UI: BLIND MONITOR: Initialized blind tracking
+2025-04-03 15:33:45,536 - ERROR - Agent 'Agent5' failed with error: 'PokerAgent' object has no attribute 'start'
+2025-04-03 15:33:45,536 - ERROR - Agent 'Agent5' failed with error: 'PokerAgent' object has no attribute 'start'
+2025-04-03 15:33:45,536 - ERROR - Agent 'Agent5' failed with error: 'PokerAgent' object has no attribute 'start'
+2025-04-03 15:33:45,536 - ERROR - Agent 'Agent5' failed with error: 'PokerAgent' object has no attribute 'start'
+2025-04-03 15:33:45,536 - ERROR - Agent 'Agent5' failed with error: 'PokerAgent' object has no attribute 'start'
+2025-04-03 15:33:46,092 - INFO - GAME STATE: Round=PREFLOP | Pot=0 | Player=0x000000...000000 | Time=0s | Blinds=25/50
+2025-04-03 15:33:46,092 - INFO - GAME STATE: Round=PREFLOP | Pot=0 | Player=0x000000...000000 | Time=0s | Blinds=25/50
+2025-04-03 15:33:46,693 - INFO - Checking blocks 3552832 to 3552834
+2025-04-03 15:33:48,676 - INFO - GAME STATE: Round=PREFLOP | Pot=0 | Player=0x000000...000000 | Time=0s | Blinds=25/50
+2025-04-03 15:33:48,676 - INFO - GAME STATE: Round=PREFLOP | Pot=0 | Player=0x000000...000000 | Time=0s | Blinds=25/50
+2025-04-03 15:33:48,772 - INFO - Shutdown signal received. Cleaning up...
+2025-04-03 15:33:49,372 - WARNING - UI: Terminal UI stopping
+2025-04-03 15:33:49,372 - WARNING - UI: Terminal UI stopping
+2025-04-03 15:33:49,876 - INFO - Main task was cancelled. Performing cleanup...
+2025-04-03 15:33:49,876 - INFO - Exiting application
+2025-04-03 15:33:50,240 - ERROR - Task was destroyed but it is pending!
+task: <Task pending name='Task-3' coro=<TimerAgent.start() running at /Users/0xjba/Documents/ten-projects/LangChain-Agent-for-Poker/poker_agents/timer_agent.py:2773> wait_for=<_GatheringFuture pending cb=[Task.task_wakeup()]>>

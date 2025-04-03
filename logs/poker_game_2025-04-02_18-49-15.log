@@ -1,0 +1,85 @@
+2025-04-02 18:49:15,340 - INFO - Simplified logging system initialized
+2025-04-02 18:49:15,340 - INFO - Simplified logging system initialized
+2025-04-02 18:49:15,345 - INFO - Application initialized
+2025-04-02 18:49:15,345 - WARNING - Test warning message
+2025-04-02 18:49:15,345 - ERROR - Test error message
+2025-04-02 18:49:15,852 - INFO - UI-SUCCESS: Terminal UI started
+2025-04-02 18:49:15,852 - INFO - UI-SUCCESS: Terminal UI started
+2025-04-02 18:49:15,853 - INFO - UI: Press 'q' to quit
+2025-04-02 18:49:15,853 - INFO - UI: Press 'q' to quit
+2025-04-02 18:49:15,853 - INFO - UI: System ready
+2025-04-02 18:49:15,853 - INFO - UI: System ready
+2025-04-02 18:49:15,853 - INFO - UI: Starting in non-interactive mode using config.json...
+2025-04-02 18:49:15,853 - INFO - UI: Starting in non-interactive mode using config.json...
+2025-04-02 18:49:15,853 - INFO - UI-SUCCESS: Logging system initialized
+2025-04-02 18:49:15,853 - INFO - UI-SUCCESS: Logging system initialized
+2025-04-02 18:49:15,853 - INFO - UI: UI Logging enabled
+2025-04-02 18:49:15,853 - INFO - UI: UI Logging enabled
+2025-04-02 18:49:15,853 - WARNING - UI: Warning test message
+2025-04-02 18:49:15,853 - WARNING - UI: Warning test message
+2025-04-02 18:49:15,853 - ERROR - UI: Error test message
+2025-04-02 18:49:15,853 - ERROR - UI: Error test message
+2025-04-02 18:49:15,853 - INFO - Standard logging test message
+2025-04-02 18:49:15,853 - WARNING - Standard logging warning message
+2025-04-02 18:49:15,853 - ERROR - Standard logging error message
+2025-04-02 18:49:15,891 - INFO - Betting contract address provided: 0x0165878A594ca255338adfa4d48449f69242Eb8F
+2025-04-02 18:49:15,902 - ERROR - Timer agent 0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266 is not authorized!
+2025-04-02 18:49:15,902 - WARNING - UI: Failed to start timer agent, but continuing with poker agents...
+2025-04-02 18:49:15,902 - WARNING - UI: Failed to start timer agent, but continuing with poker agents...
+2025-04-02 18:49:15,902 - INFO - UI: Found agents in config: dict_keys(['Agent1', 'Agent2', 'Agent3', 'Agent4', 'Agent5'])
+2025-04-02 18:49:15,902 - INFO - UI: Found agents in config: dict_keys(['Agent1', 'Agent2', 'Agent3', 'Agent4', 'Agent5'])
+2025-04-02 18:49:15,915 - INFO - Agent initialized with address: 0x70997970C51812dc3A010C7d01b50e0d17dc79C8
+2025-04-02 18:49:15,927 - INFO - Agent initialized with address: 0x3C44CdDdB6a900fa2b585dd299e03d12FA4293BC
+2025-04-02 18:49:15,939 - INFO - Agent initialized with address: 0x90F79bf6EB2c4f870365E785982E1f101E93b906
+2025-04-02 18:49:15,950 - INFO - Agent initialized with address: 0x15d34AAf54267DB7D7c367839AAf71A00a2C6A65
+2025-04-02 18:49:15,960 - INFO - Agent initialized with address: 0x9965507D1a55bcC2695C58ba16FB37d819B0A4dc
+2025-04-02 18:49:15,960 - INFO - UI-SUCCESS: Startup Complete!
+2025-04-02 18:49:15,960 - INFO - UI-SUCCESS: Startup Complete!
+2025-04-02 18:49:15,960 - INFO - UI: Running: Agent: Agent1
+2025-04-02 18:49:15,960 - INFO - UI: Running: Agent: Agent1
+2025-04-02 18:49:15,960 - INFO - UI: Running: Agent: Agent2
+2025-04-02 18:49:15,960 - INFO - UI: Running: Agent: Agent2
+2025-04-02 18:49:15,960 - INFO - UI: Running: Agent: Agent3
+2025-04-02 18:49:15,960 - INFO - UI: Running: Agent: Agent3
+2025-04-02 18:49:15,960 - INFO - UI: Running: Agent: Agent4
+2025-04-02 18:49:15,960 - INFO - UI: Running: Agent: Agent4
+2025-04-02 18:49:15,960 - INFO - UI: Running: Agent: Agent5
+2025-04-02 18:49:15,960 - INFO - UI: Running: Agent: Agent5
+2025-04-02 18:49:15,960 - INFO - EVENT: STARTUP | Poker agents system started successfully
+2025-04-02 18:49:15,960 - INFO - EVENT: STARTUP | Poker agents system started successfully
+2025-04-02 18:49:15,960 - INFO - Starting poker agent with address 0x70997970C51812dc3A010C7d01b50e0d17dc79C8
+2025-04-02 18:49:15,960 - INFO - Monitoring GameLogic contract at 0xDc64a140Aa3E981100a9becA4E685f962f0cF6C9
+2025-04-02 18:49:15,960 - INFO - Starting poker agent with address 0x3C44CdDdB6a900fa2b585dd299e03d12FA4293BC
+2025-04-02 18:49:15,960 - INFO - Monitoring GameLogic contract at 0xDc64a140Aa3E981100a9becA4E685f962f0cF6C9
+2025-04-02 18:49:15,960 - INFO - Starting poker agent with address 0x90F79bf6EB2c4f870365E785982E1f101E93b906
+2025-04-02 18:49:15,961 - INFO - Monitoring GameLogic contract at 0xDc64a140Aa3E981100a9becA4E685f962f0cF6C9
+2025-04-02 18:49:15,961 - INFO - Starting poker agent with address 0x15d34AAf54267DB7D7c367839AAf71A00a2C6A65
+2025-04-02 18:49:15,961 - INFO - Monitoring GameLogic contract at 0xDc64a140Aa3E981100a9becA4E685f962f0cF6C9
+2025-04-02 18:49:15,961 - INFO - Starting poker agent with address 0x9965507D1a55bcC2695C58ba16FB37d819B0A4dc
+2025-04-02 18:49:15,961 - INFO - Monitoring GameLogic contract at 0xDc64a140Aa3E981100a9becA4E685f962f0cF6C9
+2025-04-02 18:51:31,572 - ERROR - Error getting game state: HTTPConnectionPool(host='127.0.0.1', port=8545): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x1049d9e00>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2025-04-02 18:51:32,801 - ERROR - Error getting player state: HTTPConnectionPool(host='127.0.0.1', port=8545): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10491fdf0>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2025-04-02 18:51:34,024 - ERROR - Error in event monitoring: HTTPConnectionPool(host='127.0.0.1', port=8545): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10491e580>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2025-04-02 18:51:35,247 - ERROR - Error getting game state: HTTPConnectionPool(host='127.0.0.1', port=8545): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x104dfd8c0>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2025-04-02 18:51:36,504 - INFO - Shutdown signal received. Cleaning up...
+2025-04-02 18:51:36,530 - ERROR - Error getting player state: Could not transact with/call contract function, is contract deployed correctly and chain synced?
+2025-04-02 18:51:36,535 - ERROR - Error getting game state: Could not transact with/call contract function, is contract deployed correctly and chain synced?
+2025-04-02 18:51:36,558 - ERROR - Error getting player state: Could not transact with/call contract function, is contract deployed correctly and chain synced?
+2025-04-02 18:51:36,569 - ERROR - Error getting game state: Could not transact with/call contract function, is contract deployed correctly and chain synced?
+2025-04-02 18:51:36,572 - ERROR - Error getting player state: Could not transact with/call contract function, is contract deployed correctly and chain synced?
+2025-04-02 18:51:36,575 - ERROR - Error getting game state: Could not transact with/call contract function, is contract deployed correctly and chain synced?
+2025-04-02 18:51:36,578 - ERROR - Error getting player state: Could not transact with/call contract function, is contract deployed correctly and chain synced?
+2025-04-02 18:51:36,579 - WARNING - UI: Terminal UI stopping
+2025-04-02 18:51:36,579 - WARNING - UI: Terminal UI stopping
+2025-04-02 18:51:37,085 - INFO - Main task was cancelled. Performing cleanup...
+2025-04-02 18:51:37,085 - INFO - Exiting application
+2025-04-02 18:51:37,145 - ERROR - Task was destroyed but it is pending!
+task: <Task pending name='Task-4' coro=<PokerAgentCLI._run_agent() running at /Users/0xjba/Documents/ten-projects/LangChain-Agent-for-Poker/poker_agents/cli.py:771> wait_for=<_GatheringFuture pending cb=[Task.task_wakeup()]> cb=[PokerAgentCLI._start_configured_agents.<locals>.<lambda>() at /Users/0xjba/Documents/ten-projects/LangChain-Agent-for-Poker/poker_agents/cli.py:344]>
+2025-04-02 18:51:37,145 - ERROR - Task was destroyed but it is pending!
+task: <Task pending name='Task-3' coro=<PokerAgentCLI._run_agent() running at /Users/0xjba/Documents/ten-projects/LangChain-Agent-for-Poker/poker_agents/cli.py:771> wait_for=<_GatheringFuture pending cb=[Task.task_wakeup()]> cb=[PokerAgentCLI._start_configured_agents.<locals>.<lambda>() at /Users/0xjba/Documents/ten-projects/LangChain-Agent-for-Poker/poker_agents/cli.py:344]>
+2025-04-02 18:51:37,146 - ERROR - Task was destroyed but it is pending!
+task: <Task pending name='Task-5' coro=<PokerAgentCLI._run_agent() running at /Users/0xjba/Documents/ten-projects/LangChain-Agent-for-Poker/poker_agents/cli.py:771> wait_for=<_GatheringFuture pending cb=[Task.task_wakeup()]> cb=[PokerAgentCLI._start_configured_agents.<locals>.<lambda>() at /Users/0xjba/Documents/ten-projects/LangChain-Agent-for-Poker/poker_agents/cli.py:344]>
+2025-04-02 18:51:37,146 - ERROR - Task was destroyed but it is pending!
+task: <Task pending name='Task-6' coro=<PokerAgentCLI._run_agent() running at /Users/0xjba/Documents/ten-projects/LangChain-Agent-for-Poker/poker_agents/cli.py:771> wait_for=<_GatheringFuture pending cb=[Task.task_wakeup()]> cb=[PokerAgentCLI._start_configured_agents.<locals>.<lambda>() at /Users/0xjba/Documents/ten-projects/LangChain-Agent-for-Poker/poker_agents/cli.py:344]>
+2025-04-02 18:51:37,146 - ERROR - Task was destroyed but it is pending!
+task: <Task pending name='Task-7' coro=<PokerAgentCLI._run_agent() running at /Users/0xjba/Documents/ten-projects/LangChain-Agent-for-Poker/poker_agents/cli.py:771> wait_for=<_GatheringFuture pending cb=[Task.task_wakeup()]> cb=[PokerAgentCLI._start_configured_agents.<locals>.<lambda>() at /Users/0xjba/Documents/ten-projects/LangChain-Agent-for-Poker/poker_agents/cli.py:344]>
