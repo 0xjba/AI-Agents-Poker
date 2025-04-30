@@ -95,12 +95,12 @@ class PokerAgent:
             "- Previous betting patterns\n"
             "- Tournament vs Cash game strategy\n\n"
             "You MUST commit to a single decisive action without ambiguity\n\n"
-            "Provide concise reasoning (max 150 chars) explaining your decision.\n\n"
+            "Provide concise reasoning (max 100 chars) explaining your decision.\n\n"
             "Response format (JSON):\n"
             "{\n"
             '    "action": 0-3,\n'
             '    "amount": raise_amount,  // optional, only if action is 3\n'
-            '    "reasoning": "Brief explanation (150 chars max)",\n'
+            '    "reasoning": "Brief explanation (100 chars max)",\n'
             '    "confidence": 0-100\n'
             "}"
         )
@@ -187,8 +187,8 @@ class PokerAgent:
                 action_reasoning = self.action_reasoning
             elif decision and 'reasoning' in decision:
                 action_reasoning = decision.get('reasoning', "No reasoning provided")
-                if len(action_reasoning) > 150:  # Enforce max length
-                    action_reasoning = action_reasoning[:147] + "..."
+                if len(action_reasoning) > 100:  # Enforce max length
+                    action_reasoning = action_reasoning[:97] + "..."
             
             # Log the reasoning that will be used
             logger.info(f"Action reasoning: {action_reasoning}")
