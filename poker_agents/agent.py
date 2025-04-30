@@ -720,20 +720,20 @@ class PokerAgent:
             
             # Set a flag to track if we should enforce a delay (true if decision comes within 5s)
             enforce_delay = True
-            target_delay = 20.0  # Target 5 seconds from turn start to action
+            target_delay = 5.0  # Target 5 seconds from turn start to action
 
             # Check for blinds to track investment
             await self._check_blinds(game_state, player_state)
-            
+
             # Check if player's stack is below or equal to 100 - if so, go all-in automatically
             if player_state.stack <= 100:
                 logger.info(f"Stack is {player_state.stack} <= 100, automatically going ALL-IN")
                 self.action_reasoning = "Going all-in with small stack (<=100)"
-                
+
                 # Determine the best action for all-in based on game state
                 min_raise = game_state.current_bet * 2
                 call_amount = game_state.current_bet - player_state.current_bet
-                
+
                 # Case 1: If we can raise (have at least 2x current bet), do a raise all-in
                 if player_state.stack >= min_raise:
                     logger.info(f"Using RAISE for all-in (stack: {player_state.stack}, min_raise: {min_raise})")
@@ -746,46 +746,46 @@ class PokerAgent:
                 else:
                     logger.info("Using CHECK for all-in (no bet to call)")
                     await self.make_action(1)  # Action 1 is CHECK
-                
+
                 # Mark turn as processed and update last action time
                 turn_id = self._generate_turn_id(game_state)
                 self.processed_turns.add(turn_id)
                 self.last_action_time = datetime.now()
                 return
-            
+
                     # Calculate the amount needed to call or raise
             amount_to_call = max(0, game_state.current_bet - player_state.current_bet)
-            
+
             # Edge case #4: Stack is less than call amount
             if player_state.stack <= amount_to_call and amount_to_call > 0:
                 logger.info(f"Stack ({player_state.stack}) is less than or equal to call amount ({amount_to_call}) - going all-in")
                 action_type = 2  # CALL (which will be treated as all-in by the contract)
                 self.action_reasoning = "Automatically going all-in as stack is not enough to call"
-                
+
                 logger.info(f"Going all-in with CALL")
                 await self.make_action(action_type)
-                
+
                 # Record turn as processed
                 turn_id = self._generate_turn_id(game_state)
                 self.processed_turns.add(turn_id)
                 self.last_action_time = datetime.now()
                 return
-            
+
             # Get valid actions for current game state
             valid_actions = await self.get_valid_actions(game_state, player_state)
             can_fold = valid_actions[0]
             can_check = valid_actions[1]
             can_call = valid_actions[2]
             can_raise = valid_actions[3]
-            
+
             logger.info(f"Valid actions: FOLD={can_fold}, CHECK={can_check}, CALL={can_call}, RAISE={can_raise}")
-            
+
             # Check if calling would leave us with 100 or fewer chips
             remaining_after_call = player_state.stack - amount_to_call
-            
+
             if remaining_after_call <= 100 and remaining_after_call > 0:
                 logger.info(f"Call would leave only {remaining_after_call} chips - going all-in instead")
-                
+
                 # Determine best action based on valid actions and game state
                 if amount_to_call == 0:
                     # No bet to call, we want to raise all-in
@@ -793,7 +793,7 @@ class PokerAgent:
                         action_type = 3  # RAISE
                         all_in_amount = player_state.stack
                         self.action_reasoning = "Automatically going all-in with raise as remaining chips would be <= 100"
-                        
+
                         logger.info(f"Going all-in with RAISE: {all_in_amount}")
                         await self.make_action(action_type, all_in_amount)
                     elif can_check:
@@ -815,14 +815,14 @@ class PokerAgent:
                         action_type = 3  # RAISE
                         raise_amount = player_state.stack - amount_to_call
                         self.action_reasoning = "Automatically going all-in with raise as remaining chips would be <= 100"
-                        
+
                         logger.info(f"Going all-in with RAISE: additional {raise_amount} on top of call {amount_to_call}")
                         await self.make_action(action_type, raise_amount)
                     elif can_call:
                         # We can call but not raise, so just call
                         action_type = 2  # CALL
                         self.action_reasoning = "Automatically calling all-in as remaining chips would be <= 100"
-                        
+
                         logger.info(f"Going all-in with CALL")
                         await self.make_action(action_type)
                     else:
@@ -831,7 +831,7 @@ class PokerAgent:
                         action_type = 0  # FOLD
                         self.action_reasoning = "Folding as we cannot go all-in"
                         await self.make_action(action_type)
-                
+
                 # Record turn as processed
                 turn_id = self._generate_turn_id(game_state)
                 self.processed_turns.add(turn_id)
