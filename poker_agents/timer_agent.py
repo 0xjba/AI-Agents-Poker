@@ -1146,6 +1146,7 @@ class TimerAgent:
                                 {
                                     **call_params,
                                     'gas': gas_limit,
+                                    'gasPrice': tx_data.get('gasPrice', tx_data.get('maxFeePerGas', 0))
                                 },
                                 block_identifier=receipt['blockNumber']
                             )
