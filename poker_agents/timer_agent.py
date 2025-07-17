@@ -1,12 +1,11 @@
 from web3 import Web3
+import time
 import asyncio
 import json
 import logging
 import random
 from datetime import datetime, timedelta
-from typing import Dict, Optional, Tuple, List, Any
 
-from .constants import BettingRound
 # Import transcript at module level but handle import errors gracefully
 try:
     from .transcript_manager import transcript
@@ -2310,7 +2309,7 @@ class TimerAgent:
                                         )
                                         
                                         # Call debugGetFirstHandStartTime function
-                                        first_hand_start_time = tournament_logic.functions.firstHandStartTime().call()
+                                        first_hand_start_time = tournament_logic.functions.debugGetFirstHandStartTime().call()
                                         debug_info["first_hand_start_time"] = first_hand_start_time
                                         
                                         if first_hand_start_time > 0:
