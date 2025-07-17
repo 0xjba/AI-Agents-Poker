@@ -267,7 +267,7 @@ class TimerAgent:
                                                 tx = self.game_logic.functions.nextRound().build_transaction({
                                                     'from': self.account.address,
                                                     'nonce': self.web3.eth.get_transaction_count(self.account.address),
-                                                    'gas': 300000,
+                                                    'gas': 4000000,
                                                     'gasPrice': int(self.web3.eth.gas_price * 1.1)
                                                 })
                                                 signed_tx = self.web3.eth.account.sign_transaction(tx, self.account.key)
@@ -571,7 +571,7 @@ class TimerAgent:
                 tx = self.router.functions.dealFlopAndAdvance().build_transaction({
                     'from': self.account.address,
                     'nonce': current_nonce,
-                    'gas': 400000,  # Increase gas limit for the combined operation
+                    'gas': 4000000,  # Increase gas limit for the combined operation
                     'gasPrice': gas_price
                 })
                 
@@ -680,7 +680,7 @@ class TimerAgent:
             tx = self.router.functions.dealTurnAndAdvance().build_transaction({
                 'from': self.account.address,
                 'nonce': self.web3.eth.get_transaction_count(self.account.address),
-                'gas': 400000,  # Increase gas limit for the combined operation
+                'gas': 4000000,  # Increase gas limit for the combined operation
                 'gasPrice': int(self.web3.eth.gas_price * 1.1)
             })
 
@@ -730,7 +730,7 @@ class TimerAgent:
             tx = self.router.functions.dealRiverAndAdvance().build_transaction({
                 'from': self.account.address,
                 'nonce': self.web3.eth.get_transaction_count(self.account.address),
-                'gas': 400000,  # Increase gas limit for the combined operation
+                'gas': 4000000,  # Increase gas limit for the combined operation
                 'gasPrice': int(self.web3.eth.gas_price * 1.1)
             })
 
@@ -901,7 +901,7 @@ class TimerAgent:
                     ).build_transaction({
                         'from': self.account.address,
                         'nonce': current_nonce,
-                        'gas': 400000,  # Increased gas limit
+                        'gas': 4000000,  # Increased gas limit
                         'gasPrice': gas_price
                     })
                     logger.info(f"Using direct GameLogic handlePlayerTimeout call")
@@ -916,7 +916,7 @@ class TimerAgent:
                         ).build_transaction({
                             'from': self.account.address,
                             'nonce': current_nonce,
-                            'gas': 350000,
+                            'gas': 4000000,
                             'gasPrice': gas_price
                         })
                     else:
@@ -2211,6 +2211,11 @@ class TimerAgent:
                         'big': tournament_state[1],    # bigBlind
                         'level': tournament_state[9]   # currentBlindLevel
                     }
+
+                if old_blind_levels['level'] > 6:
+                    logger.info(f'Blind update not needed: Level {old_blind_levels["level"]} is above the limit already.')
+                    return False
+                
             except Exception as e:
                 logger.error(f"Error getting current blind levels: {e}")
             
@@ -2227,12 +2232,20 @@ class TimerAgent:
                     logger.info(f"Attempt {attempt+1}: Using nonce {current_nonce}, gas price {gas_price}")
                     
                     # Build transaction with fresh nonce for each attempt
-                    tx = self.router.functions.routeBlindUpdate().build_transaction({
-                        'from': self.account.address,
-                        'nonce': current_nonce,
-                        'gas': 400000,  # Increase gas limit
-                        'gasPrice': gas_price
-                    })
+                    try:
+                        tx = self.router.functions.routeBlindUpdate().build_transaction({
+                            'from': self.account.address,
+                            'nonce': current_nonce,
+                            'gasPrice': gas_price
+                        })
+                    except Exception as e:
+                        logger.error(f"Error building transaction: {e}. Fallback to 4000000 gas.")
+                        tx = self.router.functions.routeBlindUpdate().build_transaction({
+                            'from': self.account.address,
+                            'nonce': current_nonce,
+                            'gasPrice': gas_price,
+                            'gas': 4000000
+                        })
                     
                     signed_tx = self.web3.eth.account.sign_transaction(tx, self.account.key)
                     tx_hash = self.web3.eth.send_raw_transaction(signed_tx.rawTransaction)
@@ -2700,15 +2713,26 @@ class TimerAgent:
                         gas_price = int(self.web3.eth.gas_price * 1.2)  # Increase gas price by 20%
                         
                         # Build transaction
-                        tx = self.betting_contract.functions.continueDistributingWinnings(
-                            tournament_id,
-                            batch
-                        ).build_transaction({
-                            'from': self.account.address,
-                            'nonce': current_nonce,
-                            'gas': 500000,  # Higher gas limit for payout transactions
-                            'gasPrice': gas_price
-                        })
+                        try:
+                            tx = self.betting_contract.functions.continueDistributingWinnings(
+                                tournament_id,
+                                batch
+                            ).build_transaction({
+                                'from': self.account.address,
+                                    'nonce': current_nonce,
+                                    'gasPrice': gas_price
+                                })
+                        except Exception as e:
+                            logger.error(f"Error building transaction: {e}. Fallback to 4000000 gas.")
+                            tx = self.betting_contract.functions.continueDistributingWinnings(
+                                tournament_id,
+                                batch
+                            ).build_transaction({
+                                'from': self.account.address,
+                                'nonce': current_nonce,
+                                'gasPrice': gas_price,
+                                'gas': 4000000
+                            })
                         
                         # Sign and send transaction
                         signed_tx = self.web3.eth.account.sign_transaction(tx, self.account.key)
