@@ -18,7 +18,8 @@ class OpenRouterClient:
         self.headers = {
             "Authorization": f"Bearer {self.api_key}",
             "HTTP-Referer": os.getenv("OPENROUTER_REFERRER", "http://localhost"),
-            "X-Title": "Poker Agent"
+            "X-Title": "Poker Agent",
+            "Content-Type": "application/json"
         }
 
     def get_available_models(self):
@@ -52,11 +53,10 @@ class OpenRouterClient:
             response = requests.post(
                 url=f"{self.base_url}/chat/completions",
                 headers=self.headers,
-                data=json.dumps({
+                json={
                     "model": self.model,
                     "messages": messages
                 })
-            )
             
             # Check for HTTP errors
             response.raise_for_status()
