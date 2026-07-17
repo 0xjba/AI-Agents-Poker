@@ -2,6 +2,7 @@ from web3 import Web3
 import time
 import asyncio
 import json
+import time
 import logging
 import random
 from datetime import datetime, timedelta
@@ -1128,15 +1129,28 @@ class TimerAgent:
                         try:
                             # Get transaction data
                             tx_data = self.web3.eth.get_transaction(tx_hash)
-                            # Try to call it to get revert reason
-                            self.web3.eth.call({
-                                'to': tx_data['to'],
-                                'from': tx_data['from'],
-                                'data': tx_data['input'],
+
+                            # Get tx params 
+                            call_params = {
+                                'to':    tx_data['to'],
+                                'from':  tx_data['from'],
+                                'data':  tx_data['input'],
                                 'value': tx_data.get('value', 0),
-                                'gas': tx_data['gas'],
-                                'gasPrice': tx_data.get('gasPrice', tx_data.get('maxFeePerGas', 0))
-                            }, block_identifier=receipt['blockNumber'])
+                            }
+
+                            # Estimate gas again
+                            gas_estimate = self.web3.eth.estimate_gas(call_params)
+                            gas_limit = int(gas_estimate * 1.2) # Adding buffer
+
+                            # Try to call it to get revert reason
+                            self.web3.eth.call(
+                                {
+                                    **call_params,
+                                    'gas': gas_limit,
+                                    'gasPrice': tx_data.get('gasPrice', tx_data.get('maxFeePerGas', 0))
+                                },
+                                block_identifier=receipt['blockNumber']
+                            )
                         except Exception as e:
                             revert_reason = str(e)
                             logger.error(f"TRANSACTION REVERT: {revert_reason}")
